@@ -1,0 +1,21 @@
+<tr class="header-section">
+	<td align="left" class="logo">
+		<a href="{% if config.environment === 'prod' %}{affiliates_website}{% else  %}{{affiliates.can.website}}{% endif %}"><img alt="{% if config.environment === 'prod' %}{affiliate_name}{% else  %}{{affiliates.can.name}}{% endif %}'s logo" src="{% if config.environment === 'prod' %}{affiliate_logo}{% else  %}{{affiliates.can.logo}}{% endif %}" border="0" width="150" style="display:block;"/></a>
+	</td>
+	<td align="right" class="donate">
+		{# {% include "components/button.njk" %} #}
+		<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="center" style="margin: 20px 0 20px 0;">
+					<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="center" bgcolor="ef404d">
+								<a role="button" class="button-text" href="{% if config.environment === 'prod' %}{affiliates_website}{% else %}{{affiliates.can.website}}{% endif %}" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #ef404d; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{% if buttonText %}{{buttonText}}{% else %}Donate{% endif %}</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>

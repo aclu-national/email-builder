@@ -1,32 +1,40 @@
+<!-- START EVENT DETAILS TABLE -->
 <div align="center">
 	<table role="presentation" width="90%" cellpadding="0" cellspacing="0" border="0">
 		<tbody>
 			<tr>
 				<td class="dm-box" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;padding:25px 25px 0px 25px;background-color:#f2f2f2;text-align:center;">
-					<h1 style="color:#f3ef07;font-size:20px;line-height:22px;margin-bottom:10px;font-weight:bold;text-transform:uppercase;">{{eventTitle}}</h1>
-					<p><strong>{{eventDescription}}</strong></p>
+					<!-- START EVENT TITLE HERE -->
+					<h1 style="color:#0055aa;font-size:20px;line-height:22px;margin-bottom:10px;font-weight:900;text-transform:uppercase;">Know Your Rights Training</h1>
+					<!-- END EVENT TITLE HERE -->
+					<!-- START SUPPORTING TEXT -->
+					<p><strong>Join us on Monday, November 13 in Location to learn how you can protect civil rights and liberties in our state.</strong></p>
 					<p>
-						{%- for detail in eventDetails -%}
-						{{detail}}<br />
-						{%- endfor -%}
+						Monday, November 13, 5:30 p.m. <br />
+						Venue Name <br />
+						100 Street Name <br />
+						City, ZZ 12345
 					</p>
+					<!-- END SUPPORTING TEXT -->
 				</td>
 			</tr>
 			<tr>
 				<td class="dm-box" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:22px;padding:0px 25px 15px 25px;background-color:#f2f2f2;text-align:center;">
+					<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
 					<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td align="center" style="margin: 20px 0 20px 0;">
 								<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 									<tr>
-										<td align="center" bgcolor="f3ef07">
-											<a class="button-text" href="{affiliate_website}" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #f3ef07; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
+										<td align="center" bgcolor="#0055aa">
+											<a class="button-text" href="{% if config.environment === 'prod' %}{affiliates_website}{% else %}{{affiliates.can.website}}{% endif %}" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #0055aa; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
 										</td>
 									</tr>
 								</table>
 							</td>
 						</tr>
 					</table>
+					<br />
 					{%- if disclaimer %}
 						<p style="font-size:14px;margin-top:15px;"><em>Please note: This link will take you to a third-party website, {{disclaimer}}.</em></p>
 					{% endif -%}
@@ -36,3 +44,4 @@
 	</table>
 </div>
 <br />
+<!-- END EVENT DETAILS TABLE -->

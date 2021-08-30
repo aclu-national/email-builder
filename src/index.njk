@@ -1,0 +1,23 @@
+---
+title: ACLU Email Builder
+layout: index
+---
+
+<h1>ACLU Custom Email Template Builder</h1>
+
+<p>Welcome to the ACLU custom email template repo. This was created to help us iterate thought different templates much faster than we could before. All of the components used have been tested through Litmus to ensure consistency across email clients.</p>
+
+<h2>Current Email Templates</h2>
+
+<ol>
+{%- for template in collections.templates  -%}
+	<li style="margin-bottom:10px;"><a href="{{template.data.page.url}}"><strong>{{template.data.page.fileSlug | capitalize}}</strong></a></li>
+{%- endfor  -%}
+</ol>
+
+<h2>Newsletter Templates</h2>
+<ol>
+{%- for newsletter in collections.newsletters  -%}
+	<li style="margin-bottom:10px;"><a href="{{newsletter.data.page.url}}"><strong>{{newsletter.data.page.fileSlug | capitalize}}</strong></a></li>
+{%- endfor  -%}
+</ol>

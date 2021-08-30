@@ -1,16 +1,7 @@
 module.exports = function (eleventyConfig) {
-	let markdownIt = require("markdown-it");
-	let options = {
-		html: true,
-		breaks: true,
-		linkify: true,
-	};
-	let markdownLib = markdownIt(options).disable("code");
-	eleventyConfig.setLibrary("md", markdownLib);
-
+	eleventyConfig.addLayoutAlias("blank", "layouts/blank.njk");
+	eleventyConfig.addLayoutAlias("index", "layouts/index.njk");
 	eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-	eleventyConfig.addLayoutAlias("email-base", "layouts/email-base.njk");
-	eleventyConfig.addLayoutAlias("event", "layouts/event.njk");
 
 	return {
 		htmlTemplateEngine: "njk",

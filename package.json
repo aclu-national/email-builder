@@ -1,21 +1,24 @@
 {
-	"name": "@palebludot/e11ty",
+	"name": "@aclu-national/email-builder",
 	"version": "0.0.0",
 	"description": "Using 11ty to generate HTML emails",
-	"main": ".evelenty.js",
-	"author": "Pavel Sanchez <pavel@bluedot.dev>",
+	"main": "dist/",
+	"author": "ACLU",
+	"contributors": [
+		"Pavel Sanchez"
+	],
 	"license": "MIT",
 	"scripts": {
-		"start": "npm-run-all clean --parallel dev pretty",
+		"start": "cross-env ELEVENTY_ENV=env npm-run-all clean --parallel dev pretty",
 		"dev": "eleventy --serve",
 		"clean": "rimraf dist",
 		"pa11y": "pa11y ./dist/",
+		"spellcheck": "npx cspell \"src/templates/**\"",
+		"lint": "npm-run-all pa11y spellcheck",
 		"pretty": "npx prettier --write dist",
-		"spellcheck": "npm cspell \"src/**\"",
-		"lint": "npm run pa11y",
-		"format": "npm-run-all lint pretty",
+		"format": "npm run pretty",
 		"commit": "git cz",
-		"build": "cross-env ELEVENTY_ENV=prod eleventy && npm run pretty"
+		"build": "cross-env ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
 		"commitizen": {
@@ -27,12 +30,12 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "lint-staged",
+			"pre-commit": "lint-staged && npm run pretty",
 			"pre-commit-msg": "exec < /dev/tty && node_modules/.bin/cz --hook || true"
 		}
 	},
 	"lint-staged": {
-		"dist": "prettier --write"
+		"dist": "npm run format"
 	},
 	"keywords": [
 		"eleventy",
@@ -54,12 +57,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/palebludot/e11ty.git"
+		"url": "git+https://github.com:aclu-national/email-builder.git"
 	},
 	"bugs": {
-		"url": "https://github.com/palebludot/e11ty/issues"
+		"url": "https://github.com:aclu-national/email-builder/issues"
 	},
-	"homepage": "https://github.com/palebludot/e11ty#readme",
+	"homepage": "https://github.com:aclu-national/email-builder#readme",
 	"publishConfig": {
 		"access": "restricted",
 		"registry": "https://npm.pkg.github.com"

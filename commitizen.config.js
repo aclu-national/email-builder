@@ -25,7 +25,7 @@ const types = [
 	},
 ];
 
-const scopes = ["automation", "component", "config", "data", "docs", "layout", "styles"].map((name) => ({
+const scopes = ["ci", "components", "config", "data", "docs", "layout", "partials", "styles", "templates"].map((name) => ({
 	name,
 }));
 
@@ -34,7 +34,7 @@ module.exports = {
 	scopes,
 	messages: {
 		type: "Type of change that you're committing:",
-		scope: "\nChoose the SCOPE of this change (optional):",
+		scope: "\nChoose the SCOPE of this change:",
 		// used if allowCustomScopes is true
 		customScope: "Denote the SCOPE of this change:",
 		subject: "Write a SHORT, IMPERATIVE tense description of the change:\n",
@@ -45,5 +45,6 @@ module.exports = {
 	},
 	allowCustomScopes: false,
 	allowBreakingChanges: ["feat", "fix"],
+	skipQuestions: ["breaking"],
 	subjectLimit: 60,
 };

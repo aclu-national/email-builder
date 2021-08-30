@@ -103,10 +103,12 @@ This folder contains files of components that are reuseable throughout the email
 
 Contains the base layouts that are wrapping files.
 
-1. `base.njk`
-   - `base.njk` is for the front-end `index.html`.
-2. `email-base.njk`
-   - `email-base.njk` is for the templates being used in the `templates` directory.
+1. `index.njk`
+   - `index.njk` is for the front-end `index.html`.
+2. `base.njk`
+   - `base.njk` will build an email with our current layouts and components.
+3. `blank.njk`
+   - `blank.njk` is used for building email templates from scratch.
 
 #### <span style="color:#ffe06a;">Partials</span>
 

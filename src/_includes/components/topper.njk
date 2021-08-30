@@ -1,0 +1,20 @@
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
+	<tbody>
+		<tr>
+			<td class="emailbodytext" style="padding:15px 0px 20px 0px;color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:22px;border-bottom:1px solid #d4d4d4;" valign="top">
+
+				{% include "partials/salutation.njk" %}
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc</p>
+
+				<p><a href="{% if config.environment === 'dev' %}{{affiliates.can.website}}{% elif config.environment === 'prod' %}{affiliates_website}{% endif %}">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, architecto!</a></p>
+
+				<p>Suspendisse vulputate, risus a elementum accumsan, odio orci cursus est, at sollicitudin enim justo et lorem.</p>
+
+				<p>Thank you,</p>
+
+				<p><strong>{% if config.environment === 'prod' %}{affiliate_name}{% else  %}{{affiliates.can.name}}{% endif %}</strong></p>
+			</td>
+		</tr>
+	</tbody>
+</table><br/>

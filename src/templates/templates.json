@@ -1,5 +1,0 @@
-{
-	"layout": "email-base",
-	"tags": "templates",
-	"permalink": "./templates/{{ title | slug }}.html"
-}
