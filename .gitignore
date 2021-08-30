@@ -1,5 +1,6 @@
-# dependencies installed by npm
+# dependencies
 node_modules/
+.vscode/settings.json
 
 # build artifacts
 build/
@@ -16,3 +17,4 @@ report.*
 .DS_Store
 .AppleDouble
 .LSOverride
+

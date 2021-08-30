@@ -80,6 +80,36 @@
 		font-weight: 400 !important;
 	}
 
+	.highlight {
+		background-color: #f3ef07;
+		display: inline;
+		padding: 3px;
+		font-weight: bold;
+		color: black;
+	}
+
+	ul li::before,
+	ol li::before {
+		content: "\2022";
+		color: #f3ef07;
+		font-weight: bold;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em;
+	}
+
+	tr.header-section {
+		display: block;
+		padding: 20px 0;
+	}
+
+	td.logo {
+		width: 450px;
+	}
+	td.donate {
+		width: 150px;
+	}
+
 	@media screen and (max-width: 480px) {
 		table.emailwrapto100pc {
 			width: 100% !important;

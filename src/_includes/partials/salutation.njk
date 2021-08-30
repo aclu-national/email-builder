@@ -1,1 +1,1 @@
-<p>{% if nameVar %}{{nameVar}}{% else %}Hello Friend &ndash;{% endif %}</p>
+<p>{% if config.environment === 'prod' %}{include "default_salutation"} &ndash;{% else %}Hi &ndash;{% endif %}</p>
