@@ -1,0 +1,58 @@
+{
+	"variable": {
+		"prefix": "variable",
+		"body": [
+			"{{$1}}"
+		],
+		"description": "Include a file"
+	},
+	"Include": {
+		"prefix": "include",
+		"body": [
+			"{% include \"$1\" %}"
+		],
+		"description": "Include a file"
+	},
+	"If Statement": {
+		"prefix": "if",
+		"body": [
+			"{% if $1 %}",
+			"\t$2",
+			"{% endif %}"
+		],
+		"description": "If statement"
+	},
+	"If/Else Statement": {
+		"prefix": "ifel",
+		"body": [
+			"{% if $1 %}",
+			"\t$2",
+			"{% else %}",
+			"\t$3",
+			"{% endif %}"
+		],
+		"description": "If/Else statement"
+	},
+	"Else/If SStatement": {
+		"prefix": "elif",
+		"body": [
+			"{% if $1 %}",
+			"\t$2",
+			"{% elif %}",
+			"\t$3",
+			"{% else %}",
+			"\t$4",
+			"{% endif %}"
+		],
+		"description": "Else/If statement"
+	},
+	"For Loop": {
+		"prefix": "for",
+		"body": [
+			"{% for $item in $item$s %}",
+			"\t{{$item}}",
+			"{% endfor %}"
+		],
+		"description": "For Loop"
+	}
+}

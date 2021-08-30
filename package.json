@@ -1,0 +1,67 @@
+{
+	"name": "@palebludot/e11ty",
+	"version": "0.0.0",
+	"description": "Using 11ty to generate HTML emails",
+	"main": ".evelenty.js",
+	"author": "Pavel Sanchez <pavel@bluedot.dev>",
+	"license": "MIT",
+	"scripts": {
+		"start": "npm-run-all clean --parallel dev pretty",
+		"dev": "eleventy --serve",
+		"clean": "rimraf dist",
+		"pa11y": "pa11y ./dist/",
+		"pretty": "npx prettier --write dist",
+		"spellcheck": "npm cspell \"src/**\"",
+		"lint": "npm run pa11y",
+		"format": "npm-run-all lint pretty",
+		"commit": "git cz",
+		"build": "cross-env ELEVENTY_ENV=prod eleventy && npm run pretty"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-customizable"
+		},
+		"cz-customizable": {
+			"config": "commitizen.config.js"
+		}
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-commit-msg": "exec < /dev/tty && node_modules/.bin/cz --hook || true"
+		}
+	},
+	"lint-staged": {
+		"dist": "prettier --write"
+	},
+	"keywords": [
+		"eleventy",
+		"HTML",
+		"email"
+	],
+	"devDependencies": {
+		"@11ty/eleventy": "^0.12.1",
+		"commitlint": "^11.0.0",
+		"cross-env": "^7.0.3",
+		"cspell": "^5.6.6",
+		"cz-customizable": "^6.3.0",
+		"husky": "^7.0.1",
+		"lint-staged": "^10.2.11",
+		"npm-run-all": "^4.1.5",
+		"pa11y": "^5.3.0",
+		"prettier": "^2.2.1",
+		"semantic-release": "^17.4.7"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/palebludot/e11ty.git"
+	},
+	"bugs": {
+		"url": "https://github.com/palebludot/e11ty/issues"
+	},
+	"homepage": "https://github.com/palebludot/e11ty#readme",
+	"publishConfig": {
+		"access": "restricted",
+		"registry": "https://npm.pkg.github.com"
+	}
+}

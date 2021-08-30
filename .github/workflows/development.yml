@@ -1,0 +1,65 @@
+name: Development
+
+on:
+  pull_request:
+    branches:
+      - "+([0-9])?(.{+([0-9]),x}).x"
+      - main
+      - alpha
+      - beta
+      - next
+      - next-major
+    types: [opened, synchronize, reopened]
+
+jobs:
+  Test:
+    name: 🚨 Test 🚨
+    if: ${{ !contains(github.head_ref, 'all-contributors') }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [14]
+        os: [ubuntu-latest]
+
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: ⎔ Setup node
+        uses: actions/setup-node@v1
+
+      - name: 📥 Download deps
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+        env:
+          HUSKY_SKIP_INSTALL: true
+
+      - name: 🏗 Build
+        run: npm run build --if-present
+
+      - name: 🏗 Build
+        run: npm run build --if-present
+
+      - name: 🚢 Release
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          semantic_version: 17
+          extra_plugins: |
+            @semantic-release/changelog@3.0.0
+            @semantic-release/git@9.0.0
+          branches: |
+            [
+              'main',
+              'next',
+              'next-major',
+              {name: 'beta', prerelease: true},
+              {name: 'alpha', prerelease: true}
+            ]
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

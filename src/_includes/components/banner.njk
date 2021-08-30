@@ -1,0 +1,9 @@
+<div align="center">
+	{% if imageURL %}
+		<a href="{% if imageURL %}{{imageURL}}{% else %}{{config.links.url}}{% endif %}"><img src="{% if imageSRC %}{{imageSRC}}{% else %}https://res.cloudinary.com/psd/image/upload/t_Logomark-large/v1630260766/public/wynwood-art-wall_bpatei.jpg{% endif %}" width="600" class="image-resize" border="0" alt="You're invited!" /></a>
+	{% else %}
+		<img src="{% if imageSRC %}{{imageSRC}}{% else %}https://res.cloudinary.com/psd/image/upload/t_Logomark-large/v1630260766/public/wynwood-art-wall_bpatei.jpg{% endif %}" width="600" class="image-resize" border="0" alt="You're invited!" />
+	{% endif %}
+</div>
+
+

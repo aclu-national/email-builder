@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{config.company}}: {{config.description}} | {{config.author.name}}</title>
+		<style>
+			:root {
+				color-schemes: light dark;
+				supported-color-schemes: light dark;
+			}
+			* {
+				box-sizing: border-box;
+			}
+
+			html {
+				padding: 0;
+				margin: 0;
+				height: 100vh;
+			}
+
+			body {
+				padding: 0;
+				margin: 0;
+				background: #161618;
+				color: #cecece;
+				max-width: 100%;
+			}
+
+			main {
+				background: #1c1c1e;
+				width: 80%;
+				padding: 0 20px;
+				margin: 0 auto;
+				height: 100vh;
+			}
+
+			main h1 {
+				padding: 0;
+				margin: 0;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #161618;
+					color: #cecece;
+				}
+
+				main {
+					background: #1c1c1e;
+				}
+
+				a,
+				a:visited,
+				a:hover,
+				a:active {
+					color: #f3ef07;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>{{config.company}}: {{config.description}}</h1>
+
+			<p>Welcome to {{config.company}} {{config.description}} template repo. This is to itterate over new designs and build new templates at a faster speed. All of the components used have been tested through Litmus and email clients to ensure consistency across email clients.</p>
+
+			<h2>Email Templates:</h2>
+
+			<ol>
+				{%- for template in collections.templates -%}
+				<li style="margin-bottom: 10px">
+					<a href="{{template.data.page.url}}"><strong>{{template.data.page.fileSlug | capitalize}}</strong></a>
+				</li>
+				{%- endfor -%}
+			</ol>
+			<footer>
+				<p>Created by <a href="https://pavelsanchez.com">{{config.author.name}}</a> &copy; 2021.</p>
+			</footer>
+		</main>
+	</body>
+</html>

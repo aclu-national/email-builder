@@ -1,0 +1,10 @@
+{
+	"includeNotices": false,
+	"includeWarnings": false,
+	"reporter": "cli",
+	"runners": ["htmlcs"],
+	"standard": "WCAG2AA",
+	"threshold": "3",
+	"rules": [],
+	"ignore": ["WCAG2AAA.Principle3.Guideline3_1.3_1_1.H57.2"]
+}

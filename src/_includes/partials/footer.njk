@@ -1,0 +1,26 @@
+<tr>
+	<td class="footer" style="text-align:left;font-family: Arial,'Helvetica Neue',sans-serif;font-size:13px;color:#505050;line-height:19px;background: #f2f2f3;">
+		<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="right">
+			{# FIXME: prettier complains when uncommented #}
+			{# <span class="separator" style="display: block;width: 80%;border-bottom:1px solid #d4d4d4;margin: 0 auto;" /></span> #}
+			<tbody>
+				<tr>
+					<td align="center" valign="top" style="padding-top:30px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#888888;text-align:center;">
+						<a href="{{config.social.fb}}"><img src="{{config.icons.fb}}" border="0" alt="Facebook Icon" width="33"/></a> &nbsp; &nbsp;
+						<a href="{{config.social.tw}}"><img src="{{config.icons.tw}}" border="0" alt="Twitter Icon" width="33"/></a> &nbsp; &nbsp;
+						<a href="{{config.social.ig}}"><img src="{{config.icons.ig}}" border="0" alt="Instagram Icon" width="33"/></a>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" class="footer-text" style="color:#888888;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:20px;padding:30px 0;">
+						<p>&copy;2021 {{config.company}} <br />
+						{{config.address.line1}}{% if config.address.line2 %} {{config.address.line2}}{% endif %},{{config.address.city}}, {{config.address.state}} {{config.address.zip}}</p>
+
+						<p><a href="{{config.links.unsub}}" style="color:#888888;">Unsubscribe</a> | <a href="{{config.links.privacy}}" style="color:#888888;">privacy policy.</a></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+

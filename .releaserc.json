@@ -1,0 +1,26 @@
+{
+	"branches": ["main"],
+	"plugins": [
+		"@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
+		[
+			"@semantic-release/changelog",
+			{
+				"changelogTitle": "# e11ty Changelog"
+			}
+		],
+		[
+			"@semantic-release/git",
+			{
+				"message": "chore(release): 🏷️ v${nextRelease.version} [ci]\n\n${nextRelease.notes}"
+			}
+		],
+		[
+			"@semantic-release/npm",
+			{
+				"npmPublish": false
+			}
+		],
+		"@semantic-release/github"
+	]
+}
