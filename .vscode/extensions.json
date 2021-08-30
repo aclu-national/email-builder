@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"yzhang.markdown-all-in-one",
+		"ronnidc.nunjucks",
+	]
+}

@@ -1,9 +1,7 @@
-<h1 align="center"><strong>📧 e11ty 📧</strong></h1>
+<h1 align="center"><strong>📧 ACLU Email Builder 📧</strong></h1>
 
 <div align="center">
 <h3 style="margin-bottom:10px"><strong>Using 11ty to generate HTML emails</strong></h3>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1f887774-95e7-4069-978a-128f3337a18d/deploy-status)](https://app.netlify.com/sites/peaceful-banach-b29143/deploys) [![CodeFactor](https://www.codefactor.io/repository/github/palebludot/e11ty/badge)](https://www.codefactor.io/repository/github/palebludot/e11ty)
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -16,12 +14,26 @@
 ## ⚡ Highlights ⚡
 
 - Generate pure HTML code
+- Run a sever on `http://localhost:8080/` for local development
 - Uses `pa11y` to lint for accessibility issues.
 - Adheres to the `WCAG2AA` accessibility compliance.
 - Formats your files with the use of `Prettier`
-- Making sure you write good commit messages with `commitizen`
-- Automatic releases with `semantic-release`
+- Making sure you write good commit messages with `Commitizen`
+- Automatic releases with `Semantic Release`
 - Automation workflows for CI/CD workflow.
+
+## Prerequisite
+
+1. **[NodeJs](https://nodejs.org/en/)**
+
+## Getting Started
+
+1. `git clone git@github.com:aclu-national/email-builder.git`
+2. `cd email-builder`
+3. `git checkout -b {name}` to create your own branch.
+4. `npm install` or `npm i`
+5. `npm start` that runs `npm run dev` to start a dev server.
+6. Open files in text editor to start working.
 
 ## 📚 Documentation 📚
 
