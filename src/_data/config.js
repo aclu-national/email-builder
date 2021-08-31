@@ -1,5 +1,5 @@
 module.exports = {
-  author: "Pavel Sanchez",
+  author: "ACLU",
   description: "A website for the ACLU emails.",
   environment: process.env.ELEVENTY_ENV,
   fbLogo: "https://media.sailthru.com/64d/1k3/a/o/5db1cb21b75bf.png",

@@ -6,7 +6,7 @@
 		[
 			"@semantic-release/changelog",
 			{
-				"changelogTitle": "# e11ty Changelog"
+				"changelogTitle": "# ACLU Email Builder Changelog\n"
 			}
 		],
 		[

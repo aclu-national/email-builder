@@ -5,9 +5,9 @@
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-[Website](https://e11ty.netlify.app) | [License](LICENSE.md) | [Changelog](CHANGELOG.md) | [Contributions](https://github.com/PaleBluDot/.github/blob/main/.github/CONTRIBUTING.md)
+[Website](https://aclu-emails.netlify.app) | [License](LICENSE.md) | [Changelog](CHANGELOG.md) | [Contributions](.github/CONTRIBUTING.md) | [Code of Conduct](.github/CODE_OF_CONDUCT.md)
 
-`e11ty` is a starter kit for me putting together HTML email templates. Generate clean HTML code, but build with all the modern tools to make you hate `tables` just a little bit less.
+`Email-builder` is a starter kit for me putting together HTML email templates. Generate clean HTML code, but build with all the modern tools to make you dislike `tables` just a little bit less.
 
 </div>
 
@@ -15,25 +15,27 @@
 
 - Generate pure HTML code
 - Run a sever on `http://localhost:8080/` for local development
-- Uses `pa11y` to lint for accessibility issues.
-- Adheres to the `WCAG2AA` accessibility compliance.
+- Uses `pa11y` to lint for accessibility issues
+- Adheres to the `WCAG2AA` accessibility compliance
 - Formats your files with the use of `Prettier`
-- Making sure you write good commit messages with `Commitizen`
+- Write good commit messages with `Commitizen`
+- Automation workflows for CI/CD workflow
 - Automatic releases with `Semantic Release`
-- Automation workflows for CI/CD workflow.
 
 ## Prerequisite
 
-1. **[NodeJs](https://nodejs.org/en/)**
+1. **Install [NodeJs](https://nodejs.org/en/)**
+2. **Install [Git](https://git-scm.com/)**
+3. **How to use the [Terminal](https://egghead.io/courses/practical-git-for-everyday-professional-use) for git**
 
 ## Getting Started
 
-1. `git clone git@github.com:aclu-national/email-builder.git`
+1. `git clone git@github.com/aclu-national/email-builder.git`
 2. `cd email-builder`
-3. `git checkout -b {name}` to create your own branch.
-4. `npm install` or `npm i`
-5. `npm start` that runs `npm run dev` to start a dev server.
-6. Open files in text editor to start working.
+3. `npm install` or `npm i`
+4. `git checkout -b {name}` to create your own branch.
+5. `npm start` that runs `npm run dev` to start a dev server
+6. Open files in text editor to start working
 
 ## 📚 Documentation 📚
 
