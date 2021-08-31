@@ -5,7 +5,7 @@
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-[Website](https://aclu-emails.netlify.app) | [License](LICENSE.md) | [Changelog](CHANGELOG.md) | [Contributions](.github/CONTRIBUTING.md) | [Code of Conduct](.github/CODE_OF_CONDUCT.md)
+[Website](https://aclu-emails.netlify.app) | [License](LICENSE.md) | [Changelog](CHANGELOG.md) | [Contributions](.github/CONTRIBUTING.md)
 
 `Email-builder` is a starter kit for me putting together HTML email templates. Generate clean HTML code, but build with all the modern tools to make you dislike `tables` just a little bit less.
 
