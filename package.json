@@ -9,9 +9,10 @@
 	],
 	"license": "MIT",
 	"scripts": {
-		"start": "cross-env ELEVENTY_ENV=env npm-run-all clean --parallel dev pretty",
+		"start": "npm-run-all clean --parallel dev pretty",
 		"dev": "eleventy --serve",
-		"clean": "rimraf dist",
+		"web": "eleventy",
+ 		"clean": "rimraf dist",
 		"pa11y": "pa11y ./dist/",
 		"spellcheck": "npx cspell \"src/templates/**\"",
 		"lint": "npm-run-all pa11y spellcheck",
