@@ -15,27 +15,25 @@
 
 - Generate pure HTML code
 - Run a sever on `http://localhost:8080/` for local development
-- Uses `pa11y` to lint for accessibility issues
-- Adheres to the `WCAG2AA` accessibility compliance
+- Uses `pa11y` to lint for accessibility issues.
+- Adheres to the `WCAG2AA` accessibility compliance.
 - Formats your files with the use of `Prettier`
-- Write good commit messages with `Commitizen`
-- Automation workflows for CI/CD workflow
+- Making sure you write good commit messages with `Commitizen`
 - Automatic releases with `Semantic Release`
+- Automation workflows for CI/CD workflow.
 
 ## Prerequisite
 
-1. **Install [NodeJs](https://nodejs.org/en/)**
-2. **Install [Git](https://git-scm.com/)**
-3. **How to use the [Terminal](https://egghead.io/courses/practical-git-for-everyday-professional-use) for git**
+1. **[NodeJs](https://nodejs.org/en/)**
 
 ## Getting Started
 
-1. `git clone git@github.com/aclu-national/email-builder.git`
+1. `git clone git@github.com:aclu-national/email-builder.git`
 2. `cd email-builder`
-3. `npm install` or `npm i`
-4. `git checkout -b {name}` to create your own branch.
-5. `npm start` that runs `npm run dev` to start a dev server
-6. Open files in text editor to start working
+3. `git checkout -b {name}` to create your own branch.
+4. `npm install` or `npm i`
+5. `npm start` that runs `npm run dev` to start a dev server.
+6. Open files in text editor to start working.
 
 ## 📚 Documentation 📚
 
