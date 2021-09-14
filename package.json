@@ -1,6 +1,6 @@
 {
 	"name": "@aclu-national/email-builder",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Using 11ty to generate HTML emails",
 	"main": "dist/",
 	"author": "ACLU",
@@ -12,13 +12,13 @@
 		"start": "npm-run-all clean --parallel dev pretty",
 		"dev": "eleventy --serve",
 		"web": "eleventy",
- 		"clean": "rimraf dist",
+		"clean": "rimraf dist",
 		"pa11y": "pa11y ./dist/",
 		"spellcheck": "npx cspell \"src/templates/**\"",
 		"lint": "npm-run-all pa11y spellcheck",
 		"pretty": "npx prettier --write dist",
 		"format": "npm run pretty",
-		"commit": "git cz",
+		"pcm": "npx git cz",
 		"build": "cross-env ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
@@ -45,6 +45,7 @@
 	],
 	"devDependencies": {
 		"@11ty/eleventy": "^0.12.1",
+		"clean-css-cli": "^5.3.3",
 		"commitlint": "^11.0.0",
 		"cross-env": "^7.0.3",
 		"cspell": "^5.6.6",
@@ -65,7 +66,6 @@
 	},
 	"homepage": "https://github.com/aclu-national/email-builder#readme",
 	"publishConfig": {
-		"access": "restricted",
 		"registry": "https://npm.pkg.github.com"
 	}
 }
