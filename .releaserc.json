@@ -4,18 +4,18 @@
 		"@semantic-release/commit-analyzer",
 		"@semantic-release/release-notes-generator",
 		"@semantic-release/changelog",
-		[
-			"@semantic-release/git",
-			{
-				"message": "chore(release): 🏷️ v${nextRelease.version} [ci]\n\n${nextRelease.notes}"
-			}
-		],
-		[
-			"@semantic-release/npm",
+		"@semantic-release/npm",
 			{
 				"npmPublish": false
 			}
 		],
-		"@semantic-release/github"
+		"@semantic-release/github",
+		[
+			"@semantic-release/git",
+			{
+				"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+				"message": "chore(release): 🏷️ v${nextRelease.version} [ci]\n\n${nextRelease.notes}"
+			}
+		]
 	]
 }

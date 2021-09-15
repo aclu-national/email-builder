@@ -3,11 +3,11 @@
 	<tr>
 		<td style="text-align:center;padding-left:20px;padding-bottom:20px;" class="sidebox-padding">
 			<!-- START INNER SIDEBOX TABLE -->
-			<table role="presentation" class="inner-sidebox" border="0" cellpadding="0" cellspacing="0" width="270" style="float:right;border:1px solid #ffffff;">
+			<table role="presentation" class="inner-sidebox" border="0" cellpadding="0" cellspacing="0" width="270" style="float:right;border:1px solid {{theme.colors.white}};">
 				<tr>
-					<td class="dm-box" align="left" valign="top" style="border:1px solid #eeeeee;padding:15px;color:#3c3532;font-size:16px;font-family:Arial,'Helvetica Neue',sans-serif;background-color: #ffffff;">
+					<td class="dm-box" align="left" valign="top" style="border:1px solid #eeeeee;padding:15px;color:{{theme.colors.black}};font-size:{{theme.text.fontSize}};font-family:{{theme.text.fontFamily}};background-color: {{theme.colors.white}};">
 						<!-- START HEADLINE -->
-						<h2 style="font-weight:900;font-size:16px;line-height:23px;text-transform:uppercase;">Lorem ipsum dolor sit amet.</h2>
+						<h2 style="font-weight:900;font-size:{{theme.text.fontSize}};line-height:23px;text-transform:uppercase;">Lorem ipsum dolor sit amet.</h2>
 						<!-- END HEADLINE -->
 						<!-- START IMAGE-->
 						<p style="margin:0px 0 15px 0;font-weight:400;line-height:1.4em;"><a href="{% if config.environment === 'prod' %}{affiliates_website}{% else  %}{{affiliates.can.website}}{% endif %}"><img src="https://media.sailthru.com/64p/1k3/9/r/5d8e778dd2054.jpg" alt="Lady Liberty." width="230" border="0" style="outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" class="image-resize" /></a></p>
@@ -22,7 +22,7 @@
 									<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td align="center" bgcolor="#ef404d">
-												<a role="button" class="button-text" href="{% if config.environment === 'prod' %}{affiliates_website}{% else  %}{{affiliates.can.website}}{% endif %}" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #ef404d; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
+												<a role="button" class="button-text" href="{% if config.environment === 'prod' %}{affiliates_website}{% else  %}{{affiliates.can.website}}{% endif %}" style="font-family: Arial, sans-serif; color: {{theme.colors.white}}; padding: 12px 18px; border: 1px solid #ef404d; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
 											</td>
 										</tr>
 									</table>

@@ -14,7 +14,7 @@
 
 	p {
 		margin-top: 0px;
-		margin-bottom: 20px;
+		margin-bottom: {{theme.elementMargin}};
 	}
 
 	body {
@@ -29,7 +29,7 @@
 	a:visited,
 	a:hover,
 	a:active {
-		color: #0055aa;
+		color: {{theme.light.link}};
 		font-weight: 900;
 	}
 
@@ -69,10 +69,8 @@
 	li {
 		margin-bottom: 15px;
 		font-family: Arial, "Helvetica Neue", sans-serif;
-		font-size: 16px;
-		line-height: 22px;
-		/* REMOVE list-style-type
-	TO SHOW ORDERED LIST */
+		font-size: {{theme.text.fontSize}};
+		line-height: {{theme.text.fontSize}};
 		list-style-type: disc;
 	}
 
@@ -90,7 +88,7 @@
 			padding-left: 20px !important;
 		}
 		td.emailbodytext {
-			font-size: 16px !important;
+			font-size: {{theme.text.fontSize}} !important;
 			line-height: 23px !important;
 			padding-right: 20px !important;
 			padding-left: 20px !important;
@@ -133,19 +131,19 @@
 	/* DARK MODE FOR IOS AND APPLE MAIL */
 	@media (prefers-color-scheme: dark) {
 		body {
-			background: #1c1c1e;
+			background: {{theme.dark.background}};
 		}
 		a,
 		a:visited,
 		a:hover,
 		a:active {
-			color: #2d86e0;
+			color: {{theme.dark.link}};
 		}
 		a.button-text,
 		a.button-text:visited,
 		a.button-text:hover,
 		a.button-text:active {
-			color: #cecece;
+			color: {{theme.dark.color}};
 		}
 		td.emailbodytext p,
 		td.emailbodytext li,
@@ -154,21 +152,18 @@
 		td.emailbodytext h3,
 		td.tagline p,
 		td.dm-box h2 {
-			color: #cecece;
+			color: {{theme.dark.color}};
 		}
 		td.dm-box {
-			background: #2a2a2b !important;
-			color: #cecece;
+			background: {{theme.dark.altBox}};
+			color: {{theme.dark.color}};
 		}
 		td.emailbodytext {
-			border-bottom: 2px solid #2a2a2b !important;
+			border-bottom: {{theme.dark.borderBottom}};
 		}
 		table.inner-sidebox,
 		td.dm-box {
 			border: 0 !important;
-		}
-		td.dm-newsletter-tag {
-			background: #ef404d;
 		}
 	}
 </style>

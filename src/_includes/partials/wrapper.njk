@@ -2,11 +2,17 @@
 {% if topper %}
 	{% include "components/topper.njk" %}
 {% endif %}
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="{{theme.width}}">
 	<tbody>
 		{% include "partials/logo.njk" %}
 		<tr>
-			<td class="emailbodytext" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:22px;padding:15px 0px 20px 0px;border-bottom:1px solid #d4d4d4;" valign="top">
+			<td class="emailbodytext" style="
+			color: {{theme.light.color}};
+			font-family: {{theme.text.fontFamily}};
+			font-size: {{theme.text.fontSize}};
+			line-height: {{theme.text.lineHeight}};
+			padding: {{theme.padding}};
+			border-bottom: {{theme.light.borderBottom}};" valign="top">
 				{{ content | safe }}
 
 				{% include "components/signature.njk" %}

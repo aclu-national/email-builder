@@ -1,6 +1,6 @@
 {
 	"name": "@aclu-national/email-builder",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Using 11ty to generate HTML emails",
 	"main": "dist/",
 	"author": "ACLU",
@@ -45,6 +45,7 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^0.12.1",
 		"commitizen": "^4.2.4",
+		"clean-css-cli": "^5.3.3",
 		"commitlint": "^11.0.0",
 		"cross-env": "^7.0.3",
 		"cspell": "^5.6.6",
@@ -65,7 +66,6 @@
 	},
 	"homepage": "https://github.com/aclu-national/email-builder#readme",
 	"publishConfig": {
-		"access": "restricted",
 		"registry": "https://npm.pkg.github.com"
 	}
 }

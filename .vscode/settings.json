@@ -1,8 +1,0 @@
-{
-	"editor.wordWrapColumn": 60,
-	"": "",
-	"files.exclude": {
-		"**/node_modules": true
-	},
-	"editor.formatOnSave": false
-}
