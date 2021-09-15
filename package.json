@@ -9,16 +9,15 @@
 	],
 	"license": "MIT",
 	"scripts": {
-		"start": "npm-run-all clean --parallel dev pretty",
+		"start": "npm-run-all clean --parallel dev format",
 		"dev": "eleventy --serve",
 		"web": "eleventy",
 		"clean": "rimraf dist",
 		"pa11y": "pa11y ./dist/",
 		"spellcheck": "npx cspell \"src/templates/**\"",
 		"lint": "npm-run-all pa11y spellcheck",
-		"pretty": "npx prettier --write dist",
-		"format": "npm run pretty",
-		"pcm": "npx git cz",
+		"format": "npx prettier --write dist",
+		"commit": "git cz",
 		"build": "cross-env ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
@@ -31,12 +30,12 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "lint-staged && npm run pretty",
-			"pre-commit-msg": "exec < /dev/tty && node_modules/.bin/cz --hook || true"
+			"pre-commit": "npx lint-staged",
+			"pre-commit-msg": "exec < /dev/tty && /node_modules/.bin/cz --hook || true"
 		}
 	},
 	"lint-staged": {
-		"dist": "npm run format"
+		"dist": "npm-run-all build format lint"
 	},
 	"keywords": [
 		"eleventy",
@@ -45,6 +44,7 @@
 	],
 	"devDependencies": {
 		"@11ty/eleventy": "^0.12.1",
+		"commitizen": "^4.2.4",
 		"clean-css-cli": "^5.3.3",
 		"commitlint": "^11.0.0",
 		"cross-env": "^7.0.3",
