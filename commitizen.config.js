@@ -12,6 +12,10 @@ const types = [
 		name: "🔩 chore:\t Doesn't modify src or test files",
 	},
 	{
+		value: "docs",
+		name: "📚 docs:\t Adding or updating the documentation",
+	},
+	{
 		value: "build",
 		name: "🚀 build:\t Build system config or external dependencies",
 	},
@@ -25,7 +29,7 @@ const types = [
 	},
 ];
 
-const scopes = ["ci", "components", "config", "data", "docs", "layout", "partials", "styles", "templates"].map((name) => ({
+const scopes = ["components", "config", "data", "layout", "partials", "styles", "templates"].map((name) => ({
 	name,
 }));
 
@@ -35,7 +39,6 @@ module.exports = {
 	messages: {
 		type: "Type of change that you're committing:",
 		scope: "\nChoose the SCOPE of this change:",
-		// used if allowCustomScopes is true
 		customScope: "Denote the SCOPE of this change:",
 		subject: "Write a SHORT, IMPERATIVE tense description of the change:\n",
 		body: "Provide a LONGER description of the change (optional):\n",
