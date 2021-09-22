@@ -8,6 +8,7 @@
 		"Pavel Sanchez"
 	],
 	"license": "MIT",
+	"private": true,
 	"scripts": {
 		"start": "npm-run-all clean --parallel dev format",
 		"dev": "eleventy --serve",
@@ -35,7 +36,7 @@
 		}
 	},
 	"lint-staged": {
-		"dist": "npm-run-all build format lint"
+		"dist": "npm-run-all format lint"
 	},
 	"keywords": [
 		"eleventy",
@@ -64,8 +65,5 @@
 	"bugs": {
 		"url": "https://github.com/aclu-national/email-builder/issues"
 	},
-	"homepage": "https://github.com/aclu-national/email-builder#readme",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	}
+	"homepage": "https://github.com/aclu-national/email-builder#readme"
 }
