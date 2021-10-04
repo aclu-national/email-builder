@@ -18,6 +18,14 @@ Install dependencies
 npm install
 ```
 
+Create a new branch. You must use `kebab-case` for the `[type]` and everything should be `lowercase`.
+
+```
+git checkout -b [name]/[type]
+```
+
+> **NOTE:** The `main` branch is protected.Any changes made on the `main` branch will be rejected when pushing to `Github`.
+
 Start the server
 
 ```bash
