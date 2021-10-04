@@ -26,16 +26,7 @@
 
 1. **[NodeJs](https://nodejs.org/en/)**
 
-## Getting Started
-
-1. `git clone git@github.com:aclu-national/email-builder.git`
-2. `cd email-builder`
-3. `git checkout -b {name}` to create your own branch.
-4. `npm install` or `npm i`
-5. `npm start` that runs `npm run dev` to start a dev server.
-6. Open files in text editor to start working.
-
 ## 📚 Documentation 📚
 
-- [Document Structure](docs/stucture.md)
+- [Document Structure](docs/structure.md)
 - More coming soon...
