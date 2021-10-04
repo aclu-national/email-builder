@@ -15,7 +15,7 @@
 		"web": "eleventy",
 		"clean": "rimraf dist/",
 		"pa11y": "pa11y ./dist/ > report.json",
-		"spellcheck": "npx cspell dist/**/*",
+		"spellcheck": "npx cspell dist/**",
 		"lint": "npm-run-all pa11y spellcheck",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
