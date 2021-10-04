@@ -5,7 +5,6 @@
 			"@semantic-release/commit-analyzer",
 			{
 				"releaseRules": [
-					{ "type": "chore", "release": "patch" },
 					{ "type": "docs", "release": "patch" },
 					{ "type": "refactor", "release": "patch" },
 					{ "type": "revert", "release": "patch" }
