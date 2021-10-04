@@ -13,11 +13,11 @@
 		"start": "npm-run-all clean --parallel dev format",
 		"dev": "eleventy --serve",
 		"web": "eleventy",
-		"clean": "rimraf dist",
-		"pa11y": "pa11y ./dist/",
-		"spellcheck": "npx cspell \"src/templates/**\"",
+		"clean": "rimraf dist/",
+		"pa11y": "pa11y ./dist/ > report.json",
+		"spellcheck": "npx cspell dist/**/*",
 		"lint": "npm-run-all pa11y spellcheck",
-		"format": "npx prettier --write dist",
+		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
 		"build": "cross-env ELEVENTY_ENV=prod eleventy"
 	},
@@ -31,12 +31,13 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "npx lint-staged",
+			"pre-commit": "lint-staged",
 			"pre-commit-msg": "exec < /dev/tty && /node_modules/.bin/cz --hook || true"
 		}
 	},
 	"lint-staged": {
-		"dist": "npm-run-all format lint"
+		"*.{html,md}": "npm run lint",
+		"*.{html,md,json,yml}": "npm run format"
 	},
 	"keywords": [
 		"eleventy",
