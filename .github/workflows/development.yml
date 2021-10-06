@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [14]
+        node: [16]
         os: [ubuntu-latest]
 
     steps:
@@ -38,8 +38,8 @@ jobs:
         env:
           HUSKY_SKIP_INSTALL: true
 
-      - name: 🏗 Build
-        run: npm run build --if-present
+      - name: 🚨 Lint
+        run: npm run lint
 
       - name: 🏗 Build
         run: npm run build --if-present

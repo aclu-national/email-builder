@@ -14,9 +14,9 @@
 		"dev": "eleventy --serve",
 		"web": "eleventy",
 		"clean": "rimraf dist/",
-		"pa11y": "pa11y ./dist/ > report.json",
-		"spellcheck": "npx cspell dist/**/*",
-		"lint": "npm-run-all pa11y spellcheck",
+		"pa11y": "pa11y ./dist/",
+		"spellcheck": "npx cspell dist/**",
+		"lint": "npm-run-all pa11y",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
 		"build": "cross-env ELEVENTY_ENV=prod eleventy"
