@@ -82,7 +82,7 @@ npm run format
 
 It runs `npx prettier --write dist`.
 
-## [Commit](commit.md)
+## Commit
 
 This script uses the `husky` hook `prepare-commit-msg` to from commitizen.
 
