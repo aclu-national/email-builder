@@ -1,3 +1,5 @@
+## [1.1.3](https://github.com/aclu-national/email-builder/compare/v1.1.2...v1.1.3) (2021-10-25)
+
 ## [1.1.2](https://github.com/aclu-national/email-builder/compare/v1.1.1...v1.1.2) (2021-10-06)
 
 
