@@ -15,6 +15,13 @@ layout: index
 {%- endfor  -%}
 </ol>
 
+<h3>Component</h3>
+<ol>
+{%- for component in collections.components  -%}
+	<li style="margin-bottom:10px;"><a href="{{component.data.page.url}}"><strong>{{component.data.page.fileSlug | capitalize}}</strong></a></li>
+{%- endfor  -%}
+</ol>
+
 <h2>Newsletter Templates</h2>
 <ol>
 {%- for newsletter in collections.newsletters  -%}
