@@ -1,58 +1,57 @@
 {
 	"variable": {
-		"prefix": "variable",
-		"body": [
-			"{{$1}}"
-		],
-		"description": "Include a file"
+		"prefix": "var",
+		"body": ["{{$1}}"],
+		"description": "Nunjucks variable"
 	},
 	"Include": {
 		"prefix": "include",
-		"body": [
-			"{% include \"$1\" %}"
-		],
+		"body": ["{% include \"$1\" %}"],
 		"description": "Include a file"
 	},
 	"If Statement": {
 		"prefix": "if",
-		"body": [
-			"{% if $1 %}",
-			"\t$2",
-			"{% endif %}"
-		],
+		"body": ["{% if $1 %}", "\t$2", "{% endif %}"],
 		"description": "If statement"
 	},
 	"If/Else Statement": {
 		"prefix": "ifel",
-		"body": [
-			"{% if $1 %}",
-			"\t$2",
-			"{% else %}",
-			"\t$3",
-			"{% endif %}"
-		],
+		"body": ["{% if $1 %}", "\t$2", "{% else %}", "\t$3", "{% endif %}"],
 		"description": "If/Else statement"
 	},
-	"Else/If SStatement": {
+	"Else/If Statement": {
 		"prefix": "elif",
-		"body": [
-			"{% if $1 %}",
-			"\t$2",
-			"{% elif %}",
-			"\t$3",
-			"{% else %}",
-			"\t$4",
-			"{% endif %}"
-		],
+		"body": ["{% if $1 %}", "\t$2", "{% elif $3 %}", "\t$4", "{% else %}", "\t$5", "{% endif %}"],
 		"description": "Else/If statement"
 	},
 	"For Loop": {
 		"prefix": "for",
-		"body": [
-			"{% for $item in $item$s %}",
-			"\t{{$item}}",
-			"{% endfor %}"
-		],
+		"body": ["{% for $item in $item$s %}", "\t{{$item}}", "{% endfor %}"],
 		"description": "For Loop"
+	},
+	"Markdown Codeblock": {
+		"prefix": "code-prettier",
+		"body": ["<!-- prettier-ignore-start -->", "```", "$1", "```", "<!-- prettier-ignore-end -->"],
+		"description": "Markdown codeblock ignore prettier"
+	},
+	"Table Wrapper": {
+		"prefix": "table-wrap",
+		"body": [
+			"<table role=\"presentation\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"emailwrapto100pc\" width=\"{{theme.width}}\" style=\"margin-bottom: 15px;\">",
+			"\t<tbody>",
+			"\t\t<tr>",
+			"\t\t\t<td style=\"",
+			"\t\t\tcolor: {{theme.light.color}};",
+			"\t\t\tfont-family: {{theme.text.fontFamily}};",
+			"\t\t\tfont-size: {{theme.text.fontSize}};",
+			"\t\t\tline-height: {{theme.text.lineHeight}};",
+			"\t\t\tpadding: {{theme.padding}};\" valign=\"top\">",
+			"\t\t\t\t<p>$1</p>",
+			"\t\t\t</td>",
+			"\t\t</tr>",
+			"\t</tbody>",
+			"</table>"
+		],
+		"description": "Table wrapper for current template themes"
 	}
 }
