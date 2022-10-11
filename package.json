@@ -45,7 +45,7 @@
 		"email"
 	],
 	"devDependencies": {
-		"@11ty/eleventy": "^0.12.1",
+		"@11ty/eleventy": "^1.0.0",
 		"clean-css-cli": "^5.3.3",
 		"commitizen": "^4.2.4",
 		"commitlint": "^11.0.0",
@@ -66,5 +66,8 @@
 	"bugs": {
 		"url": "https://github.com/aclu-national/email-builder/issues"
 	},
-	"homepage": "https://github.com/aclu-national/email-builder#readme"
+	"homepage": "https://github.com/aclu-national/email-builder#readme",
+	"dependencies": {
+		"@11ty/eleventy-upgrade-help": "^1.0.1"
+	}
 }
