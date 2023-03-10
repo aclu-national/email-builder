@@ -172,10 +172,10 @@
 											<tr>
 												<td align="left" valign="top" style="padding:10px 0px 10px 40px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
 													<div align="left" valign="center">
-														<a href="{affiliate_website}"><img alt="{affiliate_name}'s logo" src="https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png" border="0" width="150" style="display: inline-block; margin-bottom: 10px;" /></a>
+														<a href="{affiliate_website}"><img alt="{affiliate_name}'s logo" src="https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png" border="0" width="150" style="display: inline-block; margin-bottom: -10px;"/></a>
 													</div>
 												</td>
-												<td align="right" valign="top" style="padding:30px 40px 10px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
+												<td align="right" valign="bottom" style="padding:30px 40px 0px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
 													<h3 style="color:#ffffff;text-transform: uppercase;display: inline-block;text-align: right;">September Newsletter</h3>
 												</td>
 											</tr>
@@ -248,7 +248,7 @@
 									<!-- BANNER IMAGE -->
 
 									<!-- CONTENT -->
-									<div class="content" style="padding: 20px 20px 0 20px;">
+									<div class="content" style="padding: 20px 20px 0px 20px;">
 										<h2>Lorem ipsum dolor sit amet</h2>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									</div>
@@ -257,7 +257,7 @@
 									<!-- BUTTON -->
 									<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
-											<td align="center" style="margin: 20px 0 20px 0;">
+											<td align="center" style="margin: 20px 0px 20px 0px;">
 												<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 													<tr>
 														<td align="center" bgcolor="#ef404d" style="border-radius: 5px;">
