@@ -83,14 +83,14 @@
 			list-style-type: disc;
 		}
 		.image2 {
-				display: none;
+			display: none;
 			}
-		td, th {
+		.multi td, th {
 			border: 1px solid #dddddd;
 			text-align: left;
 			padding: 8px;
 		}
-		tr:nth-child(even) {
+		.multi tr:nth-child(even) {
   			background-color: #5DADF5;
 		}
 
@@ -119,25 +119,15 @@
 			td.button-wrapper {
 				display: inline-block;
 			}
-			.stack1 {
+            .stack1 {
 				display: block !important;
 				width: 100% !important;
-				padding: 0 30px 0 0 !important;
+				padding: 40px 30px 0 0 !important;
 			}
 			.stack2 {
 				display: block !important;
 				width: 100% !important;
-				padding: 0 0 0 0 !important;
-			}
-			.stack3 {
-				display: block !important;
-				width: 100% !important;
-				padding: 10px 0 0 0 !important;
-			}
-			.stack4 {
-				display: block !important;
-				width: 100% !important;
-				padding: 0 0 0 0 !important;
+				padding: 0 0 10px 0 !important;
 			}
 			.image1 {
 				display: none;
@@ -145,6 +135,7 @@
 			.image2 {
 				display: inline;
 			}
+
 		}
 
 		@media (prefers-color-scheme: dark) {
@@ -197,40 +188,161 @@
 	<!-- {include "affiliate_loader"} -->
 	<span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0">ENTER PRE-HEADER TEXT HERE.</span> <!-- {beacon} -->
 	<!-- WRAPPER -->
-	<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="640">
-		<tbody>
-			<tr>
-				<!-- BODY CONTENT -->
-				<td style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; padding:0px 30px 0px 30px;" bgcolor="#f2f2f2">
-					<table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;" align="right" class="footer-right">
-						<tbody>
-							<tr>
-								<td align="left" valign="top" style="padding:10px 0px 0px 40px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
-									<div align="left" valign="center">
-										<a href="{affiliate_website}"><img alt="{affiliate_name}'s logo" src="https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png" border="0" width="150" style="display: inline-block; margin-bottom: 10px;" /></a>
-									</div>
-								</td>
-								<td align="right" valign="middle" style="padding:14px 40px 0px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
-									<h3 style="color:#ffffff;text-transform: uppercase;display: inline-block;text-align: right;">September Newsletter</h3>
-								</td>
-							</tr>
-						</tbody>
+    <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="640">
+        <tbody>
+            <tr>
+                <!-- BODY CONTENT -->
+                <td	style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; 1;" bgcol1r="#f2f2f2">
+                    <table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;" align="right" class="footer-right">
+                        <tbody>
+                            <tr>
+                                <td align="left" valign="top" style="padding:10px 0px 0px 40px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
+                                    <div align="left" valign="center">
+                                        <a href="{affiliate_website}"><img alt="{affiliate_name}'s logo" src="https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png" border="0" width="150" style="display: inline-block; margin-bottom: 10px;" /></a>
+                                    </div>
+                                </td>
+                                <td align="right" valign="middle" style="padding:14px 40px 0px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa;">
+                                    <h3 style="color:#ffffff;text-transform: uppercase;display: inline-block;text-align: right;">September Newsletter</h3>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td	style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; 1;" bgcol1r="#f2f2f2">
+                    <table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;border-radius: 0 0 4px 4px;" align="center" class="footer-right">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="top" style="padding:0px 30px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa; border-radius: 0 0 4px 4px;">
+                                    <table bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="background-color:#B2CCE5;">
+                                        <tbody>
+                                            <tr>
+                                                <div align="center">
+                                                    <img src="https://media.sailthru.com/64p/1k7/2/m/63f6eb061da61.png" width="560" class="image-resize" border="0" alt="Aclu Logo Top." style="border-radius: 4px 4px 0 0;"/>
+                                                </div>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td	style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; 1;" bgcol1r="#f2f2f2">
+                    <table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;border-radius: 0 0 4px 4px;" align="center" class="footer-right">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="top" style="padding:0px 30px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#f2f2f2;">
+                                    <table bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="background-color:#B2CCE5;">
+                                        <tbody>
+                                            <tr>
+                                                <div align="center">
+                                                    <img src="https://media.sailthru.com/64p/1k7/2/m/63f6eb05e44ef.png" width="560" class="image-resize" border="0" alt="Aclu Logo Bottom." style="border-radius: 0 0 4px 4px;"/>
+                                                </div>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+			<!-- STACKED SECTION -->
+            <tr height="400px" >
+                <td style="font-family: Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; padding:0px 40px 20px 40px; border-radius: 0 0 4px 4px;" bgcolor="#f2f2f2">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                        style="background-color:#f2f2f2;">
+						<tr>
+							<td class="stackWrapper" align="center" style="border-radius: 4px; vertical-align: middle; text-align: center; background-color: #66B4DB;">
+								<!-- EVENTS -->
+								<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
+									<tbody>
+										<tr>
+											<!-- LEFT -->
+											<td class="stack1" width="240" style="color: #3c3532; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 16px; line-height: 22px; padding: 10px;display: inline-block;">
+												<table align="center" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+													<tbody>
+														<a href="{affiliate_website}"><img class="image2" src="https://media.sailthru.com/64p/1k3/9/r/5d8e778dd2054.jpg" alt="Lady Liberty." border="0" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic"/></a>
+														<tr>
+															<td align="center" style="padding: 20px 0; display: block;">
+																<p><strong><span style="font-size: 1.2em;">Bill Of Rights Dinner</span></strong><br />
+																Thursday, September 15<br />
+																5:30 p.m EDT<br />
+																Westin Copley Place Hotel</p>
+																<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td align="center" bgcolor="#D73A45" style="border-radius: 3px;">
+																			<a role="button" class="button-text" href="{affiliate_website}" style="border-radius: 3px; font-family: Arial, sans-serif; color: #ffffff; padding: 10px; border: 1px solid #D73A45; display: inline-block;font-size:20px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">RSVP NOW</a>
+																		</td>
+																	</tr>
+																</table>
+																<!-- *** SNIPPET FOR THIRD-PARTY DISCLAIMER LINKS *** -->
+																<p style="font-size: 14px;margin:15px 10px 0 10px;"><em>Please note: This link will take you to a third-party website, xyz.com.</em></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+											<!-- RIGHT -->
+											<td class="stack2" width="240" align="center" style="padding: 20px 20px 0 20px;display: inline-block;vertical-align: middle;">
+												<table border="0" cellspacing="0" cellpadding="0" align="center">
+													<a href="{affiliate_website}"><img class="image1" src="https://media.sailthru.com/64p/1k3/9/r/5d8e778dd2054.jpg" alt="Lady Liberty." border="0" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic"/></a>
+													<p style="font-size: 14px;padding: 10px 10px 0;">Add to your Calendar:</p>
+													<p style="font-family: Helvetica, Arial, sans-serif; color: #0055aa; font-size: 14px;margin-top: -10px; padding-bottom: 10px;">
+														<a rel="noopener" href="https://www.codexworld.com/newyork_event.ics" style="color: #0055aa; text-decoration: underline;"><i class="fa-brands fa-apple" style="font-size:14px"></i> Apple</a> | <a rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20220305T103000/20220305T184500&location=New York City" style="color: #0055aa; text-decoration: underline;"><i class="fa-brands fa-google"></i> Google</a> | <a rel="noopener" href="https://outlook.office.com/calendar/0/deeplink/compose?subject=My Event&body=Event description text&startdt=2022-03-05T10:30:00+00:00&enddt=2022-03-05T18:45:00+00:00&location=New York City&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent" style="color: #0055aa; text-decoration: underline;"><i class="fa-brands fa-microsoft"></i> Outlook</a>
+													</p>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<!-- EVENTS -->
+							</td>
+						</tr>
 					</table>
 				</td>
 			</tr>
-			<tr>
-				<td style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; padding:0px 30px 0px 30px;" bgcolor="#f2f2f2">
-					<table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;border-radius: 0 0 4px 4px;" align="center" class="footer-right">
+            <tr height="200px" >
+                <td style="font-family: Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; padding:20px 40px 20px 40px; border-radius: 0 0 4px 4px;" bgcolor="#f2f2f2">
+
+					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="100%">
 						<tbody>
 							<tr>
-								<td align="center" valign="top" style="padding:0px 30px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#0055aa; border-radius: 0 0 4px 4px;">
-									<table bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0"
-									style="background-color:#B2CCE5;">
+								<td class="multi" style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A;" bgcolor="#f2f2f2">
+									<table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;" align="right" class="footer-right">
 										<tbody>
 											<tr>
-												<div align="center">
-													<img src="https://media.sailthru.com/64p/1k7/2/m/63f6eb061da61.png" width="560" class="image-resize" border="0" alt="Aclu Logo Top." style="border-radius: 4px 4px 0 0;"/>
-												</div>
+												<th>Event</th>
+												<th>Date/Time</th>
+												<th>Location</th>
+											</tr>
+											<tr>
+												<td><a href="">Bill of Rights Dinner</a></td>
+												<td>Thursday, September 15, 5:30 p.m EDT</td>
+												<td>Westin Copley Place Hotel</td>
+											</tr>
+											<tr>
+												<td><a href="">Bill of Rights Dinner</a></td>
+												<td>Thursday, September 15, 5:30 p.m EDT</td>
+												<td>Westin Copley Place Hotel</td>
+											</tr>
+											<tr>
+												<td><a href="">Bill of Rights Dinner</a></td>
+												<td>Thursday, September 15, 5:30 p.m EDT</td>
+												<td>Westin Copley Place Hotel</td>
+											</tr>
+											<tr>
+												<td><a href="">Bill of Rights Dinner</a></td>
+												<td>Thursday, September 15, 5:30 p.m EDT</td>
+												<td>Westin Copley Place Hotel</td>
 											</tr>
 										</tbody>
 									</table>
@@ -238,107 +350,6 @@
 							</tr>
 						</tbody>
 					</table>
-				</td>
-			</tr>
-			<tr>
-				<td style="font-family:  Helvetica, Arial, sans-serif; font-size:16px; color:#2A2A2A; padding:0px 30px 0px 30px;" bgcolor="#f2f2f2">
-					<table role="presentation" bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#B2CCE5;border-radius: 0 0 4px 4px;" align="center" class="footer-right">
-						<tbody>
-							<tr>
-								<td align="center" valign="top" style="padding:0px 30px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#ffffff;background-color:#f2f2f2;">
-									<table bgcolor="#B2CCE5" width="100%" border="0" cellspacing="0" cellpadding="0"
-									style="background-color:#B2CCE5;">
-										<tbody>
-											<tr>
-												<div align="center">
-													<img src="https://media.sailthru.com/64p/1k7/2/m/63f6eb05e44ef.png" width="560" class="image-resize" border="0" alt="Aclu Logo Bottom." style="border-radius: 0 0 4px 4px;"/>
-												</div>
-											</tr>
-										</tbody>
-									</table>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="auto">
-		<tbody>
-			<tr>
-				<th>Event</th>
-				<th>Date</th>
-				<th>Time</th>
-				<th>Location</th>
-				<th>RSVP</th>
-			</tr>
-			<tr>
-				<td>Bill Of Rights Dinner</td>
-				<td>Thursday, September 15</td>
-				<td>5:30 p.m EDT</td>
-				<td>Westin Copley Place Hotel</td>
-				<td width="140" align="center" style="padding: 10px 20px 10px 20px;display: inline-block;vertical-align: middle;">
-					<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center" bgcolor="#D73A45" style="border-radius: 3px;">
-								<a role="button" class="button-text" href="{affiliate_website}" style="border-radius: 3px; font-family: Arial, sans-serif; color: #ffffff; padding: 4px; border: 1px solid #D73A45; display: inline-block;font-size:20px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">RSVP NOW</a>
-							</td>
-						</tr>
-					</table>
-					<!-- *** SNIPPET FOR THIRD-PARTY DISCLAIMER LINKS *** -->
-					<!-- <p style="font-size: 14px;margin:5px 0 0 5px;"><em>Please note: This link will take you to a third-party website, xyz.com.</em></p> -->
-				</td>
-			</tr>
-			<tr>
-				<td>Bill Of Rights Dinner</td>
-				<td>Thursday, September 15</td>
-				<td>5:30 p.m EDT</td>
-				<td>Westin Copley Place Hotel</td>
-				<td width="140" align="center" style="padding: 10px 20px 10px 20px;display: inline-block;vertical-align: middle;">
-					<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center" bgcolor="#D73A45" style="border-radius: 3px;">
-								<a role="button" class="button-text" href="{affiliate_website}" style="border-radius: 3px; font-family: Arial, sans-serif; color: #ffffff; padding: 4px; border: 1px solid #D73A45; display: inline-block;font-size:20px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">RSVP NOW</a>
-							</td>
-						</tr>
-					</table>
-					<!-- *** SNIPPET FOR THIRD-PARTY DISCLAIMER LINKS *** -->
-					<!-- <p style="font-size: 14px;margin:5px 0 0 5px;"><em>Please note: This link will take you to a third-party website, xyz.com.</em></p> -->
-				</td>
-			</tr>
-			<tr>
-				<td>Bill Of Rights Dinner</td>
-				<td>Thursday, September 15</td>
-				<td>5:30 p.m EDT</td>
-				<td>Westin Copley Place Hotel</td>
-				<td width="140" align="center" style="padding: 10px 20px 10px 20px;display: inline-block;vertical-align: middle;">
-					<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center" bgcolor="#D73A45" style="border-radius: 3px;">
-								<a role="button" class="button-text" href="{affiliate_website}" style="border-radius: 3px; font-family: Arial, sans-serif; color: #ffffff; padding: 4px; border: 1px solid #D73A45; display: inline-block;font-size:20px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">RSVP NOW</a>
-							</td>
-						</tr>
-					</table>
-					<!-- *** SNIPPET FOR THIRD-PARTY DISCLAIMER LINKS *** -->
-					<!-- <p style="font-size: 14px;margin:5px 0 0 5px;"><em>Please note: This link will take you to a third-party website, xyz.com.</em></p> -->
-				</td>
-			</tr>
-			<tr>
-				<td>Bill Of Rights Dinner</td>
-				<td>Thursday, September 15</td>
-				<td>5:30 p.m EDT</td>
-				<td>Westin Copley Place Hotel</td>
-				<td width="140" align="center" style="padding: 10px 20px 10px 20px;display: inline-block;vertical-align: middle;">
-					<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center" bgcolor="#D73A45" style="border-radius: 3px;">
-								<a role="button" class="button-text" href="{affiliate_website}" style="border-radius: 3px; font-family: Arial, sans-serif; color: #ffffff; padding: 4px; border: 1px solid #D73A45; display: inline-block;font-size:20px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">RSVP NOW</a>
-							</td>
-						</tr>
-					</table>
-					<!-- *** SNIPPET FOR THIRD-PARTY DISCLAIMER LINKS *** -->
-					<!-- <p style="font-size: 14px;margin:5px 0 0 5px;"><em>Please note: This link will take you to a third-party website, xyz.com.</em></p> -->
 				</td>
 			</tr>
 		</tbody>
