@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/aclu-national/email-builder/compare/v1.4.1...v1.4.2) (2023-09-13)
+
+
+### Bug Fixes
+
+* **config:** update assets ([f6c5d4a](https://github.com/aclu-national/email-builder/commit/f6c5d4aeacd6029ac21e35870ff586006c6fc50c))
+
 ## [1.4.1](https://github.com/aclu-national/email-builder/compare/v1.4.0...v1.4.1) (2023-09-13)
 
 
