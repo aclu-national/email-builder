@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/aclu-national/email-builder/compare/v1.4.5...v1.4.6) (2023-09-13)
+
+
+### Bug Fixes
+
+* **config:** revert back path ([0011cbc](https://github.com/aclu-national/email-builder/commit/0011cbceb504a858aed20bcb7106c65d7c5cbc51))
+
 ## [1.4.5](https://github.com/aclu-national/email-builder/compare/v1.4.4...v1.4.5) (2023-09-13)
 
 
