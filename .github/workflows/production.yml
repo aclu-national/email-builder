@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - beta
+      - next
+      - next-major
+      - "*.x" # maintenance releases branches
 
 jobs:
   Publish:
