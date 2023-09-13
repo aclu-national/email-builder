@@ -102,7 +102,7 @@ jobs:
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1
         with:
-          useLockFile: false
+          useLockFile: true
         env:
           HUSKY_SKIP_INSTALL: true
 
