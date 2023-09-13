@@ -38,7 +38,7 @@ jobs:
       - name: 🚨 Format
         run: npm run format
 
-      - name: 🚀 Release Dry Run
+      - name: 🚀 Release
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
         with:
