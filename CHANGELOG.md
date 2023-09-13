@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/aclu-national/email-builder/compare/v1.3.0...v1.4.0) (2023-09-13)
+
+
+### Bug Fixes
+
+* **config:** remove push ([2fb2ac0](https://github.com/aclu-national/email-builder/commit/2fb2ac09df86a851369b9366d6a5e9865f7f60ce))
+
 # [1.3.0](https://github.com/aclu-national/email-builder/compare/v1.2.0...v1.3.0) (2023-09-13)
 
 
