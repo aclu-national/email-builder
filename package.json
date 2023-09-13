@@ -1,6 +1,6 @@
 {
 	"name": "@aclu-national/email-builder",
-	"version": "1.4.6",
+	"version": "1.4.7",
 	"description": "Using 11ty to generate HTML emails",
 	"main": "dist/",
 	"author": "ACLU",

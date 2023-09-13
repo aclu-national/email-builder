@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/aclu-national/email-builder/compare/v1.4.6...v1.4.7) (2023-09-13)
+
+
+### Bug Fixes
+
+* **components:** correct path ([a5e1c77](https://github.com/aclu-national/email-builder/commit/a5e1c770e90f5bfa2e003e2d19cdbe97117405e2))
+
 ## [1.4.6](https://github.com/aclu-national/email-builder/compare/v1.4.5...v1.4.6) (2023-09-13)
 
 
