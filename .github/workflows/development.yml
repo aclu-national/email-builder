@@ -34,7 +34,11 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: 📥 Download deps
-        run: npm ci
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+        env:
+          HUSKY_SKIP_INSTALL: true
 
       - name: 🏗 Build
         run: npm run build --if-present

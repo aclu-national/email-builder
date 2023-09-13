@@ -64,6 +64,8 @@ jobs:
         id: semantic
         with:
           semantic_version: 18
+          dry_run: true
+          ci: false
           extra_plugins: |
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
