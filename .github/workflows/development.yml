@@ -12,13 +12,13 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  Test:
-    name: 🚨 Test 🚨
+  Test-Release:
+    name: 🚨 Test Release 🚨
     if: ${{ !contains(github.head_ref, 'all-contributors') }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: [16]
+        node: [18]
         os: [ubuntu-latest]
 
     steps:
@@ -28,15 +28,13 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: ⎔ Setup node
+      - name: ⎔ Setup node ${{ matrix.node }}
         uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
 
       - name: 📥 Download deps
-        uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
-        env:
-          HUSKY_SKIP_INSTALL: true
+        run: npm ci
 
       - name: 🏗 Build
         run: npm run build --if-present
@@ -44,13 +42,17 @@ jobs:
       - name: 🚨 Format
         run: npm run format
 
-      - name: 🚢 Release
+      - name: 🚀 Release Dry Run
         uses: cycjimmy/semantic-release-action@v3
+        id: semantic
         with:
           semantic_version: 18
+          dry_run: true
+          ci: false
           extra_plugins: |
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
+            @semantic-release/github@9.0.5
           branches: |
             [
               'main',

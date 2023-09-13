@@ -9,10 +9,9 @@ jobs:
   Test:
     name: 🚨 Test 🚨
     runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
-        node-version: [16]
+        node: [18]
         os: [ubuntu-latest]
 
     steps:
@@ -20,38 +19,40 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Use Node.js ${{ matrix.node-version }}
+
+      - name: Setup Node.js ${{ matrix.node }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ matrix.node }}
           cache: "npm"
+
       - run: npm ci
       - run: npm run build
       - run: npm run format
 
   Publish:
     name: 🚀 Publish 🚀
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [Test]
     steps:
-      - name: ⎔ Setup node
-        uses: actions/checkout@v4
+      - name: ⎔ Setup node ${{ matrix.node }}
+        uses: actions/setup-node@v3
         with:
-          fetch-depth: 0
-          persist-credentials: false
+          node-version: ${{ matrix.node }}
 
       - name: 📥 Download deps
-        uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
-        env:
-          HUSKY_SKIP_INSTALL: true
+        run: npm ci
 
       - name: 🏗 Build
         run: npm run build
 
-      - uses: cycjimmy/semantic-release-action@v3
+      - name: 🚨 Format
+        run: npm run format
+
+      - name: 🚀 Release Dry Run
+        uses: cycjimmy/semantic-release-action@v3
+        id: semantic
         with:
           semantic_version: 18
           extra_plugins: |
@@ -66,7 +67,6 @@ jobs:
               {name: 'beta', prerelease: true},
               {name: 'alpha', prerelease: true}
             ]
-        env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
