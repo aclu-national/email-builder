@@ -33,6 +33,10 @@ jobs:
   Publish:
     name: 🚀 Publish 🚀
     runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node: [18]
+        os: [ubuntu-latest]
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [Test]
     steps:
