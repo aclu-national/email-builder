@@ -14,11 +14,18 @@
 		"@semantic-release/release-notes-generator",
 		"@semantic-release/changelog",
 		"@semantic-release/npm",
-		"@semantic-release/github",
+		[
+      "@semantic-release/github",
+      {
+        "assets": [
+          { "path": "dist/templates/**", "label": "Email Templates" }
+        ]
+      }
+    ],
 		[
 			"@semantic-release/git",
 			{
-				"assets": ["package.json", "package-lock.json", "CHANGELOG.md", "dist/"],
+				"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
 				"message": "chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
 			}
 		]
