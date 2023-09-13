@@ -23,13 +23,13 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
 
       - name: ⎔ Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
 
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1
@@ -45,12 +45,12 @@ jobs:
         run: npm run format
 
       - name: 🚢 Release
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v3
         with:
-          semantic_version: 17
+          semantic_version: 18
           extra_plugins: |
-            @semantic-release/changelog@3.0.0
-            @semantic-release/git@9.0.0
+            @semantic-release/changelog@6.0.3
+            @semantic-release/git@10.0.1
           branches: |
             [
               'main',
