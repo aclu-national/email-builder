@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - 'pavel/workflow'
+      - beta
 
 jobs:
   Publish:
@@ -17,59 +17,6 @@ jobs:
 
     if: ${{ github.ref == 'refs/heads/main' }}
 
-    steps:
-      - name: ⎔ Setup node ${{ matrix.node }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node }}
-
-      - name: 📥 Download deps
-        uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
-        env:
-          HUSKY_SKIP_INSTALL: true
-
-      - name: 🏗 Build
-        run: npm run build
-
-      - name: 🚨 Format
-        run: npm run format
-
-      - name: 🚀 Release Dry Run
-        uses: cycjimmy/semantic-release-action@v3
-        id: semantic
-        with:
-          semantic_version: 18
-          extra_plugins: |
-            @semantic-release/changelog
-            @semantic-release/git
-            @semantic-release/github
-          branches: |
-            [
-              'main',
-              'next',
-              'next-major',
-              {name: 'beta', prerelease: true},
-              {name: 'alpha', prerelease: true}
-            ]
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_AUTHOR_NAME: ${{ secrets.GIT_AUTHOR_NAME }}
-          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
-          GIT_COMMITTER_NAME: ${{ secrets.GIT_COMMITTER_NAME }}
-          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
-
-  Dry:
-    name: 🚀 Dry Run 🚀
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        node: [18]
-        os: [ubuntu-latest]
-
-    if: ${{ github.ref == 'refs/heads/pavel/workflow' }}
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
@@ -96,8 +43,6 @@ jobs:
         id: semantic
         with:
           semantic_version: 18
-          dry_run: true
-          ci: false
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/git
