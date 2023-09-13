@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/aclu-national/email-builder/compare/v1.4.3...v1.4.4) (2023-09-13)
+
+
+### Bug Fixes
+
+* **config:** remove label and name ([a867782](https://github.com/aclu-national/email-builder/commit/a867782d89fa7975333f51009c3e182195aee935))
+
 ## [1.4.3](https://github.com/aclu-national/email-builder/compare/v1.4.2...v1.4.3) (2023-09-13)
 
 
