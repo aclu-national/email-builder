@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/aclu-national/email-builder/compare/v1.4.4...v1.4.5) (2023-09-13)
+
+
+### Bug Fixes
+
+* **config:** move files around ([9278b0a](https://github.com/aclu-national/email-builder/commit/9278b0a728d1e70f336a3412363f1a83e7e9c37e))
+
 ## [1.4.4](https://github.com/aclu-national/email-builder/compare/v1.4.3...v1.4.4) (2023-09-13)
 
 
