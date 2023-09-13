@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/aclu-national/email-builder/compare/v1.1.3...v1.2.0) (2023-09-13)
+
+
+### Features
+
+* **components:** video ([#42](https://github.com/aclu-national/email-builder/issues/42)) ([0df3126](https://github.com/aclu-national/email-builder/commit/0df31261df864f816cadd3cb90068d7f5086d864))
+
 ## [1.1.3](https://github.com/aclu-national/email-builder/compare/v1.1.2...v1.1.3) (2021-10-25)
 
 ## [1.1.2](https://github.com/aclu-national/email-builder/compare/v1.1.1...v1.1.2) (2021-10-06)
