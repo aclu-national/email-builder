@@ -42,7 +42,7 @@ jobs:
         run: npm run build --if-present
 
       - name: 🚨 Format
-        run: npm run Format
+        run: npm run format
 
       - name: 🚢 Release
         uses: cycjimmy/semantic-release-action@v2
