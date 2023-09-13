@@ -49,9 +49,6 @@ jobs:
           semantic_version: 18
           dry_run: true
           ci: false
-          extra_plugins: |
-            @semantic-release/changelog
-            @semantic-release/git
           branches: |
             [
               'main',

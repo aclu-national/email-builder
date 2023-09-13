@@ -43,10 +43,6 @@ jobs:
         id: semantic
         with:
           semantic_version: 18
-          extra_plugins: |
-            @semantic-release/changelog
-            @semantic-release/git
-            @semantic-release/github
           branches: |
             [
               'main',
