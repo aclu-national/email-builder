@@ -20,7 +20,7 @@
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "dist/templates/" }
+          { "path": "dist/templates" }
         ]
       }
     ],
