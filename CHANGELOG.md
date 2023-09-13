@@ -23,8 +23,6 @@
 
 * add theme file ([3d76baa](https://github.com/aclu-national/email-builder/commit/3d76baa7cf4c687d007388b7a0489f7a3a08d60d))
 
-# ACLU Email Builder Changelog
-
 # 1.0.0 (2021-08-30)
 
 
