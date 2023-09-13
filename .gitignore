@@ -4,6 +4,7 @@ node_modules/
 
 # build artifacts
 build/
+dist/**
 .cache
 
 # secrets and errors
@@ -16,4 +17,3 @@ report.*
 .DS_Store
 .AppleDouble
 .LSOverride
-
