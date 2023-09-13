@@ -20,7 +20,7 @@
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "dist/templates/**/*.html", "label": "Email Templates", "name": "Email Templates" }
+          { "path": "dist/templates/", "label": "Email Templates", "name": "Email Templates" }
         ]
       }
     ],
