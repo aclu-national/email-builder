@@ -38,8 +38,8 @@ jobs:
         env:
           HUSKY_SKIP_INSTALL: true
 
-      - name: 🚨 Lint
-        run: npm run lint
+      - name: 🚨 Format
+        run: npm run Format
 
       - name: 🏗 Build
         run: npm run build --if-present
