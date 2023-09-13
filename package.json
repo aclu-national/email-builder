@@ -14,7 +14,7 @@
 		"dev": "eleventy --serve",
 		"web": "eleventy",
 		"clean": "rimraf dist/",
-		"pa11y": "pa11y ./dist/",
+		"pa11y": "pa11y ./dist",
 		"spellcheck": "npx cspell dist/**",
 		"lint": "npm run pa11y",
 		"format": "npx prettier --write dist/**/*",

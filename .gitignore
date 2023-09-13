@@ -4,6 +4,7 @@ node_modules/
 
 # build artifacts
 build/
+dist/**
 .cache
 
 # secrets and errors
