@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - 'pavel/worflow'
 
 jobs:
   Test:
@@ -64,9 +67,9 @@ jobs:
         with:
           semantic_version: 18
           extra_plugins: |
-            @semantic-release/changelog@6.0.3
-            @semantic-release/git@10.0.1
-            @semantic-release/github@9.0.5
+            @semantic-release/changelog
+            @semantic-release/git
+            @semantic-release/github
           branches: |
             [
               'main',
