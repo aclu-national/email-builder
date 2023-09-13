@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: 📥 Download deps
+      - name: 📥 Install deps
         run: npm ci
 
       - name: 🏗 Build
@@ -50,9 +50,8 @@ jobs:
           dry_run: true
           ci: false
           extra_plugins: |
-            @semantic-release/changelog@6.0.3
-            @semantic-release/git@10.0.1
-            @semantic-release/github@9.0.5
+            @semantic-release/changelog
+            @semantic-release/git
           branches: |
             [
               'main',
