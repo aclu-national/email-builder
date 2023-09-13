@@ -20,14 +20,14 @@
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "dist/templates/**", "label": "Email Templates" }
+          { "path": "dist/templates/**/*.html", "label": "Email Templates", "name": "Email Templates" }
         ]
       }
     ],
 		[
 			"@semantic-release/git",
 			{
-				"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+				"assets": ["package.json", "package-lock.json", "CHANGELOG.md", "dist/"],
 				"message": "chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
 			}
 		]
