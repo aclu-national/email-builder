@@ -14,7 +14,6 @@ on:
 jobs:
   Test-Release:
     name: 🚨 Test Release 🚨
-    if: ${{ !contains(github.head_ref, 'all-contributors') }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:

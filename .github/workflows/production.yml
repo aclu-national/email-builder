@@ -19,7 +19,7 @@ jobs:
         node: [18]
         os: [ubuntu-latest]
 
-    if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta' }}
 
     steps:
       - name: ⬇️ Checkout repo
