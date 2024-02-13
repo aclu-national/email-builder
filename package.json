@@ -29,7 +29,7 @@
 			"path": "./node_modules/cz-customizable"
 		},
 		"cz-customizable": {
-			"config": "commitizen.config.js"
+			"config": "./.config/commitizen.config.js"
 		}
 	},
 	"husky": {
