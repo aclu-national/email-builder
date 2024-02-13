@@ -1,3 +1,12 @@
+# Changelog
+
+# [1.5.0-beta.1](https://github.com/aclu-national/email-builder/compare/v1.4.7...v1.5.0-beta.1) (2024-02-13)
+
+
+### Features
+
+* refactor(config): move to config directory ([146c727](https://github.com/aclu-national/email-builder/commit/146c727e9267f744b8841898ec32acdd6555e993))
+
 ## [1.4.7](https://github.com/aclu-national/email-builder/compare/v1.4.6...v1.4.7) (2023-09-13)
 
 

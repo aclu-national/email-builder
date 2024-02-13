@@ -1,4 +1,4 @@
-tconst { types, scopes, allowCustomScopes } = require("./commitizen.config");
+tconst { types, scopes, allowCustomScopes } = require("./.config/commitizen.config");
 
 const validTypes = types.map((type) => type.value);
 const validScopes = scopes.map((scope) => scope.name);

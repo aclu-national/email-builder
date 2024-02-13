@@ -1,29 +1,21 @@
 {
-	"branches": ["main"],
+	"branches": ["main", "alpha", "beta", "next", "next-major"],
 	"plugins": [
+		"@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
 		[
-			"@semantic-release/commit-analyzer",
+			"@semantic-release/changelog",
 			{
-				"releaseRules": [
-					{ "type": "feat", "release": "minor" },
-					{ "type": "fix", "release": "patch" },
-					{ "type": "docs", "release": "patch" },
-					{ "type": "refactor", "release": "patch" },
-					{ "type": "revert", "release": "patch" }
-				]
+				"changelogTitle": "# Changelog"
 			}
 		],
-		"@semantic-release/release-notes-generator",
-		"@semantic-release/changelog",
 		"@semantic-release/npm",
 		[
-      "@semantic-release/github",
-      {
-        "assets": [
-          { "path": "dist/templates" }
-        ]
-      }
-    ],
+			"@semantic-release/github",
+			{
+				"assets": [{ "path": "dist/templates" }]
+			}
+		],
 		[
 			"@semantic-release/git",
 			{
