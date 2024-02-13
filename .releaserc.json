@@ -1,5 +1,5 @@
 {
-	"branches": ["main"],
+	"branches": ["main", "alpha", "beta", "next", "next-major"],
 	"plugins": [
 		[
 			"@semantic-release/commit-analyzer",
@@ -14,16 +14,19 @@
 			}
 		],
 		"@semantic-release/release-notes-generator",
-		"@semantic-release/changelog",
+		[
+			"@semantic-release/changelog",
+			{
+				"changelogTitle": "# Changelog"
+			}
+		],
 		"@semantic-release/npm",
 		[
-      "@semantic-release/github",
-      {
-        "assets": [
-          { "path": "dist/templates" }
-        ]
-      }
-    ],
+			"@semantic-release/github",
+			{
+				"assets": [{ "path": "dist/templates" }]
+			}
+		],
 		[
 			"@semantic-release/git",
 			{
