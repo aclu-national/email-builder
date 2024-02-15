@@ -1,0 +1,3929 @@
+{affiliates = {
+	"ak": {
+	  "address_1": "1057 W. Fireweed Lane, Suite 207",
+	  "address_2": "Anchorage, AK 99503",
+	  "affiliate_name": "ACLU of Alaska",
+	  "donation_href": "https://action.aclu.org/give/alaska-join-renew-today?initms_aff=ak&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ak&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofAlaska",
+	  "instagram_href": "https://www.instagram.com/acluofalaska",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c159341b.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUofAlaska",
+	  "website": "https://www.acluak.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Joshua Decker",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757771747.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Michael Garvey",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Megan Edge",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea873c8f3d44.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Laura Herman",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea873c4a1b08.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Stephen Koteff",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea873be7af4e.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"al": {
+	  "address_1": "P.O. Box 6179",
+	  "address_2": "Montgomery, AL 36106",
+	  "affiliate_name": "ACLU of Alabama",
+	  "donation_href": "https://action.aclu.org/give/alabama-join-renew-today?initms_aff=al&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&gs={sb_gift_string_encrypted}&ms_aff=al&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://facebook.com/ACLUofAlabama",
+	  "instagram_href": "https://www.instagram.com/acluofalabama",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c155ea26.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclualabama",
+	  "website": "https://aclualabama.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "JaTaune Bosby Gilchrist",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/c/f/639b7a2fa76ca.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Political & Advocacy Director",
+		  "name": "Dillon Nettles",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k6/9/n/632e0f1b04f1e.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Director of Communications & Public Education",
+		  "name": "Rebecca Seung-Bickley",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea875dce18ac.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Tish Gotell Faulks",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea875d36dabe.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "Director of Organizing & Political Education",
+		  "name": "Stef Bernal-Martinez",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/8/f/62fa984facf15.png"
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ar": {
+	  "address_1": "904 West 2nd Street",
+	  "address_2": "Little Rock, AR 72201",
+	  "affiliate_name": "ACLU of Arkansas",
+	  "donation_href": "https://action.aclu.org/give/arkansas-join-renew-today?initms_aff=ar&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ar&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUArkansas",
+	  "instagram_href": "https://www.instagram.com/acluofarkansas/",
+	  "logo_url": "https://media.sailthru.com/64d/1k8/2/9/65c67d6786f7c.png",
+	  "logo_width": "200",
+	  "twitter_href": "https://twitter.com/ArkansasACLU",
+	  "website": "https://www.acluarkansas.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Holly Dickson",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/b/8/5dc58b034237f.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Chief Communications Officer",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Holly Dickson",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/b/8/5dc58b034237f.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"az": {
+	  "address_1": "P.O. Box 17148",
+	  "address_2": "Phoenix, AZ 85011",
+	  "affiliate_name": "ACLU of Arizona",
+	  "donation_href": "https://action.aclu.org/give/arizona-join-renew-today?initms_aff=az&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=az&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofArizona",
+	  "instagram_href": "https://www.instagram.com/acluofarizona",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c15c5459.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUaz",
+	  "website": "https://www.acluaz.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy & Legal Director",
+		  "name": "Victoria López",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8782bea764.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Marcela Taracena",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8782636b5f.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Logan Marshall",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Policy Director",
+		  "name": "Darrell Hill",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8783354f37.png"
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ca": {
+	  "address_1": "P.O. Box 630",
+	  "address_2": "Sacramento, CA 95814",
+	  "affiliate_name": "ACLU California Action",
+	  "donation_href": "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ca&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclucalaction",
+	  "instagram_href": "https://www.instagram.com/aclu_calaction/",
+	  "logo_url": "https://media.sailthru.com/64d/1k6/3/7/6226900285d41.png",
+	  "logo_width": "125",
+	  "twitter_href": "https://twitter.com/aclu_calaction/",
+	  "website": "https://aclucalaction.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Carlos Marquez III",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"cd": {
+	  "address_1": "P.O. Box 87131",
+	  "address_2": "San Diego, CA 92138",
+	  "affiliate_name": "ACLU of San Diego & Imperial Counties",
+	  "donation_href": "https://action.aclu.org/give/san-diego-join-renew-today?initms_aff=cd&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cd&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/sdicaclu",
+	  "instagram_href": "https://www.instagram.com/sdicaclu/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1279698.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/sdicACLU",
+	  "website": "https://www.aclu-sdic.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Norma Chavez-Peterson",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757a43b47.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "David Trujillo",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2052e87d81.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Cheryl Alethia Phelps",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea87d88a1001.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "David Loy",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea87d9689141.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"cn": {
+	  "address_1": "39 Drumm Street",
+	  "address_2": "San Francisco, CA 94111",
+	  "affiliate_name": "ACLU of Northern California",
+	  "donation_href": "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclu.norcal",
+	  "instagram_href": "https://www.instagram.com/aclu_norcal",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1e35964.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_norcal",
+	  "website": "https://www.aclunc.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Abdi Soltani",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d7579737e4.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Legal-Policy Co-Director",
+		  "name": "Phyllida Burlingame",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Candice Francis",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8845771af7.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Cori Stell",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8846593c8b.png"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal-Policy Co-Director",
+		  "name": "Shilpi Agarwal",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8845e32d87.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"co": {
+	  "address_1": "303 E. 17th Ave., Suite 350",
+	  "address_2": "Denver, CO 80203-1256",
+	  "affiliate_name": "ACLU of Colorado",
+	  "donation_href": "https://action.aclu.org/give/colorado-join-renew-today?initms_aff=co&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=co&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluofcolorado",
+	  "instagram_href": "https://www.instagram.com/acluofcolorado",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c16a5e05.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluofcolorado",
+	  "website": "https://aclu-co.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Deborah Richardson",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/c/c/63979f5f3fa61.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Denise Maes",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea887dd43871.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Vanessa Michel",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea887ee63f80.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Stephanie Schweitzer Garza",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea887e3b9c5a.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Timothy R. Macdonald",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k7/c/r/658c4eccf26df.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"cs": {
+	  "address_1": "1313 West Eighth Street",
+	  "address_2": "Los Angeles, CA 90017",
+	  "affiliate_name": "ACLU of Southern California",
+	  "donation_href": "https://action.aclu.org/give/southern-california-join-renew-today?initms_aff=cs&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cs&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLU.SoCal",
+	  "instagram_href": "https://www.instagram.com/aclu_socal",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1330858.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_socal",
+	  "website": "https://www.aclusocal.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Hector Villagra",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211f9ad52d.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy & Legal Director",
+		  "name": "Melissa Goodman",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88e2720d0f.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Chief Communications & Marketing Officer",
+		  "name": "Marcus Benigno",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88e224e0ab.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Chief Development Officer",
+		  "name": "Julie Weinstein",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88e2d3d6fa.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ct": {
+	  "address_1": "765 Asylum Avenue",
+	  "address_2": "Hartford, CT, 06105",
+	  "affiliate_name": "ACLU of Connecticut",
+	  "donation_href": "https://action.aclu.org/give/connecticut-join-renew-today?initms_aff=ct&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ct&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclu.connecticut",
+	  "instagram_href": "https://www.instagram.com/acluct",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c16d003e.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluct",
+	  "website": "https://www.acluct.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "David McGuire",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757a6dc61.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Public Policy & Advocacy Director",
+		  "name": "Melvin Medina",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88fb9e911d.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Meghan Holden",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88fb4195c0.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Laura Brownstein",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88faef0624.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Dan Barrett",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea88fa968f89.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"dc": {
+	  "address_1": "915 15th St. NW",
+	  "address_2": "Washington, D.C. 20005",
+	  "affiliate_name": "ACLU of the District of Columbia",
+	  "donation_href": "https://action.aclu.org/give/district-columbia-join-renew-today?initms_aff=dc&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=dc&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclu.dc/",
+	  "instagram_href": "https://www.instagram.com/acluofdc",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1762b9b.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLU_DC",
+	  "website": "https://www.acludc.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Monica Hopkins",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757ab2965.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Nassim Moshiree",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8913ea14ef.png"
+		}
+	  },{
+		"comms": {
+		  "title": "Strategic Communications Director",
+		  "name": "Suzanne Ito",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8914c77a38.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Brigid Slipka",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea8915478ed6.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Scott Michelman",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea89146470b0.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "Communications Director",
+		  "name": "Amber Taylor",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/5/5/5eb1d173406b3.jpg"
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"de": {
+	  "address_1": "100 W. 10th Street, Suite 706",
+	  "address_2": "Wilmington DE, 19801",
+	  "affiliate_name": "ACLU of Delaware",
+	  "donation_href": "https://action.aclu.org/give/delaware-join-renew-today?initms_aff=de&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=de&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acludelaware",
+	  "instagram_href": "https://www.instagram.com/acludelaware/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1711317.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUdelaware",
+	  "website": "https://aclu-de.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Mike Brickner",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k5/c/7/61afa05fdccdf.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy and Advocacy Director",
+		  "name": "Javonne Rich, LMSW",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k5/c/7/61afa05f45cd7.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Morgan R. Kelly",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k5/c/7/61afa0600cc0c.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Melissa Bryson",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k5/c/7/61afa05fbeac5.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Susan L. Burke",
+		  "pronouns": "she, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k5/c/7/61afa0605640d.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"fl": {
+	  "address_1": "4343 W. Flagler Street, Suite 400",
+	  "address_2": "Miami, FL 33134",
+	  "affiliate_name": "ACLU of Florida",
+	  "donation_href": "https://action.aclu.org/give/florida-join-renew-today?initms_aff=fl&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=fl&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUFL",
+	  "instagram_href": "https://www.instagram.com/aclu_nationwide",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c179803b.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUFL",
+	  "website": "https://www.aclufl.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Tiffani Lennon",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/b/n/637e4840cb9fd.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Kirk Bailey",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Casey Bruce-White",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Amy Turkel",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Daniel Tilley",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ga": {
+	  "address_1": "P.O. Box 570738",
+	  "address_2": "Atlanta, GA 30357",
+	  "affiliate_name": "ACLU of Georgia",
+	  "donation_href": "https://action.aclu.org/give/georgia-join-renew-today?initms_aff=ga&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ga&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofGA",
+	  "instagram_href": "https://www.instagram.com/acluofga",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c17d8ac4.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluofga",
+	  "website": "https://www.acluga.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Andrea Young",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k7/8/f/64db8ed54d491.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Political Director",
+		  "name": "Christopher Bruce",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k6/2/g/620d5f1d4051c.png"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Ana Maria Rosato",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea895939376c.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Kathleen Egan",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Sean J. Young",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/s/5ea895992b91b.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"hi": {
+	  "address_1": "P.O. Box 3410",
+	  "address_2": "Honolulu, HI 96801",
+	  "affiliate_name": "ACLU of Hawaii",
+	  "donation_href": "https://action.aclu.org/give/hawaii-join-renew-today?initms_aff=hi&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=hi&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluhawaii",
+	  "instagram_href": "https://www.instagram.com/acluhawaii",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c181e1a6.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluhawaii",
+	  "website": "https://acluhi.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Joshua Wisch",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db21214224dd.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Mandy Fernandes",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/1/h/5e21d57486ef4.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Lauren Fukuda",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Mateo Caballero",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Smart Justice Campaign Director",
+		  "name": "Monica Espitia",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2120d38cee.jpg"
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ia": {
+	  "address_1": "505 Fifth Ave., Suite 808",
+	  "address_2": "Des Moines, IA 50309",
+	  "affiliate_name": "ACLU of Iowa",
+	  "donation_href": "https://action.aclu.org/give/iowa-join-renew-today?initms_aff=ia&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ia&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluofiowa",
+	  "instagram_href": "https://www.instagram.com/acluofiowa/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c18e4fae.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUiowa",
+	  "website": "https://www.aclu-ia.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Mark Stringer",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db21203249b0.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Pete McRoberts",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Veronica Lorson Fowler",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Sarah Conroy",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Rita Bettis Austen",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"id": {
+	  "address_1": "P.O. Box 1897",
+	  "address_2": "Boise, ID 83701",
+	  "affiliate_name": "ACLU of Idaho",
+	  "donation_href": "https://action.aclu.org/give/idaho-join-renew-today?initms_aff=id&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=id&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUIdaho",
+	  "instagram_href": "https://www.instagram.com/acluidaho",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c184d612.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluidaho",
+	  "website": "https://www.acluidaho.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Leo Morales",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Kelsey Dillon",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Richard Eppink",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"il": {
+	  "address_1": "150 N. Michigan Ave., Suite 600",
+	  "address_2": "Chicago, IL 60601",
+	  "affiliate_name": "ACLU of Illinois",
+	  "donation_href": "https://action.aclu.org/give/illinois-join-renew-today?initms_aff=il&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=il&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofIllinois",
+	  "instagram_href": "https://www.instagram.com/acluofil",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1887e97.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluofIL",
+	  "website": "https://www.aclu-il.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Colleen Connell",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211d558c8a.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Khadine Bennett",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211db4ca57.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Edwin Yohnka",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211cf850d7.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Emmalee Scott",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Nusrat Choudhury",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2051a4a2bf.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"in": {
+	  "address_1": "1031 East Washington Street",
+	  "address_2": "Indianapolis, IN 46202",
+	  "affiliate_name": "ACLU of Indiana",
+	  "donation_href": "https://action.aclu.org/give/indiana-join-renew-today?initms_aff=in&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=in&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUindiana",
+	  "instagram_href": "https://www.instagram.com/acluindiana",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c18b49dd.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUIndiana",
+	  "website": "https://www.aclu-in.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Jane Henegar",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211ea71f60.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Director of Advocacy & Public Policy",
+		  "name": "Katie Blair",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Ariella Sult",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Neil Hudelson",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Kenneth J. Falk",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ks": {
+	  "address_1": "P.O. Box 13048",
+	  "address_2": "Overland Park, KS 66282",
+	  "affiliate_name": "ACLU of Kansas",
+	  "donation_href": "https://action.aclu.org/give/kansas-join-renew-today?initms_aff=ks&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ks&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclukansas",
+	  "instagram_href": "https://www.instagram.com/aclukansas",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c191e15e.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclukansas",
+	  "website": "https://www.aclukansas.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Micah Kubic",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k6/b/i/6377d22c74878.png"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Kendall Seal",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Director of Strategic Communications",
+		  "name": "Mark McCormick",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Karen Casebolt",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Lauren Bonds",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2121af39ae.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ky": {
+	  "address_1": "315 Guthrie Street, Suite 300",
+	  "address_2": "Louisville, KY 40202",
+	  "affiliate_name": "ACLU of Kentucky",
+	  "donation_href": "https://action.aclu.org/give/kentucky-join-renew-today?initms_aff=ky&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ky&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofKY",
+	  "instagram_href": "https://www.instagram.com/aclu_nationwide",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1962c57.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUofKY",
+	  "website": "https://www.aclu-ky.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Michael Aldridge",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757b66cd2.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Kate Miller",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Angela Cooper",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Charlene Buckles",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Corey Shapiro",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"la": {
+	  "address_1": "P.O. Box 56157",
+	  "address_2": "New Orleans, LA 70156",
+	  "affiliate_name": "ACLU of Louisiana",
+	  "donation_href": "https://action.aclu.org/give/louisiana-join-renew-today?initms_aff=la&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=la&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclu.louisiana",
+	  "instagram_href": "https://www.instagram.com/aclu.louisiana/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c19a9a2f.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUofLouisiana",
+	  "website": "https://www.laaclu.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Alanah Odoms Hebert",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/2/e/620a80651afc1.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Chris Kaiser",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Michelle Moore",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Maggy Baccinelli",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Nora Ahmed",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "Jef",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ma": {
+	  "address_1": "One Center Plaza, Suite 850",
+	  "address_2": "Boston, MA 02108",
+	  "affiliate_name": "ACLU of Massachusetts",
+	  "donation_href": "https://action.aclu.org/give/massachusetts-join-renew-today?initms_aff=ma&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ma&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclumass",
+	  "instagram_href": "https://www.instagram.com/aclu_mass",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1a5290e.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_mass",
+	  "website": "https://www.aclum.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Carol Rose",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757b9c558.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Political Director",
+		  "name": "Whitney Taylor",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Chief Communications and Marketing Officer",
+		  "name": "John Ward",
+		  "pronouns": "She, her, her",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Chief Development Officer",
+		  "name": "Bianca Sigh Ward",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Legislative Director",
+		  "name": "Gavi Wolfe",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "Director, Technology for Liberty Program",
+		  "name": "Kade Crockford",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "Field Director",
+		  "name": "Laura Rótolo",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"md": {
+	  "address_1": "3600 Clipper Mill Rd., Suite 350",
+	  "address_2": "Baltimore, MD 21211",
+	  "affiliate_name": "ACLU of Maryland",
+	  "donation_href": "https://action.aclu.org/give/maryland-join-renew-today?initms_aff=md&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=md&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUMD",
+	  "instagram_href": "https://www.instagram.com/aclumd",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1a124a2.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLU_MD",
+	  "website": "https://www.aclu-md.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Dana Vickers Shelley",
+		  "pronouns": "She, her/they, them",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757bcd66d.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Public Policy Director",
+		  "name": "Caylin Young",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k5/1/b/5ffc829dc8ca2.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Meredith Curtis Goode",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Jenny Trust",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Deborah Jeon",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k5/6/4/60ba3625a3486.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "Director of Engagement and Mobilization",
+		  "name": "Sergio España",
+		  "pronouns": "El, he, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/1/v/5e348a245ae45.jpg"
+		}
+	  }, {
+		"custom2": {
+		  "title": "Host and Producer of <em>Thinking Freely</em>",
+		  "name": "Amber Taylor",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/5/5/5eb1d173406b3.jpg"
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"me": {
+	  "address_1": "P.O. 7860",
+	  "address_2": "Portland, ME 04112",
+	  "affiliate_name": "ACLU of Maine",
+	  "donation_href": "https://action.aclu.org/give/maine-join-renew-today?initms_aff=me&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=me&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUMaine",
+	  "instagram_href": "https://www.instagram.com/aclumaine",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c19d26ca.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUMaine",
+	  "website": "https://www.aclumaine.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Alison Beyea",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757c09ff9.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Meagan Sway",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "qainat khan",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Emma Bond",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"mi": {
+	  "address_1": "2966 Woodward Avenue",
+	  "address_2": "Detroit MI, 48201",
+	  "affiliate_name": "ACLU of Michigan",
+	  "donation_href": "https://action.aclu.org/give/michigan-join-renew-today?initms_aff=mi&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mi&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofMichigan",
+	  "instagram_href": "https://www.instagram.com/acluofmichigan/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1a88b1e.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUofMichigan",
+	  "website": "http://www.aclumich.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Loren Khogali",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/9/g/6324f1d9b2fdb.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Political Director",
+		  "name": "Shelli Weisberg",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/8/a/5f3166a762b3d.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Ann Mullen",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Mary Bejian",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/5/d/5ebc4f83ee51b.jpg"
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Dan Korobkin",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/1/5e84b592e5b20.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"mn": {
+	  "address_1": "P.O. Box 14720",
+	  "address_2": "Minneapolis, MN 55414",
+	  "affiliate_name": "ACLU of Minnesota",
+	  "donation_href": "https://action.aclu.org/give/minnesota-join-renew-today?initms_aff=mn&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mn&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclumn",
+	  "instagram_href": "https://www.instagram.com/aclumn",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1ad2a84.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUMN",
+	  "website": "https://www.aclu-mn.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Deepinder Singh Mayell",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k7/7/k/64b94ce2ae9e0.png"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Directo",
+		  "name": "Julia Decker",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Lynette Kalsnes",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Judy Hawkinson",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Teresa Nelson",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Community Engagement Director",
+		  "name": "Jana Kooren",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"mo": {
+	  "address_1": "906 Olive St",
+	  "address_2": "St. Louis, MO 63101",
+	  "affiliate_name": "ACLU of Missouri",
+	  "donation_href": "https://action.aclu.org/give/missouri-join-renew-today?initms_aff=mo&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mo&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUMO",
+	  "instagram_href": "https://www.instagram.com/aclumo",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1b83d0b.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_mo",
+	  "website": "https://www.aclu-mo.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Luz María Henríquez",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/9/5e66622b9fbfd.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Legislative and Policy Director",
+		  "name": "Sara Baker",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/d/5e6ba82419334.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Nicole Rainey",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Tony Rothert",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/a/u/5f9c27cf51e08.jpg"
+		}
+	  },{
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ms": {
+	  "address_1": "P.O. Box 2242",
+	  "address_2": "Jackson, MS 39225",
+	  "affiliate_name": "ACLU of Mississippi",
+	  "donation_href": "https://action.aclu.org/give/mississippi-join-renew-today?initms_aff=ms&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ms&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUMississippi",
+	  "instagram_href": "https://www.instagram.com/aclu_ms",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1b26676.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_ms",
+	  "website": "https://www.aclu-ms.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Jarvis Dortch",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k6/c/j/63a096b4e0edd.jpeg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Candance Coleman",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Joshua Tom",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757c980af.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"mt": {
+	  "address_1": "P.O. Box 1968",
+	  "address_2": "Missoula, MT 59806",
+	  "affiliate_name": "ACLU of Montana",
+	  "donation_href": "https://action.aclu.org/give/montana-join-renew-today?initms_aff=mt&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mt&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclumontana",
+	  "instagram_href": "https://www.instagram.com/aclu_montana",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1bc6ef9.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUMT",
+	  "website": "https://www.aclumontana.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Caitlin Borgmann",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757cc9c7f.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Kirsten Bokenkamp",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy & Strategic Initiatives",
+		  "name": "Kileen Marshall",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Alex Rate",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"nc": {
+	  "address_1": "P.O. Box 28004",
+	  "address_2": "Raleigh NC, 27611",
+	  "affiliate_name": "ACLU of North Carolina",
+	  "donation_href": "https://action.aclu.org/give/north-carolina-join-renew-today?initms_aff=nc&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nc&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUNC",
+	  "instagram_href": "https://www.instagram.com/aclu_nc",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1dbc06f.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_nc",
+	  "website": "https://www.acluofnorthcarolina.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Chantal Stevens",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Dustin Chicurel-Bayard",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Liz Musselman",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Kristi Graunke",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Statewide Campaign for Smart Justice Manager",
+		  "name": "Kristie Puckett-Williams",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "Field Manager",
+		  "name": "Angaza Laughinghouse",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"nd": {
+	  "address_1": "P.O. Box 1190",
+	  "address_2": "Fargo, ND 58107-1190",
+	  "affiliate_name": "ACLU of North Dakota",
+	  "donation_href": "https://action.aclu.org/give/north-dakota-join-renew-today?initms_aff=nd&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nd&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ndaclu",
+	  "instagram_href": "https://www.instagram.com/aclu_northdakota",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1df08c5.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclunorthdakota",
+	  "website": "https://www.aclund.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Heather Smith",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757fb935d.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Dane DeKrey",
+		  "pronouns": "He, him, his, él",
+		  "headshot": "https://media.sailthru.com/64d/1k4/8/h/5f3aefe834b9d.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Janna Farley",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Campaigns Director",
+		  "name": "Libby Skarin",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "Digital Media Associate",
+		  "name": "Adam Jorgensen",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/8/3/5f285443ad83d.jpg"
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ne": {
+	  "address_1": "134 S. 13th St, #1010",
+	  "address_2": "Lincoln, NE 68508",
+	  "affiliate_name": "ACLU of Nebraska",
+	  "donation_href": "https://action.aclu.org/give/nebraska-join-renew-today?initms_aff=ne&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ne&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclunebraska",
+	  "instagram_href": "https://www.instagram.com/acluofne",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1c15d6d.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluofne",
+	  "website": "https://www.aclunebraska.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Mindy Rush Chipman",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k7/7/q/64c187c7280df.png"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Sam Petto",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Allie Curttright",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Rose Godinez",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"nh": {
+	  "address_1": "18 Low Avenue",
+	  "address_2": "Concord, NH 03301",
+	  "affiliate_name": "ACLU of New Hampshire",
+	  "donation_href": "https://action.aclu.org/give/new-hampshire-join-renew-today?initms_aff=nh&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nh&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofNH/",
+	  "instagram_href": "https://www.instagram.com/aclu_nationwide",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1c8d7a9.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLU_NH",
+	  "website": "https://www.aclu-nh.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Devon Chaffee",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Ariana Schechter",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "Paul Racioppi",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Gilles Bissonnette",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"nj": {
+	  "address_1": "P.O. Box 32159",
+	  "address_2": "Newark, NJ 07102",
+	  "affiliate_name": "ACLU of New Jersey",
+	  "donation_href": "https://action.aclu.org/give/new-jersey-join-renew-today?initms_aff=nj&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nj&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclunj",
+	  "instagram_href": "https://www.instagram.com/aclunj",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1cc5daa.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclunj",
+	  "website": "https://www.aclu-nj.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Amol Sinha",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757d8dcb0.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Sarah Fajardo",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/5/d/5ebc0af263dcd.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Allison Peltzman",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Diane Du Brule",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Jeanne LoCicero",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"nm": {
+	  "address_1": "P.O. Box 566",
+	  "address_2": "Albuquerque, NM 87103",
+	  "affiliate_name": "ACLU of New Mexico",
+	  "donation_href": "https://action.aclu.org/give/new-mexico-join-renew-today?initms_aff=nm&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nm&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclunm",
+	  "instagram_href": "https://www.instagram.com/aclunm",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1d7deaa.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUNM",
+	  "website": "https://www.aclu-nm.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Peter Simonson",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757e05eeb.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Katie Hoeppner",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Julie Bernard",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Leon Howard",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"nv": {
+	  "address_1": "601 S. Rancho Drive, Suite B-11",
+	  "address_2": "Las Vegas, NV 89106",
+	  "affiliate_name": "ACLU of Nevada",
+	  "donation_href": "https://action.aclu.org/give/nevada-join-renew-today?initms_aff=nv&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nv&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclunv",
+	  "instagram_href": "https://www.instagram.com/aclunv",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1c59e2d.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclunv",
+	  "website": "https://www.aclunv.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Holly Welborn",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Director of Communications and Outreach",
+		  "name": "Wesley Juhl",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ny": {
+	  "address_1": "125 Broad Street",
+	  "address_2": "New York, NY 10004",
+	  "affiliate_name": "NYCLU",
+	  "donation_href": "https://action.aclu.org/give/new-york-join-renew-today?initms_aff=ny&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ny&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/NYCLU/",
+	  "instagram_href": "https://www.instagram.com/nyclu",
+	  "logo_url": "https://media.sailthru.com/64p/1k3/9/6/5d7271ac74a07.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/nyclu",
+	  "website": "https://www.nyclu.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Donna Lieberman",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757e672de.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Lee Rowland",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Wendy Sealey",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Christopher Dunn",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"oh": {
+	  "address_1": "4506 Chester Avenue",
+	  "address_2": "Cleveland, OH 44103",
+	  "affiliate_name": "ACLU of Ohio",
+	  "donation_href": "https://action.aclu.org/give/ohio-join-renew-today?initms_aff=oh&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=oh&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUOH",
+	  "instagram_href": "https://www.instagram.com/ACLUOH",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c109f3a1.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluohio",
+	  "website": "https://www.acluohio.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "J. Bennett Guess",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757edc9ac.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Jocelyn Rosnick",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/1/s/5e309c2eaded8.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Celina Coming",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/5/5e611d2ba6dc4.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Mary A. Paxton",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Freda J. Levenson",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Organizing Director",
+		  "name": "Elizabeth Hopkins",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/5/l/5ec6bb3181566.jpg"
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ok": {
+	  "address_1": "P.O. Box 13327",
+	  "address_2": "Oklahoma City, OK 73113",
+	  "affiliate_name": "ACLU of Oklahoma",
+	  "donation_href": "https://action.aclu.org/give/oklahoma-join-renew-today?initms_aff=ok&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ok&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluok",
+	  "instagram_href": "https://www.instagram.com/acluok",
+	  "logo_url": "https://media.sailthru.com/64d/1k7/c/t/658ecf1682cf9.png",
+	  "logo_width": "200",
+	  "twitter_href": "https://twitter.com/ACLUOK",
+	  "website": "https://www.acluok.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Tamya Cox-Touré",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k7/c/s/658dc2da862f9.png"
+		}
+	  },{
+		"advo": {
+		  "title": "Director of Policy & Advocacy",
+		  "name": "Nicole McAfee",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Lisa Pitsiri",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Interim Legal Director",
+		  "name": "Michael C. Redman",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"or": {
+	  "address_1": "P.O. Box 40585",
+	  "address_2": "Portland OR, 97240",
+	  "affiliate_name": "ACLU of Oregon",
+	  "donation_href": "https://action.aclu.org/give/oregon-join-renew-today?initms_aff=or&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=or&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofOregon",
+	  "instagram_href": "https://www.instagram.com/aclu_or",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c11625d4.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu_or",
+	  "website": "https://www.aclu-or.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Sandy Chung, J.D.",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k5/2/1/60181c1a1df55.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Andrea Valderrama",
+		  "pronouns": "She, her, ella",
+		  "headshot": "https://media.sailthru.com/64d/1k4/c/a/5fd2574fde0fb.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Sarah Armstrong",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Yvonne Garcia",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/c/7/5fce81b35a61f.png"
+		}
+	  },{
+		"legal": {
+		  "title": "Interim Legal Director",
+		  "name": "Kelly Simon",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k3/b/8/5dc58c0501759.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"pa": {
+	  "address_1": "P.O. Box 60173",
+	  "address_2": "Philadelphia, PA 19102",
+	  "affiliate_name": "ACLU of Pennsylvania",
+	  "donation_href": "https://action.aclu.org/give/pennsylvania-join-renew-today?initms_aff=pa&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=pa&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclupa",
+	  "instagram_href": "https://www.instagram.com/aclupa",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c11982ed.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclupa",
+	  "website": "https://www.aclupa.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Reggie Shuford",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757f50a50.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy & Policy Director",
+		  "name": "Sara Mullen",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Director of Communications",
+		  "name": "Andy Hoover",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Sarah Johnson",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Witold Walczak",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Legislative Director",
+		  "name": "Elizabeth Randol",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"pr": {
+	  "address_1": "416 Avenida Ponce de Leon, Suite 1105",
+	  "address_2": "San Juan, PR 00918",
+	  "affiliate_name": "ACLU of Puerto Rico",
+	  "donation_href": "https://action.aclu.org/give/puerto-rico-join-renew-today?initms_aff=pr&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=pr&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLU-of-Puerto-Rico-234423719991930/",
+	  "instagram_href": "https://www.instagram.com/aclu_nationwide",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1203fd1.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclupr",
+	  "website": "http://www.aclu-pr.org/EN/Home.htm",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "William Ramírez",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ri": {
+	  "address_1": "128 Dorrance Street, Suite 400",
+	  "address_2": "Providence, RI 02903",
+	  "affiliate_name": "ACLU of Rhode Island",
+	  "donation_href": "https://action.aclu.org/give/rhode-island-join-renew-today?initms_aff=ri&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ri&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/riaclu/",
+	  "instagram_href": "https://www.instagram.com/riaclu/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c123523f.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/riaclu",
+	  "website": "http://www.riaclu.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Steven Brown",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"sc": {
+	  "address_1": "P.O. Box 20998",
+	  "address_2": "Charleston, SC 29413",
+	  "affiliate_name": "ACLU of South Carolina",
+	  "donation_href": "https://action.aclu.org/give/south-carolina-join-renew-today?initms_aff=sc&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=sc&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/SC.ACLU/",
+	  "instagram_href": "https://www.instagram.com/aclusc/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c12aabc7.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLU_SC",
+	  "website": "https://www.aclusc.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Jace Woodrum",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k6/a/l/6352a037de9dd.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Director of Policy & Communications",
+		  "name": "Ali Titus",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Susan Dunn",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211e348b44.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"sd": {
+	  "address_1": "P.O. Box 1170",
+	  "address_2": "Sioux Falls, SD 57101",
+	  "affiliate_name": "ACLU of South Dakota",
+	  "donation_href": "https://action.aclu.org/give/south-dakota-join-renew-today?initms_aff=sd&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=sd&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUSD",
+	  "instagram_href": "https://www.instagram.com/aclu_southdakota",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c12e31a6.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclusouthdakota",
+	  "website": "https://www.aclusd.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Heather Smith",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d757fb935d.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Manager",
+		  "name": "Jett Jonelis",
+		  "pronouns": "They, She",
+		  "headshot": "https://media.sailthru.com/64d/1k5/1/j/600747f25f8c2.png"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Janna Farley",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Campaigns Director",
+		  "name": "Libby Skarin",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "Digital Media Associate",
+		  "name": "Adam Jorgensen",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/8/3/5f285443ad83d.jpg"
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"tn": {
+	  "address_1": "P.O. Box 120160",
+	  "address_2": "Nashville, TN 37212",
+	  "affiliate_name": "ACLU of Tennessee",
+	  "donation_href": "https://action.aclu.org/give/tennessee-join-renew-today?initms_aff=tn&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=tn&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUTN",
+	  "instagram_href": "https://www.instagram.com/aclu_tennessee",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c135c106.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclutn",
+	  "website": "http://www.aclu-tn.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Hedy Weinberg",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Lindsay Kee",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Associate Director of Development",
+		  "name": "Sarah Howard",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Tom Castelli",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"tx": {
+	  "address_1": "P.O. Box 8306",
+	  "address_2": "Houston, TX 77288",
+	  "affiliate_name": "ACLU of Texas",
+	  "donation_href": "https://action.aclu.org/give/texas-join-renew-today?initms_aff=tx&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=tx&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofTexas",
+	  "instagram_href": "https://www.instagram.com/aclutx/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1386239.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclutx",
+	  "website": "https://www.aclutx.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Rebecca L. Robertson",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Policy & Advocacy Director",
+		  "name": "Sarah Labowitz",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Director of Communications",
+		  "name": "Darryl Ewing",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Carla Anne Holeva",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Andre Segura",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db211974d5cc.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"ut": {
+	  "address_1": "311 S State Street, Ste. 310",
+	  "address_2": "Salt Lake City, UT 84111",
+	  "affiliate_name": "ACLU of Utah",
+	  "donation_href": "https://action.aclu.org/give/utah-join-renew-today?initms_aff=ut&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ut&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclu.utah",
+	  "instagram_href": "https://www.instagram.com/aclu_utah/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c13b0eb0.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluutah",
+	  "website": "https://www.acluutah.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Brittney Nystrom",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/4/a/5e909f2938e39.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Manager",
+		  "name": "Aaron Welcher",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k7/a/2/651aee86e58fe.jpg"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Erin Hurtado",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "John Mejía",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k5/8/p/6126a5ad7e134.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"va": {
+	  "address_1": "PO Box 26464",
+	  "address_2": "Richmond, VA 23261",
+	  "affiliate_name": "ACLU of Virginia",
+	  "donation_href": "https://action.aclu.org/give/virginia-join-renew-today?initms_aff=va&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=va&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluofvirginia",
+	  "instagram_href": "https://www.instagram.com/acluva",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1417a5e.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/acluva",
+	  "website": "https://acluva.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Mary Bauer",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k6/6/g/62ab80cec2d70.png"
+		}
+	  },{
+		"advo": {
+		  "title": "Director of Advocacy",
+		  "name": "Jenny Glass",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Edith Bullard",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Philanthropy",
+		  "name": "Alissa Aronovici",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Eden Heilman",
+		  "pronouns": "She, her , hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"vt": {
+	  "address_1": "P.O. Box 277",
+	  "address_2": "Montpelier, VT 05601",
+	  "affiliate_name": "ACLU of Vermont",
+	  "donation_href": "https://action.aclu.org/give/vermont-join-renew-today?initms_aff=vt&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=vt&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLU.Vermont",
+	  "instagram_href": "https://www.instagram.com/acluvermont/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c13e0bec.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUVermont",
+	  "website": "https://www.acluvt.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "James Lyall",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k8/2/9/65c666f82ff75.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Falko Schilling",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k7/4/6/642f0b85101a3.png"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Stephanie Gomory",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k7/5/2/645144684010f.png"
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Victoria Jones",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Campaign Director",
+		  "name": "Maroni Minter",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"wa": {
+	  "address_1": "P.O. Box 2728",
+	  "address_2": "Seattle, WA 98111-2728",
+	  "affiliate_name": "ACLU of Washington",
+	  "donation_href": "https://action.aclu.org/give/washington-join-renew-today?initms_aff=wa&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wa&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluwa",
+	  "instagram_href": "https://www.instagram.com/acluwa",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1445403.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLU_WA",
+	  "website": "https://www.aclu-wa.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Michele Storms",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Alison Holcomb",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Brian Robick",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Mary Gagliardi",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Eric González Alfaro",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"wi": {
+	  "address_1": "207 E Buffalo St., Suite 325",
+	  "address_2": "Milwaukee, WI 53202",
+	  "affiliate_name": "ACLU of Wisconsin",
+	  "donation_href": "https://action.aclu.org/give/wisconsin-join-renew-today?initms_aff=wi&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wi&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUofWi/",
+	  "instagram_href": "https://www.instagram.com/acluofwi",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c14ae60b.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUofWisconsin",
+	  "website": "https://www.aclu-wi.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Dr. Melinda Brennan",
+		  "pronouns": "She, her, ella",
+		  "headshot": "https://media.sailthru.com/64d/1k6/c/f/639b9299ccd55.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Molly Collins",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Alyssa Mauk",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "Maxine Webb",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "Larry Dupuis",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"wv": {
+	  "address_1": "P.O. Box 3952",
+	  "address_2": "Charleston, WV 25339",
+	  "affiliate_name": "ACLU of West Virginia",
+	  "donation_href": "https://action.aclu.org/give/west-virginia-join-renew-today?initms_aff=wv&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wv&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/ACLUWV",
+	  "instagram_href": "https://www.instagram.com/aclu_nationwide",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c147a495.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLU_WV",
+	  "website": "http://acluwv.org",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Joseph Cohen",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/2/5e5d758064dac.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Policy Director",
+		  "name": "Eli Baumwell",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Billy Wolfe",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Community Outreach Director",
+		  "name": "Mollie Kennedy",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	},
+	"wy": {
+	  "address_1": "P.O. Box 20706",
+	  "address_2": "Cheyenne, WY 82003",
+	  "affiliate_name": "ACLU of Wyoming",
+	  "donation_href": "https://action.aclu.org/give/wyoming-join-renew-today?initms_aff=wy&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wy&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/acluwyo/",
+	  "instagram_href": "https://www.instagram.com/aclu_wyoming/",
+	  "logo_url": "https://media.sailthru.com/64d/1k4/4/d/5e947c1525d2a.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/ACLUWYO",
+	  "website": "https://www.aclu-wy.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Heather Smith",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k6/6/f/62aa42afb37a7.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Advocacy Director",
+		  "name": "Antonio Serrano",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k4/3/v/5e838bc7bf013.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Communications Director",
+		  "name": "Janna Farley",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Development Director ",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }, {
+		"custom1": {
+		  "title": "Campaigns Director",
+		  "name": "Libby Skarin",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "Digital Media Associate",
+		  "name": "Adam Jorgensen",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k4/8/3/5f285443ad83d.jpg"
+		}
+	  }, {
+		"custom3": {
+		  "title": "Death Penalty Repeal Campaign",
+		  "name": "Sabrina King",
+		  "pronouns": "She, her, hers",
+		  "headshot": "https://media.sailthru.com/64d/1k4/9/b/5f5b8485c4c51.png"
+		}
+	  }]
+	},
+	"can": {
+	  "address_1": "125 Broad St.",
+	  "address_2": "New York, NY 10004",
+	  "affiliate_name": "ACLU",
+	  "donation_href": "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	  "facebook_href": "https://www.facebook.com/aclu",
+	  "instagram_href": "https://www.instagram.com/aclu_nationwide/",
+	  "logo_url": "https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png",
+	  "logo_width": "150",
+	  "twitter_href": "https://twitter.com/aclu",
+	  "website": "https://www.aclu.org/",
+	  "signatures": [{
+		"ed": {
+		  "title": "Executive Director",
+		  "name": "Anthony Romero",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2043ae79b8.jpg"
+		}
+	  },{
+		"advo": {
+		  "title": "Political Director",
+		  "name": "Ronald Newman",
+		  "pronouns": "He, him, his",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2052e87d81.jpg"
+		}
+	  },{
+		"comms": {
+		  "title": "Chief Communications Officer",
+		  "name": "Rebecca Lowell Edwards",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"dev": {
+		  "title": "Director of Development",
+		  "name": "Liz FitzGerald",
+		  "pronouns": "She, her, hers",
+		  "headshot": ""
+		}
+	  },{
+		"legal": {
+		  "title": "Legal Director",
+		  "name": "David Cole",
+		  "pronouns": "",
+		  "headshot": "https://media.sailthru.com/64d/1k3/a/o/5db2048b5dfce.jpg"
+		}
+	  }, {
+		"custom1": {
+		  "title": "Affiliate Digital Campaigns Manager",
+		  "name": "Pavel Sanchez",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom2": {
+		  "title": "Director of Digital Campaigns",
+		  "name": "Joe Coakley",
+		  "pronouns": "He, him, his",
+		  "headshot": ""
+		}
+	  }, {
+		"custom3": {
+		  "title": "",
+		  "name": "",
+		  "pronouns": "",
+		  "headshot": ""
+		}
+	  }]
+	}
+  }
+  }
+  {affiliate_code = lower(split(blast.name, ' ')[1])}
+  {affiliate_address_1 = affiliates[affiliate_code]["address_1"]}
+  {affiliate_address_2 = affiliates[affiliate_code]["address_2"]}
+  {affiliate_donation = affiliates[affiliate_code]["donation_href"]}
+  {affiliate_facebook = affiliates[affiliate_code]["facebook_href"]}
+  {affiliate_instagram = affiliates[affiliate_code]["instagram_href"]}
+  {affiliate_logo = affiliates[affiliate_code]["logo_url"]}
+  {affiliate_logo_width = affiliates[affiliate_code]["logo_width"]}
+  {affiliate_name = affiliates[affiliate_code]["affiliate_name"]}
+  {affiliate_tracking = affiliates[affiliate_code]["tracking"]}
+  {affiliate_tracking_dev = "<!-- CAN TRACKING CODE --><style data-ignore-inlining>@media (prefers-color-scheme: dark) { #_t::before {content:url('https://w2vviqus.emltrk.com/v2/w2vviqus?rd&d={email_id}&t={blast_id}');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://w2vviqus.emltrk.com/v2/w2vviqus?rl&d={email_id}&t={blast_id}');}} @media print{ #_t {background-image:url('https://w2vviqus.emltrk.com/v2/w2vviqus?p&d={email_id}&t={blast_id}');}} div.OutlookMessageHeader {background-image:url('https://w2vviqus.emltrk.com/v2/w2vviqus?f&d={email_id}&t={blast_id}')} table.moz-email-headers-table {background-image:url('https://w2vviqus.emltrk.com/v2/w2vviqus?f&d={email_id}&t={blast_id}')} blockquote #_t {background-image:url('https://w2vviqus.emltrk.com/v2/w2vviqus?f&d={email_id}&t={blast_id}')} #MailContainerBody #_t {background-image:url('https://w2vviqus.emltrk.com/v2/w2vviqus?f&d={email_id}&t={blast_id}')}</style><div id=\"_t\"></div><img src=\"https://w2vviqus.emltrk.com/v2/w2vviqus?d={email_id}&t={blast_id}\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />"}
+  {affiliate_twitter = affiliates[affiliate_code]["twitter_href"]}
+  {affiliate_website = affiliates[affiliate_code]["website"]}
+  {email_pref = "https://action.aclu.org/preference-center/aclu-" + affiliate_code + "-email-preference?eid=" + email_id + "&referral=" + affiliate_code + "&unsub_url=" + optout_confirm_url}
+  {ca_email_pref = "https://action.aclu.org/preference-center/aclu-action-national-email-preference?&eid=" + email_id + "&referral=" + affiliate_code + "&unsub_url=" + optout_confirm_url}
+
+  {facebook_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb21b75bf.png"}
+  {instagram_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb1be2cb6.png"}
+  {privacy_statement = "https://www.aclu.org/american-civil-liberties-union-privacy-statement"}
+  {twitter_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb153c9f8.png"}
+
+  {affiliate_ed_name = affiliates[affiliate_code]['signatures'][0]['ed']['name']}
+  {affiliate_ed_title = affiliates[affiliate_code]['signatures'][0]['ed']['title']}
+  {affiliate_ed_pronouns = affiliates[affiliate_code]['signatures'][0]['ed']['pronouns']}
+  {affiliate_ed_headshot = affiliates[affiliate_code]['signatures'][0]['ed']['headshot']}
+
+  {affiliate_advo_name = affiliates[affiliate_code]['signatures'][1]['advo']['name']}
+  {affiliate_advo_title = affiliates[affiliate_code]['signatures'][1]['advo']['title']}
+  {affiliate_advo_pronouns = affiliates[affiliate_code]['signatures'][1]['advo']['pronouns']}
+  {affiliate_advo_headshot = affiliates[affiliate_code]['signatures'][1]['advo']['headshot']}
+
+  {affiliate_comms_name = affiliates[affiliate_code]['signatures'][2]['comms']['name']}
+  {affiliate_comms_title = affiliates[affiliate_code]['signatures'][2]['comms']['title']}
+  {affiliate_comms_pronouns = affiliates[affiliate_code]['signatures'][2]['comms']['pronouns']}
+  {affiliate_comms_headshot = affiliates[affiliate_code]['signatures'][2]['comms']['headshot']}
+
+  {affiliate_dev_name = affiliates[affiliate_code]['signatures'][3]['dev']['name']}
+  {affiliate_dev_title = affiliates[affiliate_code]['signatures'][3]['dev']['title']}
+  {affiliate_dev_pronouns = affiliates[affiliate_code]['signatures'][3]['dev']['pronouns']}
+  {affiliate_dev_headshot = affiliates[affiliate_code]['signatures'][3]['dev']['headshot']}
+
+  {affiliate_legal_name = affiliates[affiliate_code]['signatures'][4]['legal']['name']}
+  {affiliate_legal_title = affiliates[affiliate_code]['signatures'][4]['legal']['title']}
+  {affiliate_legal_pronouns = affiliates[affiliate_code]['signatures'][4]['legal']['pronouns']}
+  {affiliate_legal_headshot = affiliates[affiliate_code]['signatures'][4]['legal']['headshot']}
+
+  {affiliate_custom1_name = affiliates[affiliate_code]['signatures'][5]['custom1']['name']}
+  {affiliate_custom1_title = affiliates[affiliate_code]['signatures'][5]['custom1']['title']}
+  {affiliate_custom1_pronouns = affiliates[affiliate_code]['signatures'][5]['custom1']['pronouns']}
+  {affiliate_custom1_headshot = affiliates[affiliate_code]['signatures'][5]['custom1']['headshot']}
+
+  {affiliate_custom2_name = affiliates[affiliate_code]['signatures'][6]['custom2']['name']}
+  {affiliate_custom2_title = affiliates[affiliate_code]['signatures'][6]['custom2']['title']}
+  {affiliate_custom2_pronouns = affiliates[affiliate_code]['signatures'][6]['custom2']['pronouns']}
+  {affiliate_custom2_headshot = affiliates[affiliate_code]['signatures'][6]['custom2']['headshot']}
+
+  {affiliate_custom3_name = affiliates[affiliate_code]['signatures'][7]['custom3']['name']}
+  {affiliate_custom3_title = affiliates[affiliate_code]['signatures'][7]['custom3']['title']}
+  {affiliate_custom3_pronouns = affiliates[affiliate_code]['signatures'][7]['custom3']['pronouns']}
+  {affiliate_custom3_headshot = affiliates[affiliate_code]['signatures'][7]['custom3']['headshot']}
+
+  {tracking = "<!-- AFFILIATE TRACKING CODE --><style data-ignore-inlining>@media (prefers-color-scheme: dark) { #_t::before {content:url('https://ya391agi.emltrk.com/v2/ya391agi?rd&i={email_id}&t={blast_id}');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://ya391agi.emltrk.com/v2/ya391agi?rl&i={email_id}&t={blast_id}');}} @media print{ #_t {background-image:url('https://ya391agi.emltrk.com/v2/ya391agi?p&i={email_id}&t={blast_id}');}} div.OutlookMessageHeader {background-image:url('https://ya391agi.emltrk.com/v2/ya391agi?f&i={email_id}&t={blast_id}')} table.moz-email-headers-table {background-image:url('https://ya391agi.emltrk.com/v2/ya391agi?f&i={email_id}&t={blast_id}')} blockquote #_t {background-image:url('https://ya391agi.emltrk.com/v2/ya391agi?f&i={email_id}&t={blast_id}')} #MailContainerBody #_t {background-image:url('https://ya391agi.emltrk.com/v2/ya391agi?f&i={email_id}&t={blast_id}')}</style><div id=\"_t\"></div><img src=\"https://ya391agi.emltrk.com/v2/ya391agi?i={email_id}&t={blast_id}\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />"}
