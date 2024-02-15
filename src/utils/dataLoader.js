@@ -23,4 +23,4 @@ fs.writeFile(minifiedDistPath, minifiedJsonString + variables, (err) => {
 	console.log("Minified data written to file");
 });
 
-console.log(data);
+// console.log(data);
