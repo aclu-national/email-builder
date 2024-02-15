@@ -1,10 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 const nat = require("../_data/affiliations/nat");
+const ak = require("../_data/affiliations/ak");
 const dc = require("../_data/affiliations/dc");
 const variables = require("./variables");
 
 const combinedData = {
+	ak,
 	dc,
 	nat,
 };
