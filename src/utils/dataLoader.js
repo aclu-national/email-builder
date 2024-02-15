@@ -3,12 +3,16 @@ const path = require("path");
 const nat = require("../_data/affiliations/nat");
 const ak = require("../_data/affiliations/ak");
 const al = require("../_data/affiliations/al");
+const ar = require("../_data/affiliations/ar");
+const az = require("../_data/affiliations/az");
 const dc = require("../_data/affiliations/dc");
 const variables = require("./variables");
 
 const combinedData = {
-	al,
 	ak,
+	al,
+	ar,
+	az,
 	dc,
 	nat,
 };
