@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/aclu-national/email-builder/compare/v1.7.1...v1.7.2) (2024-02-15)
+
+
+### Bug Fixes
+
+* **data:** combine data into a file that does it automagically ([3bd49b1](https://github.com/aclu-national/email-builder/commit/3bd49b17cb529b47e892075adba7d0286f1edca5))
+
 ## [1.7.1](https://github.com/aclu-national/email-builder/compare/v1.7.0...v1.7.1) (2024-02-15)
 
 
