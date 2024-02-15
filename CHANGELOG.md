@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.7.0](https://github.com/aclu-national/email-builder/compare/v1.6.0...v1.7.0) (2024-02-15)
+
+
+### Features
+
+* **data:** add arkansas and arizona ([#52](https://github.com/aclu-national/email-builder/issues/52)) ([f79dd9e](https://github.com/aclu-national/email-builder/commit/f79dd9ead09d6ca328aaf2de7c17635e09b8ef16))
+
 # [1.6.0](https://github.com/aclu-national/email-builder/compare/v1.5.0...v1.6.0) (2024-02-15)
 
 
