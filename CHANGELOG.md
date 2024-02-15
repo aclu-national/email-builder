@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/aclu-national/email-builder/compare/v1.7.0...v1.7.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* **config:** release assets ([ed50459](https://github.com/aclu-national/email-builder/commit/ed50459fd00aa6d595387a8849c9fca1149c9caa))
+
 # [1.7.0](https://github.com/aclu-national/email-builder/compare/v1.6.0...v1.7.0) (2024-02-15)
 
 
