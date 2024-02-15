@@ -20,25 +20,25 @@ const data = {
 		},
 		{
 			advo: {
-				title: "Political Director",
-				name: "Ronald Newman",
-				pronouns: "He, him, his",
-				headshot: "https://media.sailthru.com/64d/1k3/a/o/5db2052e87d81.jpg",
+				title: "Chief Political and Advocacy Officer",
+				name: "Deirdre Schifeling",
+				pronouns: "She, her, hers",
+				headshot: "",
 			},
 		},
 		{
 			comms: {
-				title: "Chief Communications Officer",
-				name: "Rebecca Lowell Edwards",
+				title: "Chief Communications and Marketing Officer",
+				name: "Kriston Alford McIntosh",
 				pronouns: "She, her, hers",
 				headshot: "",
 			},
 		},
 		{
 			dev: {
-				title: "Director of Development",
-				name: "Liz FitzGerald",
-				pronouns: "She, her, hers",
+				title: "Chief Development Officer",
+				name: "Mark Wier",
+				pronouns: "He, him, his",
 				headshot: "",
 			},
 		},
@@ -52,17 +52,17 @@ const data = {
 		},
 		{
 			custom1: {
-				title: "Affiliate Digital Campaigns Manager",
-				name: "Pavel Sanchez",
-				pronouns: "He, him, his",
+				title: "Director of Development",
+				name: "Liz FitzGerald",
+				pronouns: "She, her, hers",
 				headshot: "",
 			},
 		},
 		{
 			custom2: {
-				title: "Director of Digital Campaigns",
-				name: "Joe Coakley",
-				pronouns: "He, him, his",
+				title: "",
+				name: "",
+				pronouns: "",
 				headshot: "",
 			},
 		},
