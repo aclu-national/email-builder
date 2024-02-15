@@ -1,2 +1,2 @@
 # Ignore artifacts:
-# src
+dist/data/dataLoader.min.json

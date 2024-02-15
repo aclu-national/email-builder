@@ -22,7 +22,7 @@
 		"lint": "npm run pa11y",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
-		"build": "cross-env ELEVENTY_ENV=prod eleventy"
+		"build": "cross-env ELEVENTY_ENV=prod eleventy && node src/utils/dataLoader.js"
 	},
 	"config": {
 		"commitizen": {
