@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.6.0](https://github.com/aclu-national/email-builder/compare/v1.5.0...v1.6.0) (2024-02-15)
+
+
+### Features
+
+* **data:** add alabama ([cbd2383](https://github.com/aclu-national/email-builder/commit/cbd23831e33ccd7d456cd5e1075cd37673944a22))
+
 # [1.5.0](https://github.com/aclu-national/email-builder/compare/v1.4.7...v1.5.0) (2024-02-15)
 
 
