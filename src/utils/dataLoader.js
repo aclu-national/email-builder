@@ -1,21 +1,23 @@
 const fs = require("fs");
 const path = require("path");
-const nat = require("../_data/affiliations/nat");
-const ak = require("../_data/affiliations/ak");
-const al = require("../_data/affiliations/al");
-const ar = require("../_data/affiliations/ar");
-const az = require("../_data/affiliations/az");
-const dc = require("../_data/affiliations/dc");
+const combinedData = require("../_data/combineAffiliations");
 const variables = require("./variables");
 
-const combinedData = {
-	ak,
-	al,
-	ar,
-	az,
-	dc,
-	nat,
-};
+// const nat = require("../_data/affiliations/nat");
+// const ak = require("../_data/affiliations/ak");
+// const al = require("../_data/affiliations/al");
+// const ar = require("../_data/affiliations/ar");
+// const az = require("../_data/affiliations/az");
+// const dc = require("../_data/affiliations/dc");
+
+// const combinedData = {
+// 	ak,
+// 	al,
+// 	ar,
+// 	az,
+// 	dc,
+// 	nat,
+// };
 
 const minifiedJsonString = "{data = " + JSON.stringify(combinedData) + "}";
 
