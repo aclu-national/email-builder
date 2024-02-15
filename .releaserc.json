@@ -13,7 +13,7 @@
 		[
 			"@semantic-release/github",
 			{
-				"assets": [{ "path": "dist/templates/**/*" }, { "path": "dist/data/**/*" }]
+				"assets": [{ "path": "dist/templates/base/*" }, { "path": "dist/templates/newsletters/*" }, { "path": "dist/data/*" }]
 			}
 		],
 		[
