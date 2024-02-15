@@ -1,5 +1,19 @@
 # Changelog
 
+# [1.5.0](https://github.com/aclu-national/email-builder/compare/v1.4.7...v1.5.0) (2024-02-15)
+
+
+### Bug Fixes
+
+* **data:** update current staff ([35db534](https://github.com/aclu-national/email-builder/commit/35db5342298250676882959b33277b41baccde1a))
+* release directory build ([#49](https://github.com/aclu-national/email-builder/issues/49)) ([5f53c86](https://github.com/aclu-national/email-builder/commit/5f53c86c31c8b266a339a3490910c5be1f2654f1))
+
+
+### Features
+
+* **data:** add alaska ([#51](https://github.com/aclu-national/email-builder/issues/51)) ([f5416cc](https://github.com/aclu-national/email-builder/commit/f5416cc397aa6cc83a1a7ed71d62cf1bdfd60a2d))
+* **data:** dataLoader ([#50](https://github.com/aclu-national/email-builder/issues/50)) ([d76170a](https://github.com/aclu-national/email-builder/commit/d76170aca6b048f42f5d3348cbd0b3ada91843a5))
+
 # [1.5.0-beta.1](https://github.com/aclu-national/email-builder/compare/v1.4.7...v1.5.0-beta.1) (2024-02-13)
 
 
