@@ -5,6 +5,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("newsletter", "layouts/newsletter.njk");
 	eleventyConfig.addLayoutAlias("component", "layouts/component.njk");
 
+	eleventyConfig.addPassthroughCopy({ "static/favicon.ico": "/favicon.ico" });
+
 	return {
 		htmlTemplateEngine: "njk",
 		templateFormats: ["html", "njk", "md"],
