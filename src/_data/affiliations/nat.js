@@ -9,72 +9,56 @@ const data = {
 	logo_width: "150",
 	twitter_url: "https://twitter.com/aclu",
 	website_url: "https://www.aclu.org/",
-	signatures: [
-		{
-			ed: {
-				title: "Executive Director",
-				name: "Anthony Romero",
-				pronouns: "He, him, his",
-				headshot: "https://media.sailthru.com/64d/1k3/a/o/5db2043ae79b8.jpg",
-			},
+	signatures: {
+		ed: {
+			title: "Executive Director",
+			name: "Anthony Romero",
+			pronouns: "He, him, his",
+			headshot: "https://media.sailthru.com/64d/1k3/a/o/5db2043ae79b8.jpg",
 		},
-		{
-			advo: {
-				title: "Chief Political and Advocacy Officer",
-				name: "Deirdre Schifeling",
-				pronouns: "She, her, hers",
-				headshot: "",
-			},
+		advo: {
+			title: "Chief Political and Advocacy Officer",
+			name: "Deirdre Schifeling",
+			pronouns: "She, her, hers",
+			headshot: "",
 		},
-		{
-			comms: {
-				title: "Chief Communications and Marketing Officer",
-				name: "Kriston Alford McIntosh",
-				pronouns: "She, her, hers",
-				headshot: "",
-			},
+		comms: {
+			title: "Chief Communications and Marketing Officer",
+			name: "Kriston Alford McIntosh",
+			pronouns: "She, her, hers",
+			headshot: "",
 		},
-		{
-			dev: {
-				title: "Chief Development Officer",
-				name: "Mark Wier",
-				pronouns: "He, him, his",
-				headshot: "",
-			},
+		dev: {
+			title: "Chief Development Officer",
+			name: "Mark Wier",
+			pronouns: "He, him, his",
+			headshot: "",
 		},
-		{
-			legal: {
-				title: "Legal Director",
-				name: "David Cole",
-				pronouns: "",
-				headshot: "https://media.sailthru.com/64d/1k3/a/o/5db2048b5dfce.jpg",
-			},
+		legal: {
+			title: "Legal Director",
+			name: "David Cole",
+			pronouns: "",
+			headshot: "https://media.sailthru.com/64d/1k3/a/o/5db2048b5dfce.jpg",
 		},
-		{
-			custom1: {
-				title: "Director of Development",
-				name: "Liz FitzGerald",
-				pronouns: "She, her, hers",
-				headshot: "",
-			},
+		custom1: {
+			title: "Director of Development",
+			name: "Liz FitzGerald",
+			pronouns: "She, her, hers",
+			headshot: "",
 		},
-		{
-			custom2: {
-				title: "",
-				name: "",
-				pronouns: "",
-				headshot: "",
-			},
+		custom2: {
+			title: "",
+			name: "",
+			pronouns: "",
+			headshot: "",
 		},
-		{
-			custom3: {
-				title: "",
-				name: "",
-				pronouns: "",
-				headshot: "",
-			},
+		custom3: {
+			title: "",
+			name: "",
+			pronouns: "",
+			headshot: "",
 		},
-	],
+	},
 };
 
 module.exports = data;
