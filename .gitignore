@@ -2,6 +2,7 @@
 node_modules/
 .vscode/settings.json
 src/_data/affiliations/xx.js
+src/test/xx.test.js
 
 # build artifacts
 build/
