@@ -29,7 +29,7 @@ const types = [
 	},
 ];
 
-const scopes = ["components", "config", "data", "deps", "layout", "media", "partials", "styles", "templates", "utils"].map((name) => ({
+const scopes = ["components", "config", "data", "deps", "layout", "media", "partials", "styles", "templates", "test", "utils"].map((name) => ({
 	name,
 }));
 
