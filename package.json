@@ -1,6 +1,6 @@
 {
 	"name": "@aclu-national/email-builder",
-	"version": "1.7.2",
+	"version": "1.7.9",
 	"description": "Using 11ty to generate HTML emails",
 	"main": "dist/",
 	"author": "ACLU",
@@ -22,10 +22,10 @@
 		"lint": "npm run pa11y",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
-		"new": "node src/utils/addNewAffiliation.js",
-		"update": "node src/utils/updateAffiliation.mjs",
 		"test": "jest --verbose",
-		"build": "cross-env ELEVENTY_ENV=prod eleventy && node src/utils/createDataLoader.js"
+		"qa": "npm-run-all clean --parallel lint test",
+		"cli": "node --no-warnings src/utils/cli.js",
+		"build": "cross-env npm run clean && ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
 		"commitizen": {
