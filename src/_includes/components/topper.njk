@@ -6,13 +6,13 @@
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc</p>
 
-				<p><a href="{% if config.environment === 'dev' %}{{affiliates.can.website}}{% elif config.environment === 'prod' %}{affiliates_website}{% endif %}">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, architecto!</a></p>
+				<p><a href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, architecto!</a></p>
 
 				<p>Suspendisse vulputate, risus a elementum accumsan, odio orci cursus est, at sollicitudin enim justo et lorem.</p>
 
 				<p>Thank you,</p>
 
-				<p><strong>{% if config.environment === 'prod' %}{affiliate_name}{% else  %}{{affiliates.can.name}}{% endif %}</strong></p>
+				<p><strong>{% if config.environment === 'prod' %}{affiliate_name}{% else  %}{{dataLoader.nat.affiliation_name}}{% endif %}</strong></p>
 			</td>
 		</tr>
 	</tbody>
