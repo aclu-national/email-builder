@@ -1,31 +1,31 @@
 {
-	"elementMargin": "20px",
-	"logoWidth": "150",
-	"padding": "15px 0px 20px 0px",
-	"width": "600px",
 	"colors": {
+		"black": "#3c3532",
+		"gray": "#888888",
 		"primary": "#0055aa",
 		"secondary": "#ef404d",
-		"white": "#cecece",
-		"black": "#3c3532",
-		"gray": "#888888"
+		"white": "#cecece"
 	},
+	"dark": {
+		"altBox": "#2a2a2b !important",
+		"background": "#1c1c1e",
+		"borderBottom": "1px solid #2a2a2b !important",
+		"color": "#cecece",
+		"link": "#2d86e0"
+	},
+	"elementMargin": "20px",
 	"light": {
 		"background": "#ffffff",
 		"borderBottom": "1px solid #d4d4d4",
 		"color": "#3c3532",
 		"link": "#0055aa"
 	},
-	"dark": {
-		"background": "#1c1c1e",
-		"borderBottom": "1px solid #2a2a2b !important",
-		"color": "#cecece",
-		"link": "#2d86e0",
-		"altBox": "#2a2a2b !important"
-	},
+	"logoWidth": "150",
+	"padding": "15px 0px 20px 0px",
 	"text": {
-		"fontSize": "16px",
 		"fontFamily": "Arial,'Helvetica Neue',sans-serif",
+		"fontSize": "16px",
 		"lineHeight": "22px"
-	}
+	},
+	"width": "600px"
 }
