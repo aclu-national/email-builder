@@ -20,24 +20,7 @@
 			</tr>
 			<tr>
 				<td class="dm-box" style="color:{{theme.colors.black}};font-family: {{theme.text.fontFamily}};font-size:{{theme.text.fontSize}};line-height:22px;padding:0px 25px 15px 25px;background-color:#f2f2f2;text-align:center;">
-					<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
-					<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center" style="margin: 20px 0 20px 0;">
-								<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center" bgcolor="{{theme.colors.primary}}">
-											<a class="button-text" href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.website_url}}{% endif %}" style="font-family: Arial, sans-serif; color: {{theme.colors.white}}; padding: 12px 18px; border: 1px solid {{theme.colors.primary}}; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-					<br />
-					{%- if disclaimer %}
-						<p style="font-size:14px;margin-top:15px;"><em>Please note: This link will take you to a third-party website, {{disclaimer}}.</em></p>
-					{% endif -%}
+					{% include "components/button.njk" %}
 				</td>
 			</tr>
 		</tbody>
