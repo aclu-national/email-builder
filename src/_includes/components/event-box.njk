@@ -27,7 +27,7 @@
 								<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td align="center" bgcolor="{{theme.colors.primary}}">
-											<a class="button-text" href="{% if config.environment === 'prod' %}{affiliates_website}{% else %}{{affiliates.can.website}}{% endif %}" style="font-family: Arial, sans-serif; color: {{theme.colors.white}}; padding: 12px 18px; border: 1px solid {{theme.colors.primary}}; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
+											<a class="button-text" href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.website_url}}{% endif %}" style="font-family: Arial, sans-serif; color: {{theme.colors.white}}; padding: 12px 18px; border: 1px solid {{theme.colors.primary}}; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
 										</td>
 									</tr>
 								</table>
