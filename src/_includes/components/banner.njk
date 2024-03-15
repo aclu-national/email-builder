@@ -9,7 +9,7 @@
 					</tr>
 					<!-- REMOVE <tr> BELOW TO ONLY SHOW IMAGE -->
 					<tr>
-						<td style="text-align:center;background-color: {{theme.colors.primary}};font-family: {{theme.text.fontFamily}};color:{{theme.colors.white}};font-size:18px;padding:10px;text-transform:uppercase;"><a role="button" href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}" style="color: {{theme.colors.white}};font-size:20px;text-decoration: none;text-transform: uppercase;font-weight:900;">{{buttonText}}</a></td>
+						<td style="text-align:center;background-color: {{btnColor}};font-family: {{theme.text.fontFamily}};color:{{theme.colors.white}};font-size:18px;padding:10px;text-transform:uppercase;"><a role="button" href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}" style="color: {{theme.colors.white}};font-size:20px;text-decoration: none;text-transform: uppercase;font-weight:900;">{{btnText}}</a></td>
 					</tr>
 					<!-- REMOVE <tr> BELOW TO ONLY SHOW IMAGE -->
 				</tbody>
