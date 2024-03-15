@@ -25,7 +25,7 @@
 		"test": "jest --verbose",
 		"qa": "npm-run-all clean --parallel lint test",
 		"cli": "node --no-warnings src/utils/cli.js",
-		"build": "cross-env npm run clean && ELEVENTY_ENV=prod eleventy"
+		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
 		"commitizen": {
