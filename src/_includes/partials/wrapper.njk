@@ -6,13 +6,7 @@
 	<tbody>
 		{% include "partials/logo.njk" %}
 		<tr>
-			<td class="emailbodytext" style="
-			color: {{theme.light.color}};
-			font-family: {{theme.text.fontFamily}};
-			font-size: {{theme.text.fontSize}};
-			line-height: {{theme.text.lineHeight}};
-			padding: {{theme.padding}};
-			border-bottom: {{theme.light.borderBottom}};" valign="top">
+			<td class="emailbodytext" style="color: {{theme.light.color}};font-family: {{theme.text.fontFamily}};font-size: {{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};padding: {{theme.padding}};border-bottom: {{theme.light.borderBottom}};" valign="top">
 				{{ content | safe }}
 
 				{% include "components/signature.njk" %}

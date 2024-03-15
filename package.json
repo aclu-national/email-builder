@@ -36,14 +36,13 @@
 		}
 	},
 	"husky": {
-		"hooks": {
+    "hooks": {
 			"pre-commit": "lint-staged",
-			"pre-commit-msg": "exec < /dev/tty && /node_modules/.bin/cz --hook || true"
-		}
+			"commit-msg": "exec < /dev/tty && ./node_modules/.bin/cz --hook || true"
+    }
 	},
 	"lint-staged": {
-		"*.{html,md}": "npm run lint",
-		"*.{html,md,json,yml}": "npm run format"
+    "*.{html,md,json,js}": "npm run format"
 	},
 	"keywords": [
 		"eleventy",
