@@ -1,6 +1,6 @@
 {
 	"name": "@aclu-national/email-builder",
-	"version": "1.7.9",
+	"version": "1.8.0",
 	"description": "Using 11ty to generate HTML emails",
 	"main": "dist/",
 	"author": "ACLU",
@@ -27,8 +27,7 @@
 		"cli": "node --no-warnings src/utils/cli.js",
 		"new": "node src/utils/addNewAffiliation.js",
 		"combine": "node src/utils/combineAffiliation.js",
-		"update": "node src/utils/updateAffiliation.mjs",
-		"build": "cross-env npm run clean && ELEVENTY_ENV=prod eleventy"
+		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
 		"commitizen": {
@@ -41,12 +40,11 @@
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged",
-			"pre-commit-msg": "exec < /dev/tty && /node_modules/.bin/cz --hook || true"
+			"commit-msg": "exec < /dev/tty && ./node_modules/.bin/cz --hook || true"
 		}
 	},
 	"lint-staged": {
-		"*.{html,md}": "npm run lint",
-		"*.{html,md,json,yml}": "npm run format"
+		"*.{html,md,json,js}": "npm run format"
 	},
 	"keywords": [
 		"eleventy",

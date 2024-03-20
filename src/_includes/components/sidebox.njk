@@ -10,30 +10,12 @@
 						<h2 style="font-weight:900;font-size:{{theme.text.fontSize}};line-height:23px;text-transform:uppercase;">Lorem ipsum dolor sit amet.</h2>
 						<!-- END HEADLINE -->
 						<!-- START IMAGE-->
-						<p style="margin:0px 0 15px 0;font-weight:400;line-height:1.4em;"><a href="{% if config.environment === 'prod' %}{affiliates_website}{% else  %}{{affiliates.can.website}}{% endif %}"><img src="https://media.sailthru.com/64p/1k3/9/r/5d8e778dd2054.jpg" alt="Lady Liberty." width="230" border="0" style="outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" class="image-resize" /></a></p>
+						<p style="margin:0px 0 15px 0;font-weight:400;line-height:1.4em;"><a href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.website_url}}{% endif %}"><img src="https://media.sailthru.com/64p/1k3/9/r/5d8e778dd2054.jpg" alt="Lady Liberty." width="230" border="0" style="outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" class="image-resize" /></a></p>
 						<!-- END IMAGE-->
 						<!-- START CTA TEXT -->
 						<p style="margin:10px 0 15px 0;line-height:21px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quisquam.</p>
 						<!-- END CTA TEXT -->
-						<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
-						<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
-							<tr>
-								<td align="center" style="margin: 20px 0 20px 0;">
-									<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td align="center" bgcolor="#ef404d">
-												<a role="button" class="button-text" href="{% if config.environment === 'prod' %}{affiliates_website}{% else  %}{{affiliates.can.website}}{% endif %}" style="font-family: Arial, sans-serif; color: {{theme.colors.white}}; padding: 12px 18px; border: 1px solid #ef404d; display: inline-block;font-size:18px;font-weight:900;text-align:center;text-decoration:none;text-transform: uppercase;">{{buttonText}}</a>
-											</td>
-										</tr>
-									</table>
-									{%- if disclaimer %}
-										<p style="font-size:14px;margin-top:15px;"><em>Please note: This link will take you to a third-party website, {{disclaimer}}.</em></p>
-									{% endif -%}
-								</td>
-							</tr>
-						</table>
-						<br />
-						<!-- END CTA BUTTON -->
+						{% include "components/button.njk" %}
 					</td>
 				</tr>
 			</table>

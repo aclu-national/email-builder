@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.8.0](https://github.com/aclu-national/email-builder/compare/v1.7.2...v1.8.0) (2024-03-20)
+
+
+### Features
+
+* **templates:** consolidation ([#55](https://github.com/aclu-national/email-builder/issues/55)) ([aca9dcb](https://github.com/aclu-national/email-builder/commit/aca9dcb5b0c8725bd00ae12be5f5bc3d019797f3))
+
 ## [1.7.2](https://github.com/aclu-national/email-builder/compare/v1.7.1...v1.7.2) (2024-02-15)
 
 
