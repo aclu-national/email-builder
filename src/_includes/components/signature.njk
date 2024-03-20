@@ -1,10 +1,10 @@
 {%- if config.environment === 'prod' -%}
-{signature = 'ed'}{include "affiliate_signatures"}
+{signature = 'ed'}{include "signatures"}
 {%- else -%}
-	<p><img src="{{affiliates.can.signatures[0].ed.headshot}}" alt="{{affiliates.can.signatures[0].ed.name}}" border="0" width="90" /></p>
-	<p><strong>{{affiliates.can.signatures[0].ed.name}}<br />
-	{{affiliates.can.signatures[0].ed.title}}<br />
-	Pronouns: {{affiliates.can.signatures[0].ed.pronouns}}<br />
-	{{affiliates.can.name}}</strong></p>
+	<p><img src="{{dataLoader.nat.signatures.ed.headshot}}" alt="{{dataLoader.nat.signatures.ed.name}}" border="0" width="90" /></p>
+
+	<p><strong>{{dataLoader.nat.signatures.ed.name}}<br />
+	Pronouns: {{dataLoader.nat.signatures.ed.pronouns}}<br />
+	{{dataLoader.nat.signatures.ed.title}}, {{dataLoader.nat.affiliation_name}}</strong></p>
 {%- endif -%}
 

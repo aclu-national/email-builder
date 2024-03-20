@@ -4,10 +4,15 @@
 		{% include "partials/head.njk" %}
 	</head>
 	<body>
+		{% if config.environment === 'prod' %}
+			{include "dataLoader"}
+		{% endif %}
+
+		{include "dataLoader"}
 		{% include "partials/wrapper.njk" %}
 
 		{% if config.environment === 'prod' %}
-			{include "affiliate-footer"}
+			{include "default-footer"}
 		{% else %}
 			{% include "partials/footer.njk" %}
 		{% endif %}
