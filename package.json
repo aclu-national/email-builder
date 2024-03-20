@@ -25,6 +25,9 @@
 		"test": "jest --verbose",
 		"qa": "npm-run-all clean --parallel lint test",
 		"cli": "node --no-warnings src/utils/cli.js",
+		"new": "node src/utils/addNewAffiliation.js",
+		"combine": "node src/utils/combineAffiliation.js",
+		"update": "node src/utils/updateAffiliation.mjs",
 		"build": "cross-env npm run clean && ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
