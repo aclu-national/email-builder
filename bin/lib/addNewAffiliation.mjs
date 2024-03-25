@@ -1,25 +1,28 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path, { dirname } from "path";
+import { fileURLToPath } from "url";
 
-const names = process.argv[2];
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-if (!names) {
-	console.error("Names are required");
-	process.exit(1);
-}
+function addNewAffiliation(names) {
+	if (!names) {
+		console.error("Names are required");
+		return;
+	}
 
-const dirPath = path.join(__dirname, "../../src/_data/affiliations");
+	const dirPath = path.join(__dirname, "../../src/_data/affiliations");
 
-if (!fs.existsSync(dirPath)) {
-	fs.mkdirSync(dirPath, { recursive: true });
-}
+	if (!fs.existsSync(dirPath)) {
+		fs.mkdirSync(dirPath, { recursive: true });
+	}
 
-const namesArray = names.includes(",") ? names.split(",") : [names];
+	const namesArray = names.includes(",") ? names.split(",") : [names];
 
-namesArray.forEach((name) => {
-	const filePath = path.join(dirPath, `${name}.js`);
+	namesArray.forEach((name) => {
+		const filePath = path.join(dirPath, `${name}.js`);
 
-	const template = `const data = {
+		const template = `const data = {
 	address1: "",
 	address2: "",
 	affiliation_name: "",
@@ -85,11 +88,14 @@ namesArray.forEach((name) => {
 module.exports = data;
 `;
 
-	fs.writeFile(filePath, template, (err) => {
-		if (err) {
-			console.error(`Error creating file: ${err}`);
-		} else {
-			console.log(`Created new affiliation file at ${filePath}`);
-		}
+		fs.writeFile(filePath, template, (err) => {
+			if (err) {
+				console.error(`Error creating file: ${err}`);
+			} else {
+				console.log(`Created new affiliation file at ${filePath}`);
+			}
+		});
 	});
-});
+}
+
+export default addNewAffiliation;
