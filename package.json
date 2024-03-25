@@ -1,32 +1,38 @@
 {
 	"name": "@aclu-national/email-builder",
 	"version": "1.8.0",
-	"description": "Using 11ty to generate HTML emails",
+	"description": "Using 11ty to generate ACLU HTML email templates.",
 	"main": "dist/",
 	"author": "ACLU",
+	"license": "MIT",
+	"private": true,
 	"contributors": [
 		"Pavel Sanchez",
 		"Brennan Taylor",
 		"Stephen Demo",
 		"Ashley Burrous"
 	],
-	"license": "MIT",
-	"private": true,
+	"keywords": [
+		"eleventy",
+		"HTML",
+		"email"
+	],
+	"bin": {
+		"email-builder": "./bin/cli.mjs",
+		"aclu-email-script": "./bin/cli.mjs",
+		"aes": "./bin/cli.mjs"
+	},
 	"scripts": {
-		"start": "npm-run-all clean --parallel dev format",
+		"start": "npm run dev",
 		"dev": "eleventy --serve",
 		"web": "eleventy",
 		"clean": "rimraf dist/",
 		"pa11y": "pa11y ./dist",
-		"spellcheck": "npx cspell dist/**",
 		"lint": "npm run pa11y",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
 		"test": "jest --verbose",
 		"qa": "npm-run-all clean --parallel lint test",
-		"cli": "node --no-warnings src/utils/cli.js",
-		"new": "node src/utils/addNewAffiliation.js",
-		"combine": "node src/utils/combineAffiliation.js",
 		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy"
 	},
 	"config": {
@@ -46,11 +52,9 @@
 	"lint-staged": {
 		"*.{html,md,json,js}": "npm run format"
 	},
-	"keywords": [
-		"eleventy",
-		"HTML",
-		"email"
-	],
+	"engines": {
+		"node": ">=18"
+	},
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@semantic-release/changelog": "^6.0.3",
