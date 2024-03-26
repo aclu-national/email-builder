@@ -5,6 +5,7 @@ import addNewAffiliation from "./lib/addNewAffiliation.mjs";
 import saveLocalData from "./lib/saveLocalData.mjs";
 import createDataLoader from "./lib/createDataLoader.mjs";
 import updateAffiliation from "./lib/updateAffiliation.mjs";
+import addNewSignature from "./lib/addNewSignature.mjs";
 
 program
 	.command("add [name]")
@@ -35,5 +36,10 @@ program
 		};
 		updateAffiliation(options);
 	});
+
+program
+	.command("signature [name]")
+	.description("Create data loader")
+	.action((name) => addNewSignature(name));
 
 program.parse(process.argv);
