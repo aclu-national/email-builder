@@ -4,8 +4,7 @@ import { program } from "commander";
 import addNewAffiliation from "./lib/addNewAffiliation.mjs";
 import saveLocalData from "./lib/saveLocalData.mjs";
 import createDataLoader from "./lib/createDataLoader.mjs";
-// import updateAffiliation from "./updateAffiliation.ts";
-// import template from "./outputVariables.ts";
+import updateAffiliation from "./lib/updateAffiliation.mjs";
 
 program
 	.command("add [name]")
@@ -22,17 +21,13 @@ program
 	.description("Create data loader")
 	.action(() => createDataLoader());
 
-// program
-// 	.command("print-template")
-// 	.description("Print the template")
-// 	.action(() => {
-// 		console.log(template);
-// 		process.exit(0);
-// 	});
-
-// program
-// 	.command("update <affiliation> <key> <value>")
-// 	.description("Update an affiliation")
-// 	.action((affiliation, key, value) => updateAffiliation(affiliation, key, value));
+program
+	.command("update")
+	.option("-a, --affiliation <type>", "affiliation name")
+	.option("-k, --key <type>", "key to replace")
+	.option("-v, --value <type>", "new value")
+	.action((options) => {
+		updateAffiliation(options);
+	});
 
 program.parse(process.argv);
