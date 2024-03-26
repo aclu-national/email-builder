@@ -3,7 +3,7 @@
 import { program } from "commander";
 import addNewAffiliation from "./lib/addNewAffiliation.mjs";
 import saveLocalData from "./lib/saveLocalData.mjs";
-// import createDataLoader from "./lib/createDataLoader.mjs";
+import createDataLoader from "./lib/createDataLoader.mjs";
 // import updateAffiliation from "./updateAffiliation.ts";
 // import template from "./outputVariables.ts";
 
@@ -17,10 +17,10 @@ program
 	.description("Create combine json data file")
 	.action((name) => saveLocalData(name));
 
-// program
-// 	.command("create")
-// 	.description("Create data loader")
-// 	.action(() => createDataLoader());
+program
+	.command("create")
+	.description("Create data loader")
+	.action(() => createDataLoader());
 
 // program
 // 	.command("print-template")
