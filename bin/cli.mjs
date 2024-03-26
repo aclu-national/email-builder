@@ -22,11 +22,17 @@ program
 	.action(() => createDataLoader());
 
 program
-	.command("update")
+	.command("update [options...]")
+	.description("Update the value for a key")
 	.option("-a, --affiliation <type>", "affiliation name")
 	.option("-k, --key <type>", "key to replace")
 	.option("-v, --value <type>", "new value")
-	.action((options) => {
+	.action((optionsArgs, cmdObj) => {
+		const options = {
+			affiliation: cmdObj.affiliation,
+			key: cmdObj.key,
+			value: cmdObj.value,
+		};
 		updateAffiliation(options);
 	});
 

@@ -7,9 +7,10 @@ import inquirer from "inquirer";
 import util from "util";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const affiliationsDir = path.join(__dirname, "../../src/_data/affiliations");
 
 function updateFile(affiliation, key, value) {
-	const filePath = path.join(__dirname, "../../src/_data/affiliations", `${affiliation}.js`);
+	const filePath = path.join(affiliationsDir, `${affiliation}.js`);
 
 	import(filePath).then((content) => {
 		const keys = key.split(".");
@@ -38,24 +39,25 @@ function updateFile(affiliation, key, value) {
 	});
 }
 
-export default function updateAffiliation(options) {
-	if (options && options.affiliation && options.key && options.value) {
-		updateFile(options.affiliation, options.key, options.value);
-		return;
-	}
+export default function updateAffiliation(options = {}) {
+	const files = fs.readdirSync(affiliationsDir);
+	const affiliations = files.map((file) => path.basename(file, ".js"));
 
 	inquirer
 		.prompt([
 			{
-				type: "input",
+				type: "list",
 				name: "affiliation",
-				message: "Enter the name of the affiliation to update:",
+				message: "Select the affiliation to update:",
+				choices: affiliations,
+				default: options.affiliation,
+				when: () => !options.affiliation,
 			},
 		])
 		.then((answers) => {
-			const filePath = path.join(__dirname, "../../src/_data/affiliations", `${answers.affiliation}.js`);
+			const affiliation = options.affiliation || answers.affiliation;
+			const filePath = path.join(affiliationsDir, `${affiliation}.js`);
 			import(filePath).then((content) => {
-				// Get the keys
 				const keys = Object.keys(content.default);
 
 				inquirer
@@ -65,11 +67,22 @@ export default function updateAffiliation(options) {
 							name: "key",
 							message: "Select the key to replace:",
 							choices: keys,
+							default: options.key,
+							when: () => !options.key,
+						},
+						{
+							type: "input",
+							name: "value",
+							message: "Enter the new value:",
+							default: options.value,
+							when: () => !options.value,
 						},
 					])
 					.then((answers2) => {
-						if (answers2.key === "signatures") {
-							// If the selected key is 'signatures', prompt the user to select a key from the 'signatures' object
+						const key = options.key || answers2.key;
+						const value = options.value || answers2.value;
+
+						if (key === "signatures") {
 							const signatureKeys = content.default.signatures.flatMap((obj) => Object.keys(obj));
 							inquirer
 								.prompt([
@@ -97,21 +110,11 @@ export default function updateAffiliation(options) {
 											},
 										])
 										.then((answers4) => {
-											updateFile(answers.affiliation, `signatures.${answers3.signatureKey}.${answers4.signatureProperty}`, answers4.value);
+											updateFile(affiliation, `signatures.${answers3.signatureKey}.${answers4.signatureProperty}`, answers4.value);
 										});
 								});
 						} else {
-							inquirer
-								.prompt([
-									{
-										type: "input",
-										name: "value",
-										message: "Enter the new value:",
-									},
-								])
-								.then((answers3) => {
-									updateFile(answers.affiliation, answers2.key, answers3.value);
-								});
+							updateFile(affiliation, key, value);
 						}
 					});
 			});
