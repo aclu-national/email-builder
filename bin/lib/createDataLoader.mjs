@@ -16,11 +16,11 @@ export default function createLoaderFile() {
 
 		fs.mkdirSync(distDir, { recursive: true });
 
-		let minData = (minifiedJson + sailthruVariables).replace(/\s/g, "");
+		let combineData = minifiedJson + sailthruVariables;
 
-		fs.writeFile(distPath, minData, (err) => {
+		fs.writeFile(distPath, combineData, (err) => {
 			if (err) throw err;
-			console.log("Text Content minified data written to:", distPath);
+			console.log("HTML Content data written to:", distPath);
 		});
 	});
 }
