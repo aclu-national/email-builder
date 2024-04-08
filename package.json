@@ -19,8 +19,8 @@
 	],
 	"bin": {
 		"email-builder": "./bin/cli.mjs",
-		"aclu-email-script": "./bin/cli.mjs",
-		"aes": "./bin/cli.mjs"
+		"aclu-email-builder": "./bin/cli.mjs",
+		"aeb": "./bin/cli.mjs"
 	},
 	"scripts": {
 		"start": "npm run dev",
