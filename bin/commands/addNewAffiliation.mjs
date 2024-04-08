@@ -31,15 +31,7 @@ function addNewAffiliation(names) {
 	instagram_url: "",
 	logo_url: "",
 	logo_width: "150",
-	twitter_url: "",
-	website_url: "",
 	signatures: {
-		ed: {
-			title: "Executive Director",
-			name: "",
-			pronouns: "",
-			headshot: "",
-		},
 		advo: {
 			title: "Chief Political and Advocacy Officer",
 			name: "",
@@ -48,18 +40,6 @@ function addNewAffiliation(names) {
 		},
 		comms: {
 			title: "Chief Communications and Marketing Officer",
-			name: "",
-			pronouns: "",
-			headshot: "",
-		},
-		dev: {
-			title: "Chief Development Officer",
-			name: "",
-			pronouns: "",
-			headshot: "",
-		},
-		legal: {
-			title: "Legal Director",
 			name: "",
 			pronouns: "",
 			headshot: "",
@@ -82,7 +62,27 @@ function addNewAffiliation(names) {
 			pronouns: "",
 			headshot: "",
 		},
+		dev: {
+			title: "Chief Development Officer",
+			name: "",
+			pronouns: "",
+			headshot: "",
+		},
+		ed: {
+			title: "Executive Director",
+			name: "",
+			pronouns: "",
+			headshot: "",
+		},
+		legal: {
+			title: "Legal Director",
+			name: "",
+			pronouns: "",
+			headshot: "",
+		},
 	},
+	twitter_url: "",
+	website_url: "",
 };
 
 module.exports = data;

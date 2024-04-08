@@ -1,43 +1,12 @@
-// update.js
 import fs from "fs";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
-import { program } from "commander";
 import inquirer from "inquirer";
 import util from "util";
+import updateDataFile from "../lib/updateDataFile.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const affiliationsDir = path.join(__dirname, "../../src/_data/affiliations");
-
-function updateFile(affiliation, key, value) {
-	const filePath = path.join(affiliationsDir, `${affiliation}.js`);
-
-	import(filePath).then((content) => {
-		const keys = key.split(".");
-		let target = content.default;
-
-		for (let i = 0; i < keys.length - 1; i++) {
-			if (keys[i] === "signatures") {
-				target = target[keys[i]].find((obj) => Object.keys(obj).includes(keys[i + 1]))[keys[i + 1]];
-				i++;
-			} else {
-				target = target[keys[i]];
-			}
-		}
-
-		target[keys[keys.length - 1]] = value;
-
-		const output = `const data = ${util.inspect(content.default, { depth: null })};\n\nmodule.exports = data;`;
-
-		fs.writeFile(filePath, output, (err) => {
-			if (err) {
-				console.error(`Error writing file: ${err}`);
-			} else {
-				console.log(`\nUpdated affiliation file at ${filePath}`);
-			}
-		});
-	});
-}
 
 export default function updateAffiliation(options = {}) {
 	const files = fs.readdirSync(affiliationsDir);
@@ -57,6 +26,7 @@ export default function updateAffiliation(options = {}) {
 		.then((answers) => {
 			const affiliation = options.affiliation || answers.affiliation;
 			const filePath = path.join(affiliationsDir, `${affiliation}.js`);
+
 			import(filePath).then((content) => {
 				const keys = Object.keys(content.default);
 
@@ -75,7 +45,7 @@ export default function updateAffiliation(options = {}) {
 							name: "value",
 							message: "Enter the new value:",
 							default: options.value,
-							when: () => !options.value,
+							when: (answers2) => !options.value && answers2.key !== "signatures",
 						},
 					])
 					.then((answers2) => {
@@ -83,7 +53,8 @@ export default function updateAffiliation(options = {}) {
 						const value = options.value || answers2.value;
 
 						if (key === "signatures") {
-							const signatureKeys = content.default.signatures.flatMap((obj) => Object.keys(obj));
+							const signatureKeys = Object.keys(content.default.signatures);
+
 							inquirer
 								.prompt([
 									{
@@ -94,7 +65,8 @@ export default function updateAffiliation(options = {}) {
 									},
 								])
 								.then((answers3) => {
-									const signatureProperties = Object.keys(content.default.signatures.find((obj) => obj[answers3.signatureKey])[answers3.signatureKey]);
+									const signatureProperties = Object.keys(content.default.signatures[answers3.signatureKey]);
+
 									inquirer
 										.prompt([
 											{
@@ -110,11 +82,11 @@ export default function updateAffiliation(options = {}) {
 											},
 										])
 										.then((answers4) => {
-											updateFile(affiliation, `signatures.${answers3.signatureKey}.${answers4.signatureProperty}`, answers4.value);
+											updateDataFile(affiliation, `signatures.${answers3.signatureKey}.${answers4.signatureProperty}`, answers4.value);
 										});
 								});
 						} else {
-							updateFile(affiliation, key, value);
+							updateDataFile(affiliation, key, value);
 						}
 					});
 			});
