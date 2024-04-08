@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 import { program } from "commander";
-import addNewAffiliation from "./lib/addNewAffiliation.mjs";
-import saveLocalData from "./lib/saveLocalData.mjs";
-import createDataLoader from "./lib/createDataLoader.mjs";
-import updateAffiliation from "./lib/updateAffiliation.mjs";
-import addNewSignature from "./lib/addNewSignature.mjs";
+import addNewAffiliation from "./commands/addNewAffiliation.mjs";
+import addNewSignature from "./commands/addNewSignature.mjs";
+import saveLocalData from "./commands/saveLocalData.mjs";
+import createDataLoader from "./commands/createDataLoader.mjs";
+import updateAffiliation from "./commands/updateAffiliation.mjs";
 
 program
 	.command("add [name]")
@@ -13,14 +13,23 @@ program
 	.action((name) => addNewAffiliation(name));
 
 program
-	.command("save [name]")
-	.description("Create combine json data file")
-	.action((name) => saveLocalData(name));
+	.command("signature [name]")
+	.description("Create new signature object")
+	.action((name) => addNewSignature(name));
 
 program
-	.command("create")
-	.description("Create data loader")
-	.action(() => createDataLoader());
+	.command("save [name]")
+	.description("Create local json data file")
+	.option("-l, --location <path>", "location to save the file")
+	.action((name, cmdObj) => {
+		const location = cmdObj.location;
+		saveLocalData(name, location);
+	});
+
+program
+	.command("create [location]")
+	.description("Create Sailthru data loader file")
+	.action((location) => createDataLoader(location));
 
 program
 	.command("update [options...]")
@@ -36,10 +45,5 @@ program
 		};
 		updateAffiliation(options);
 	});
-
-program
-	.command("signature [name]")
-	.description("Create data loader")
-	.action((name) => addNewSignature(name));
 
 program.parse(process.argv);
