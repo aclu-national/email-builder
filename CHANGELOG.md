@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/aclu-national/email-builder/compare/v1.8.0...v1.8.1) (2024-05-10)
+
+
+### Bug Fixes
+
+* **templates:** remove extra loader var ([4158c7e](https://github.com/aclu-national/email-builder/commit/4158c7ef03c4d8939ba5ab0aad2f5641c233eed0))
+
 # [1.8.0](https://github.com/aclu-national/email-builder/compare/v1.7.2...v1.8.0) (2024-03-20)
 
 
