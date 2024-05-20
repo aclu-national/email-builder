@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.9.0](https://github.com/aclu-national/email-builder/compare/v1.8.1...v1.9.0) (2024-05-20)
+
+
+### Features
+
+* **cli:** tools to make managing easy ([#59](https://github.com/aclu-national/email-builder/issues/59)) ([a80d18d](https://github.com/aclu-national/email-builder/commit/a80d18da5c9e3fcf5926a38dbbecd534f55374b2))
+
 ## [1.8.1](https://github.com/aclu-national/email-builder/compare/v1.8.0...v1.8.1) (2024-05-10)
 
 
