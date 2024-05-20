@@ -1,8 +1,11 @@
 # dependencies
 node_modules/
+
+# test files
 .vscode/settings.json
-src/_data/affiliations/xx.js
+src/**/**/xx.js
 src/test/xx.test.js
+bin/commands/testCommand.mjs
 
 # build artifacts
 build/
