@@ -44,6 +44,16 @@ const sailthruVariables = `
 {legal_title = data[affiliation]['signatures']['legal']['title']}
 {legal_pronouns = data[affiliation]['signatures']['legal']['pronouns']}
 {legal_headshot = data[affiliation]['signatures']['legal']['headshot']}
+
+{org_name = data[affiliation]['signatures']['org']['name']}
+{org_title = data[affiliation]['signatures']['org']['title']}
+{org_pronouns = data[affiliation]['signatures']['org']['pronouns']}
+{org_headshot = data[affiliation]['signatures']['org']['headshot']}
+
+{org_name = data[affiliation]['signatures']['org']['name']}
+{org_title = data[affiliation]['signatures']['org']['title']}
+{org_pronouns = data[affiliation]['signatures']['org']['pronouns']}
+{org_headshot = data[affiliation]['signatures']['org']['headshot']}
 `;
 
 export default sailthruVariables;

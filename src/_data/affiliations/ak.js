@@ -10,20 +10,35 @@ const data = {
 	privacy_url: "https://www.acluak.org/en/privacy-statement",
 	signatures: {
 		advo: {
-			headshot: "",
+			headshot: "https://www.acluak.org/sites/default/files/styles/featured_image_580x386/public/field_image/mg_1.jpg?itok=XtlJOzXf", //TODO: create headshot and save it to ST.
 			name: "Michael Garvey",
-			pronouns: "",
+			pronouns: "He, him, his",
 			title: "Advocacy Director",
 		},
 		comms: {
-			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea873c8f3d44.jpg",
-			name: "Megan Edge",
+			headshot: "https://www.acluak.org/sites/default/files/styles/featured_image_580x386/public/field_image/acluak_headshots-8346_websize.jpg?itok=2g7LBBIM", //TODO: create headshot and save it to ST.
+			name: "Megan Barker",
 			pronouns: "She, her, hers",
 			title: "Communications Director",
 		},
-		custom1: { headshot: "", name: "", pronouns: "", title: "" },
-		custom2: { headshot: "", name: "Pavel Sanchez", pronouns: "", title: "" },
-		custom3: { headshot: "", name: "", pronouns: "", title: "" },
+		custom1: {
+			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea873c8f3d44.jpg",
+			name: "Megan Edge",
+			pronouns: "She, her, hers",
+			title: "Prison Project Director",
+		},
+		custom2: {
+			headshot: "",
+			name: "Pavel Sanchez",
+			pronouns: "",
+			title: "",
+		},
+		custom3: {
+			headshot: "",
+			name: "",
+			pronouns: "",
+			title: "",
+		},
 		dev: {
 			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea873c4a1b08.jpg",
 			name: "Laura Herman",
@@ -31,16 +46,22 @@ const data = {
 			title: "Director of Philanthropy",
 		},
 		ed: {
-			headshot: "https://media.sailthru.com/64d/1k4/3/2/5e5d757771747.jpg",
-			name: "Joshua Decker",
-			pronouns: "He, him, his",
+			headshot: "https://www.acluak.org/sites/default/files/styles/featured_image_580x386/public/field_image/acluak_headshots-6165_websize.jpg?itok=CSEnZksJ", //TODO: create headshot and save it to ST.
+			name: "Mara Kimmel",
+			pronouns: "She, her, hers",
 			title: "Executive Director",
 		},
 		legal: {
-			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea873be7af4e.jpg",
-			name: "Stephen Koteff",
-			pronouns: "",
+			headshot: "https://www.acluak.org/sites/default/files/styles/featured_image_580x386/public/field_image/rb_2_1.jpg?itok=4UprLI-b", //TODO: create headshot and save it to ST.
+			name: "Ruth Botstein",
+			pronouns: "She, her, hers",
 			title: "Legal Director",
+		},
+		org: {
+			headshot: "",
+			name: "",
+			pronouns: "",
+			title: "Organizing Director",
 		},
 	},
 	twitter_url: "https://twitter.com/ACLUofAlaska",
