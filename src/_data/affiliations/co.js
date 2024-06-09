@@ -1,15 +1,15 @@
 const data = {
 	address1: "303 E. 17th Ave., Suite 350",
 	address2: "Denver, CO 80203-1256",
-	affiliate_name: "ACLU of Colorado",
-	donation_url: "https://action.aclu.org/give/colorado-join-renew-today?initms_aff=co&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=co&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	affiliation_name: "ACLU of Colorado",
+	donation_url: "https://action.aclu.org/give/colorado-join-renew-today?initms_aff=co&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=co&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/acluofcolorado",
 	instagram_url: "https://www.instagram.com/acluofcolorado",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c16a5e05.png",
 	logo_width: "150",
 	signatures: {
 		advo: {
-			headshot: "https://www.aclu-co.org/sites/default/files/styles/featured_image_580x386/public/field_image/smg_headshot.jpg?itok=zVzlzz7x", //TODO: create headshot and save it to ST.
+			headshot: "",
 			name: "Sophia Mayott-Guerrero",
 			pronouns: "She, her, ella",
 			title: "Interim Director of Advocacy and Strategic Alliances",

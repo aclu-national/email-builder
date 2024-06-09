@@ -2,7 +2,7 @@ const data = {
 	address1: "125 Broad Street",
 	address2: "New York, NY 10004",
 	affiliation_name: "NYCLU",
-	donation_url: "https://action.aclu.org/give/new-york-join-renew-today?initms_aff=ny&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ny&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/new-york-join-renew-today?initms_aff=ny&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ny&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/NYCLU/",
 	instagram_url: "https://www.instagram.com/nyclu",
 	logo_url: "https://media.sailthru.com/64p/1k3/9/6/5d7271ac74a07.png",

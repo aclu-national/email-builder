@@ -2,10 +2,11 @@ const data = {
 	address1: "18 Low Avenue",
 	address2: "Concord, NH 03301",
 	affiliation_name: "ACLU of New Hampshire",
-	donation_url: "https://action.aclu.org/give/new-hampshire-join-renew-today?initms_aff=nh&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nh&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/new-hampshire-join-renew-today?initms_aff=nh&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nh&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/ACLUofNH/",
 	instagram_url: "https://www.instagram.com/aclu_nationwide",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1c8d7a9.png",
+	logo_width: "150",
 	signatures: {
 		advo: {
 			headshot: "",

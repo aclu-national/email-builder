@@ -1,8 +1,8 @@
 const data = {
 	address1: "765 Asylum Avenue",
 	address2: "Hartford, CT, 06105",
-	affiliate_name: "ACLU of Connecticut",
-	donation_url: "https://action.aclu.org/give/connecticut-join-renew-today?initms_aff=ct&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ct&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	affiliation_name: "ACLU of Connecticut",
+	donation_url: "https://action.aclu.org/give/connecticut-join-renew-today?initms_aff=ct&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ct&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/aclu.connecticut",
 	instagram_url: "https://www.instagram.com/acluct",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c16d003e.png",
@@ -39,7 +39,7 @@ const data = {
 			title: "",
 		},
 		dev: {
-			headshot: "https://www.acluct.org/sites/default/files/styles/featured_image_580x386/public/field_image/lm_headshot.jpg?itok=nINjM9AS", //TODO: create headshot and save it to ST.
+			headshot: "",
 			name: "Logan Marshall",
 			pronouns: "He, him, his",
 			title: "Director of Philanthropy",

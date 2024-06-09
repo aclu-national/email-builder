@@ -1,24 +1,24 @@
 const data = {
 	address1: "1313 West Eighth Street",
 	address2: "Los Angeles, CA 90017",
-	affiliate_name: "ACLU of Southern California",
-	donation_url: "https://action.aclu.org/give/southern-california-join-renew-today?initms_aff=cs&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cs&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	affiliation_name: "ACLU of Southern California",
+	donation_url: "https://action.aclu.org/give/southern-california-join-renew-today?initms_aff=cs&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cs&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/ACLU.SoCal",
 	instagram_url: "https://www.instagram.com/aclu_socal",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1330858.png",
 	logo_width: "150",
 	signatures: {
 		advo: {
-			headshot: "https://www.aclusocal.org/sites/default/files/styles/featured_image_580x386/public/field_image/victor_leung.jpg?itok=kdLsSaIT", //TODO: create headshot and save it to ST.
+			headshot: "",
 			name: "Victor Leung",
 			pronouns: "He, him, his",
-			title: "Chief Legal & Advocacy Officer",
+			title: "Chief Legal and Advocacy Officer",
 		},
 		comms: {
 			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea88e224e0ab.jpg",
 			name: "Marcus Benigno",
 			pronouns: "",
-			title: "Chief Communications & Marketing Officer",
+			title: "Chief Communications and Marketing Officer",
 		},
 		custom1: {
 			headshot: "",
@@ -51,10 +51,10 @@ const data = {
 			title: "Executive Director",
 		},
 		legal: {
-			headshot: "https://www.aclusocal.org/sites/default/files/styles/featured_image_580x386/public/field_image/victor_leung.jpg?itok=kdLsSaIT", //TODO: create headshot and save it to ST.
+			headshot: "",
 			name: "Victor Leung",
 			pronouns: "He, him, his",
-			title: "Chief Legal & Advocacy Officer",
+			title: "Chief Legal and Advocacy Officer",
 		},
 		org: {
 			headshot: "",

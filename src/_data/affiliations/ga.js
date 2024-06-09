@@ -1,8 +1,8 @@
 const data = {
 	address1: "P.O. Box 570738",
 	address2: "Atlanta, GA 30357",
-	affiliate_name: "ACLU of Georgia",
-	donation_url: "https://action.aclu.org/give/georgia-join-renew-today?initms_aff=ga&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ga&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	affiliation_name: "ACLU of Georgia",
+	donation_url: "https://action.aclu.org/give/georgia-join-renew-today?initms_aff=ga&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ga&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/ACLUofGA",
 	instagram_url: "https://www.instagram.com/acluofga",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c17d8ac4.png",

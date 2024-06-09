@@ -2,7 +2,7 @@ const data = {
 	address1: "P.O. Box 28004",
 	address2: "Raleigh NC, 27611",
 	affiliation_name: "ACLU of North Carolina",
-	donation_url: "https://action.aclu.org/give/north-carolina-join-renew-today?initms_aff=nc&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nc&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/north-carolina-join-renew-today?initms_aff=nc&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nc&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/ACLUNC",
 	instagram_url: "https://www.instagram.com/aclu_nc",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1dbc06f.png",

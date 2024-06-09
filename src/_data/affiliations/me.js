@@ -2,7 +2,7 @@ const data = {
 	address1: "P.O. 7860",
 	address2: "Portland, ME 04112",
 	affiliation_name: "ACLU of Maine",
-	donation_url: "https://action.aclu.org/give/maine-join-renew-today?initms_aff=me&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=me&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/maine-join-renew-today?initms_aff=me&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=me&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/ACLUMaine",
 	instagram_url: "https://www.instagram.com/aclumaine",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c19d26ca.png",

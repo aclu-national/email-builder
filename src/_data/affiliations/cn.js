@@ -1,8 +1,8 @@
 const data = {
 	address1: "39 Drumm Street",
 	address2: "San Francisco, CA 94111",
-	affiliate_name: "ACLU of Northern California",
-	donation_url: "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=22XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=22XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=22XXXX_affcampaign_footerdonate_gradead_sail",
+	affiliation_name: "ACLU of Northern California",
+	donation_url: "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/aclu.norcal",
 	instagram_url: "https://www.instagram.com/aclu_norcal",
 	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1e35964.png",
@@ -57,7 +57,7 @@ const data = {
 			title: "Legal Director",
 		},
 		org: {
-			headshot: "https://www.aclunc.org/sites/default/files/styles/staff_image_regular/public/Ashley%20cropped.jpeg?h=2ed8e993&itok=oo6OdAyI", //TODO: create headshot and save it to ST.
+			headshot: "",
 			name: "Ashley Morris",
 			pronouns: "She, her, hers",
 			title: "Organizing Director",
