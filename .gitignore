@@ -6,6 +6,7 @@ node_modules/
 src/**/**/xx.js
 src/test/xx.test.js
 bin/commands/testCommand.mjs
+test.json
 
 # build artifacts
 build/
