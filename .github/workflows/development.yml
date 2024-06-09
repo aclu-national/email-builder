@@ -38,8 +38,11 @@ jobs:
       - name: 🏗 Build
         run: npm run build --if-present
 
-      - name: 🚨 Format
-        run: npm run format
+      - name: 🧩 Format
+        run: npm run format --if-present
+
+      - name: 🚨 Test
+        run: npm run test:ci --if-present
 
       - name: 🚀 Release Dry Run
         uses: cycjimmy/semantic-release-action@v3

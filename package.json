@@ -31,7 +31,8 @@
 		"lint": "npm run pa11y",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
-		"test": "jest --verbose",
+		"test": "npx jest --watchAll",
+		"test:ci": "npx jest",
 		"qa": "npm-run-all clean --parallel lint test",
 		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy"
 	},
