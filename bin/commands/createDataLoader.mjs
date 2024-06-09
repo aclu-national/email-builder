@@ -3,7 +3,7 @@ import path from "path";
 import getCombinedData from "../lib/combineAffiliation.mjs";
 import sailthruVariables from "../lib/sailthruVariables.mjs";
 
-export default function createLoaderFile(location = "build/data") {
+export default function createLoaderFile(location = "dist/data") {
 	getCombinedData().then((data) => {
 		const minifiedJson = "{data = " + JSON.stringify(data) + "}";
 		const distPath = path.join(location, "dataLoader.min.json");
