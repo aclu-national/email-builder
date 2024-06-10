@@ -34,7 +34,7 @@
 		"test": "npx jest --watchAll",
 		"test:ci": "npx jest",
 		"qa": "npm-run-all clean --parallel lint test",
-		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy && ./node_modules/.bin/email-builder create"
+		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy && ./bin/cli.mjs create"
 	},
 	"config": {
 		"commitizen": {
