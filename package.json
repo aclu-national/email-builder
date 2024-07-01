@@ -31,9 +31,10 @@
 		"lint": "npm run pa11y",
 		"format": "npx prettier --write dist/**/*",
 		"commit": "git cz",
-		"test": "jest --verbose",
+		"test": "npx jest --watchAll",
+		"test:ci": "npx jest",
 		"qa": "npm-run-all clean --parallel lint test",
-		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy"
+		"build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy && ./bin/cli.mjs create"
 	},
 	"config": {
 		"commitizen": {
@@ -60,6 +61,7 @@
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
 		"@semantic-release/github": "^9.0.5",
+		"@aclu-national/email-builder": "file:./email-builder",
 		"clean-css-cli": "^5.3.3",
 		"commander": "^12.0.0",
 		"commitizen": "^4.2.4",
@@ -81,7 +83,7 @@
 		"url": "git+https://github.com/aclu-national/email-builder.git"
 	},
 	"bugs": {
-		"url": "https://github.com/aclu-national/email-builder/issues"
+		"url": "https://github.com/aclu-national/email-build`er/issues"
 	},
 	"homepage": "https://github.com/aclu-national/email-builder#readme"
 }
