@@ -137,7 +137,7 @@ This snippet displays the code for a table for our current template. This is use
 <!-- prettier-ignore-start -->
 
 ```html
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="{{theme.width}}">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
 	<tbody>
 		<tr>
 			<td style="
