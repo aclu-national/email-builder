@@ -74,12 +74,12 @@
 		list-style-type: disc;
 	}
 
-	td.footer-text a {
+	td.footer-info a {
 		font-weight: 400 !important;
 	}
 
 	@media screen and (max-width: 480px) {
-		table.emailwrapto100pc {
+		table.email-wrapper {
 			width: 100% !important;
 			white-space: inherit !important;
 			line-height: inherit !important;
@@ -87,35 +87,21 @@
 		td.logo-spacing {
 			padding-left: 20px !important;
 		}
-		td.emailbodytext {
+		td.email-content {
 			font-size: {{theme.text.fontSize}} !important;
 			line-height: 23px !important;
 			padding-right: 20px !important;
 			padding-left: 20px !important;
 		}
-		.image-resize {
+		.mobile-image {
 			width: 100% !important;
 		}
-		table.footer-left,
-		table.footer-right {
-			width: 100% !important;
-			margin-top: 10px !important;
-		}
-		table.footer-right {
-			float: left !important;
-			margin-top: 25px !important;
-		}
-		td.footer-left,
-		td.footer-right,
-		td.footer-text {
+
+		td.footer-info {
 			text-align: center !important;
-		}
-		td.footer-right {
-			padding: 0px !important;
-		}
-		td.footer-text {
 			padding: 10px 20px 20px 20px !important;
 		}
+
 		td.button-wrapper {
 			display: inline-block;
 		}
@@ -128,42 +114,51 @@
 			padding-left: 0px !important;
 		}
 	}
+
 	/* DARK MODE FOR IOS AND APPLE MAIL */
 	@media (prefers-color-scheme: dark) {
 		body {
 			background: {{theme.dark.background}};
 		}
+
 		a,
 		a:visited,
 		a:hover,
 		a:active {
 			color: {{theme.dark.link}};
 		}
-		a.button-text,
-		a.button-text:visited,
-		a.button-text:hover,
-		a.button-text:active {
+
+		a.button,
+		a.button:visited,
+		a.button:hover,
+		a.button:active,
+		td.email-content p,
+		td.email-content li,
+		td.email-content h1,
+		td.email-content h2,
+		td.email-content h3,
+		td.email-content span,
+		td.darkmode-box,
+		td.callout,
+		figcaption.caption {
 			color: {{theme.dark.color}};
 		}
-		td.emailbodytext p,
-		td.emailbodytext li,
-		td.emailbodytext h1,
-		td.emailbodytext h2,
-		td.emailbodytext h3,
-		td.tagline p,
-		td.dm-box h2 {
-			color: {{theme.dark.color}};
-		}
-		td.dm-box {
+
+		td.darkmode-box,
+		td.callout {
 			background: {{theme.dark.altBox}};
 			color: {{theme.dark.color}};
 		}
-		td.emailbodytext {
+
+		td.email-content {
 			border-bottom: {{theme.dark.borderBottom}};
 		}
+
 		table.inner-sidebox,
-		td.dm-box {
+		td.darkmode-box {
 			border: 0 !important;
 		}
 	}
 </style>
+
+

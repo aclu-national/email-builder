@@ -9,11 +9,11 @@
 </head>
 <body>
 	{% include "partials/preheader.njk" %}
-	<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="{{theme.width}}">
+	<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
 		<tbody>
 			{% include "components/new/ps-header.njk" %}
 			<tr>
-				<td class="emailbodytext" style="color: {{theme.colors.black}}; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: {{theme.text.fontSize}}; line-height: 22px; padding: 15px 0px 20px 0px; border-bottom: 1px solid #d4d4d4" valign="top">
+				<td class="email-content" style="color: {{theme.colors.black}}; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: {{theme.text.fontSize}}; line-height: 22px; padding: 15px 0px 20px 0px; border-bottom: 1px solid #d4d4d4" valign="top">
 					{% include "partials/salutation.njk" %}
 
 					<p>Any template you create will use <code>blank</code> layout template by default. That template will only have the doctype. You will need to add the head/body code. This gives you as much control over the template without relying on our base styles.</p>
