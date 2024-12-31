@@ -8,7 +8,8 @@ module.exports = {
 	privacy: "https://www.aclu.org/about/privacy/statement/?redirect=american-civil-liberties-union-privacy-statement",
 	title: "ACLU Email",
 	twitter: "aclu",
-	twLogo: "https://media.sailthru.com/64d/1k8/3/f/65f4803d78db4.png",
+	xLogo: "https://media.sailthru.com/64d/1k8/3/f/65f4803d78db4.png",
+	threadsLogo: "https://media.sailthru.com/64d/1k8/c/u/6772ff5288341.png",
 	unsub: "https://action.aclu.org/preference-center/aclu-action-national-email-preference",
 	url: "https://aclu.org",
 };
