@@ -34,6 +34,10 @@ const data = {
 			url: "",
 			size: "200",
 		},
+		newsletter: {
+			url: "",
+			size: "300",
+		},
 		custom: {
 			url: "",
 			size: "200",

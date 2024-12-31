@@ -37,6 +37,8 @@ const sailthruVariables = `
 {logo_ninety_size = data[affiliation]['logo']['ninety']['size']}
 {logo_custom_url = data[affiliation]['logo']['custom']['url']}
 {logo_custom_size = data[affiliation]['logo']['custom']['size']}
+{logo_newsletter_url = data[affiliation]['logo']['newsletter']['url']}
+{logo_newsletter_size = data[affiliation]['logo']['newsletter']['size']}
 
 {advo_name = data[affiliation]['signatures']['advo']['name']}
 {advo_title = data[affiliation]['signatures']['advo']['title']}
