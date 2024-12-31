@@ -3,10 +3,6 @@ const data = {
 	address2: "Lincoln, NE 68508",
 	affiliation_name: "ACLU of Nebraska",
 	donation_url: "https://action.aclu.org/give/nebraska-join-renew-today?initms_aff=ne&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ne&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/",
-	instagram_url: "https://www.instagram.com/",
-	logo_url: "",
-	logo_width: "150",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1c15d6d.png",

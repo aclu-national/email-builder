@@ -100,7 +100,7 @@ const data = {
 		threads_url: "",
 		x_url: "https://x.com/ACLUofMichigan",
 	},
-	website_url: "",
+	website_url: "https://www.aclumich.org",
 };
 
 module.exports = data;
