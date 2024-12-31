@@ -3,10 +3,41 @@ const data = {
 	address2: "Sacramento, CA 95814",
 	affiliation_name: "ACLU California Action",
 	donation_url: "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ca&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/aclucalaction",
-	instagram_url: "https://www.instagram.com/aclu_calaction/",
-	logo_url: "https://media.sailthru.com/64d/1k6/3/7/6226900285d41.png",
-	logo_width: "125",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k6/3/7/6226900285d41.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://aclucalaction.org/privacy-policy",
 	signatures: {
 		advo: {
 			headshot: "",
@@ -63,8 +94,13 @@ const data = {
 			title: "Organizing Director",
 		},
 	},
-	twitter_url: "https://twitter.com/aclu_calaction/",
-	website_url: "https://aclucalaction.org/",
+	social: {
+		facebook_url: "https://facebook.com/aclucalaction",
+		instagram_url: "https://www.instagram.com/aclu_calaction",
+		threads_url: "",
+		x_url: "https://x.com/aclu_calaction",
+	},
+	website_url: "https://aclucalaction.org",
 };
 
 module.exports = data;

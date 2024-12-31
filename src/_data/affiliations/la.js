@@ -3,10 +3,41 @@ const data = {
 	address2: "New Orleans, LA 70156",
 	affiliation_name: "ACLU of Louisiana",
 	donation_url: "https://action.aclu.org/give/louisiana-join-renew-today?initms_aff=la&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=la&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/aclu.louisiana",
-	instagram_url: "https://www.instagram.com/aclu.louisiana/",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c19a9a2f.png",
-	logo_width: "150",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c19a9a2f.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://www.laaclu.org/en/privacy-statement",
 	signatures: {
 		advo: {
 			headshot: "",
@@ -63,8 +94,13 @@ const data = {
 			title: "Organizing Director",
 		},
 	},
-	twitter_url: "https://twitter.com/ACLUofLouisiana",
-	website_url: "https://www.laaclu.org/",
+	social: {
+		facebook_url: "https://facebook.com/aclu.louisiana",
+		instagram_url: "https://www.instagram.com/aclu.louisiana",
+		threads_url: "",
+		x_url: "https://x.com/ACLUofLouisiana",
+	},
+	website_url: "https://www.laaclu.org",
 };
 
 module.exports = data;

@@ -3,10 +3,40 @@ const data = {
 	address2: "Anchorage, AK 99052",
 	affiliation_name: "ACLU of Alaska",
 	donation_url: "https://action.aclu.org/give/alaska-join-renew-today?initms_aff=ak&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ak&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/ACLUofAlaska",
-	instagram_url: "https://www.instagram.com/acluofalaska",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c159341b.png",
-	logo_width: "150",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c159341b.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
 	privacy_url: "https://www.acluak.org/en/privacy-statement",
 	signatures: {
 		advo: {
@@ -29,7 +59,7 @@ const data = {
 		},
 		custom2: {
 			headshot: "",
-			name: "Pavel Sanchez",
+			name: "",
 			pronouns: "",
 			title: "",
 		},
@@ -64,7 +94,12 @@ const data = {
 			title: "Organizing Director",
 		},
 	},
-	twitter_url: "https://twitter.com/ACLUofAlaska",
+	social: {
+		facebook_url: "https://www.facebook.com/ACLUofAlaska",
+		instagram_url: "https://www.instagram.com/acluofalaska",
+		threads_url: "",
+		x_url: "https://x.com/ACLUofAlaska",
+	},
 	website_url: "https://www.acluak.org",
 };
 

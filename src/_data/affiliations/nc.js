@@ -3,10 +3,41 @@ const data = {
 	address2: "Raleigh NC, 27611",
 	affiliation_name: "ACLU of North Carolina",
 	donation_url: "https://action.aclu.org/give/north-carolina-join-renew-today?initms_aff=nc&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nc&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/ACLUNC",
-	instagram_url: "https://www.instagram.com/aclu_nc",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1dbc06f.png",
-	logo_width: "150",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1dbc06f.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://www.acluofnorthcarolina.org/en/privacy-statement",
 	signatures: {
 		advo: {
 			headshot: "",
@@ -63,8 +94,13 @@ const data = {
 			title: "Director of Organizing",
 		},
 	},
-	twitter_url: "https://twitter.com/aclu_nc",
-	website_url: "https://www.acluofnorthcarolina.org/",
+	social: {
+		facebook_url: "https://facebook.com/ACLUNC",
+		instagram_url: "https://www.instagram.com/aclu_nc",
+		threads_url: "",
+		x_url: "https://x.com/aclu_nc",
+	},
+	website_url: "https://www.acluofnorthcarolina.org",
 };
 
 module.exports = data;

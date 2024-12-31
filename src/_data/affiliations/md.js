@@ -3,10 +3,41 @@ const data = {
 	address2: "Baltimore, MD 21211",
 	affiliation_name: "ACLU of Maryland",
 	donation_url: "https://action.aclu.org/give/maryland-join-renew-today?initms_aff=md&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=md&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/ACLUMD",
-	instagram_url: "https://www.instagram.com/aclumd",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1a124a2.png",
-	logo_width: "150",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1a124a2.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://www.aclu-md.org/en/privacy-statement",
 	signatures: {
 		advo: {
 			headshot: "https://media.sailthru.com/64d/1k4/a/f/5f8880a144d5d.jpg",
@@ -63,8 +94,13 @@ const data = {
 			title: "Organizing Director",
 		},
 	},
-	twitter_url: "https://twitter.com/ACLU_MD",
-	website_url: "https://www.aclu-md.org/",
+	social: {
+		facebook_url: "https://facebook.com/ACLUMD",
+		instagram_url: "https://www.instagram.com/aclumd",
+		threads_url: "",
+		x_url: "https://x.com/ACLU_MD",
+	},
+	website_url: "https://www.aclu-md.org",
 };
 
 module.exports = data;

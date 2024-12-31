@@ -3,10 +3,41 @@ const data = {
 	address2: "Honolulu, HI 96801",
 	affiliation_name: "ACLU of Hawaii",
 	donation_url: "https://action.aclu.org/give/hawaii-join-renew-today?initms_aff=hi&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=hi&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/acluhawaii",
-	instagram_url: "https://www.instagram.com/acluhawaii",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c181e1a6.png",
-	logo_width: "150",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c181e1a6.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://acluhi.org/en/privacy-statement",
 	signatures: {
 		advo: {
 			headshot: "",
@@ -63,7 +94,12 @@ const data = {
 			title: "Organizing Director",
 		},
 	},
-	twitter_url: "https://twitter.com/acluhawaii",
+	social: {
+		facebook_url: "https://facebook.com/acluhawaii",
+		instagram_url: "https://www.instagram.com/acluhawaii",
+		threads_url: "",
+		x_url: "https://x.com/acluhawaii",
+	},
 	website_url: "https://acluhi.org",
 };
 

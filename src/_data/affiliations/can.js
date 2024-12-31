@@ -53,15 +53,15 @@ const data = {
 		},
 		custom1: {
 			headshot: "",
-			name: "Liz FitzGerald",
-			pronouns: "She, her, hers",
-			title: "Director of Development",
+			name: "Pavel Sanchez",
+			pronouns: "He, him, his",
+			title: "Associate Director, Digital Campaign Product",
 		},
 		custom2: {
 			headshot: "",
-			name: "AJ Hikes",
-			pronouns: "They, them",
-			title: "Deputy Executive Director, Strategy & Culture",
+			name: "",
+			pronouns: "",
+			title: "",
 		},
 		custom3: {
 			headshot: "",
@@ -95,10 +95,10 @@ const data = {
 		},
 	},
 	social: {
-		facebook_url: "https://www.facebook.com/aclu",
+		facebook_url: "https://facebook.com/aclu",
 		instagram_url: "https://www.instagram.com/aclu_nationwide",
 		threads_url: "https://www.threads.net/@aclu_nationwide",
-		x_url: "https://twitter.com/aclu",
+		x_url: "https://x.com/aclu",
 	},
 	website_url: "https://www.aclu.org/",
 };
