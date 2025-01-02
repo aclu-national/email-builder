@@ -4,22 +4,18 @@ const sailthruVariables = `
 {address1 = data[affiliation]["address1"]}
 {address2 = data[affiliation]["address2"]}
 {donation_url = data[affiliation]["donation_url"]}
-
+{privacy_statement = data[affiliation]["privacy_url"]}
 {facebook_url = data[affiliation]['social']["facebook_url"]}
 {instagram_url = data[affiliation]['social']["instagram_url"]}
 {threads_url = data[affiliation]['social']["threads_url"]}
 {x_url = data[affiliation]['social']["x_url"]}
-
 {website_url = data[affiliation]["website_url"]}
-
 {email_pref = "https://action.aclu.org/preference-center/aclu-" + affiliation + "-email-preference?eid=" + email_id + "&referral=" + affiliation + "&unsub_url=" + optout_confirm_url}
 
 {facebook_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb21b75bf.png"}
 {instagram_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb1be2cb6.png"}
 {threads_logo = "https://media.sailthru.com/64d/1k8/c/u/6772ff5288341.png"}
 {x_logo = "https://media.sailthru.com/64d/1k8/3/f/65f4803d78db4.png"}
-
-{privacy_statement = data[affiliation]["privacy_url"]}
 
 {logo_default_url = data[affiliation]['logo']['default']['url']}
 {logo_default_size = data[affiliation]['logo']['default']['size']}
@@ -39,6 +35,10 @@ const sailthruVariables = `
 {logo_custom_size = data[affiliation]['logo']['custom']['size']}
 {logo_newsletter_url = data[affiliation]['logo']['newsletter']['url']}
 {logo_newsletter_size = data[affiliation]['logo']['newsletter']['size']}
+{logo_impact_url = data[affiliation]['logo']['impact']['url']}
+{logo_impact_size = data[affiliation]['logo']['impact']['size']}
+{logo_foundation_url = data[affiliation]['logo']['foundation']['url']}
+{logo_foundation_size = data[affiliation]['logo']['foundation']['size']}
 
 {advo_name = data[affiliation]['signatures']['advo']['name']}
 {advo_title = data[affiliation]['signatures']['advo']['title']}
