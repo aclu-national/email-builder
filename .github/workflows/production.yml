@@ -52,6 +52,7 @@ jobs:
               {name: 'alpha', prerelease: true}
             ]
         env:
-          GITHUB_TOKEN: ${{ secrets.ACLU_ACTION }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACLU_ACTION: ${{ secrets.ACLU_ACTION }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
