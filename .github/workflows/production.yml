@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - main
-      - alpha
-      - beta
-      - next
-      - next-major
-      - "*.x" # maintenance releases branches
 
 jobs:
   Publish:
@@ -19,7 +14,7 @@ jobs:
         node: [18]
         os: [ubuntu-latest]
 
-    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta' }}
+    if: ${{ github.event.pull_request.merged == true }}
 
     steps:
       - name: ⬇️ Checkout repo

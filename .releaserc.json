@@ -11,16 +11,16 @@
 		],
 		"@semantic-release/npm",
 		[
-			"@semantic-release/github",
-			{
-				"assets": [{ "path": "dist/templates/base/*" }, { "path": "dist/templates/newsletters/*" }, { "path": "dist/data/*" }]
-			}
-		],
-		[
 			"@semantic-release/git",
 			{
 				"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
 				"message": "chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+			}
+		],
+		[
+			"@semantic-release/github",
+			{
+				"assets": [{ "path": "dist/templates/base/*" }, { "path": "dist/templates/newsletters/*" }, { "path": "dist/data/*" }]
 			}
 		]
 	]
