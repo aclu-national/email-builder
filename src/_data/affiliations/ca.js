@@ -2,7 +2,7 @@ const data = {
 	address1: "P.O. Box 630",
 	address2: "Sacramento, CA 95814",
 	affiliation_name: "ACLU California Action",
-	donation_url: "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ca&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ca&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k6/3/7/6226900285d41.png",

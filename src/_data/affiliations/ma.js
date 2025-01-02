@@ -2,7 +2,7 @@ const data = {
 	address1: "One Center Plaza, Suite 850",
 	address2: "Boston, MA 02108",
 	affiliation_name: "ACLU of Massachusetts",
-	donation_url: "https://action.aclu.org/give/massachusetts-join-renew-today?initms_aff=ma&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ma&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/massachusetts-join-renew-today?initms_aff=ma&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ma&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/",
 	instagram_url: "https://www.instagram.com/",
 	logo: {

@@ -2,7 +2,7 @@ const data = {
 	address1: "505 Fifth Ave., Suite 808",
 	address2: "Des Moines, IA 50309",
 	affiliation_name: "ACLU of Iowa",
-	donation_url: "https://action.aclu.org/give/iowa-join-renew-today?initms_aff=ia&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ia&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/iowa-join-renew-today?initms_aff=ia&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ia&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c18e4fae.png",

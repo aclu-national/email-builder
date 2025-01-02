@@ -2,7 +2,7 @@ const data = {
 	address1: "904 West 2nd Street",
 	address2: "Little Rock, AR 72201",
 	affiliation_name: "ACLU of Arkansas",
-	donation_url: "https://action.aclu.org/give/arkansas-join-renew-today?initms_aff=ar&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ar&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/arkansas-join-renew-today?initms_aff=ar&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ar&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	facebook_url: "https://www.facebook.com/ACLUArkansas",
 	instagram_url: "https://www.instagram.com/acluofarkansas",
 	logo: {

@@ -2,7 +2,7 @@ const data = {
 	address1: "2966 Woodward Avenue",
 	address2: "Detroit MI, 48201",
 	affiliation_name: "ACLU of Michigan",
-	donation_url: "https://action.aclu.org/give/michigan-join-renew-today?initms_aff=mi&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mi&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/michigan-join-renew-today?initms_aff=mi&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mi&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1a88b1e.png",

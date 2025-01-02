@@ -2,7 +2,7 @@ const data = {
 	address1: "39 Drumm Street",
 	address2: "San Francisco, CA 94111",
 	affiliation_name: "ACLU of Northern California",
-	donation_url: "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo_width: "150",
 	logo: {
 		default: {

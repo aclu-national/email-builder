@@ -2,7 +2,7 @@ const data = {
 	address1: "906 Olive St",
 	address2: "St. Louis, MO 63101",
 	affiliation_name: "ACLU of Missouri",
-	donation_url: "https://action.aclu.org/give/missouri-join-renew-today?initms_aff=mo&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mo&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/missouri-join-renew-today?initms_aff=mo&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=mo&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1b83d0b.png",

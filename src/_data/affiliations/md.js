@@ -2,7 +2,7 @@ const data = {
 	address1: "3600 Clipper Mill Rd., Suite 350",
 	address2: "Baltimore, MD 21211",
 	affiliation_name: "ACLU of Maryland",
-	donation_url: "https://action.aclu.org/give/maryland-join-renew-today?initms_aff=md&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=md&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/maryland-join-renew-today?initms_aff=md&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=md&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1a124a2.png",

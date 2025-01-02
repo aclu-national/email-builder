@@ -2,7 +2,7 @@ const data = {
 	address1: "P.O. Box 87131",
 	address2: "San Diego, CA 92138",
 	affiliation_name: "ACLU of San Diego & Imperial Counties",
-	donation_url: "https://action.aclu.org/give/san-diego-join-renew-today?initms_aff=cd&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cd&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/san-diego-join-renew-today?initms_aff=cd&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cd&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1279698.png",

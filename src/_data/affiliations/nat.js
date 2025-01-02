@@ -2,7 +2,7 @@ const data = {
 	address1: "125 Broad St.",
 	address2: "New York, NY 10004",
 	affiliation_name: "ACLU",
-	donation_url: "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
+	donation_url: "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
 			url: "https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png",
@@ -104,7 +104,7 @@ const data = {
 		threads_url: "https://www.threads.net/@aclu_nationwide",
 		x_url: "https://twitter.com/aclu",
 	},
-	website_url: "https://www.aclu.org/",
+	website_url: "https://www.aclu.org",
 };
 
 module.exports = data;
