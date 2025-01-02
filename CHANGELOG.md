@@ -1,5 +1,13 @@
 # Changelog
 
+# [1.10.0](https://github.com/aclu-national/email-builder/compare/v1.9.0...v1.10.0) (2025-01-02)
+
+
+### Features
+
+* **data:** create all affiliation files ([#60](https://github.com/aclu-national/email-builder/issues/60)) ([edd8d0c](https://github.com/aclu-national/email-builder/commit/edd8d0c7c11e78754ab29ff1eecea1a71e459c1d))
+* **templates:** new template ([#62](https://github.com/aclu-national/email-builder/issues/62)) ([f106f37](https://github.com/aclu-national/email-builder/commit/f106f37bd3a1d7d3d04dde1db3b81343a36434b3))
+
 # [1.9.0](https://github.com/aclu-national/email-builder/compare/v1.8.1...v1.9.0) (2024-05-20)
 
 
