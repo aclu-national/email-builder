@@ -41,12 +41,7 @@ jobs:
         run: npm run test:ci --if-present
 
       - name: 🚀 Release Dry Run
-        uses: cycjimmy/semantic-release-action@v3
-        id: semantic
-        with:
-          semantic_version: 18
-          dry_run: true
-          branches: ${{ github.head_ref }}
+        run: npx semantic-release --dry-run
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
