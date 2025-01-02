@@ -47,6 +47,7 @@ const data = {
 			headshot: "",
 			name: "Michael Garvey",
 			pronouns: "He, him, his",
+			pronouns: "He, him, his",
 			title: "Advocacy Director",
 		},
 		comms: {
@@ -56,9 +57,16 @@ const data = {
 			title: "Communications Director",
 		},
 		custom1: {
+			headshot: "",
+			name: "Megan Barker",
+			pronouns: "She, her, hers",
+			title: "Communications Director",
+		},
+		custom1: {
 			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea873c8f3d44.jpg",
 			name: "Megan Edge",
 			pronouns: "She, her, hers",
+			title: "Prison Project Director",
 			title: "Prison Project Director",
 		},
 		custom2: {
@@ -83,9 +91,15 @@ const data = {
 			headshot: "",
 			name: "Mara Kimmel",
 			pronouns: "She, her, hers",
+			headshot: "",
+			name: "Mara Kimmel",
+			pronouns: "She, her, hers",
 			title: "Executive Director",
 		},
 		legal: {
+			headshot: "",
+			name: "Ruth Botstein",
+			pronouns: "She, her, hers",
 			headshot: "",
 			name: "Ruth Botstein",
 			pronouns: "She, her, hers",

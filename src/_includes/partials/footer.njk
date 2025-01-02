@@ -1,13 +1,13 @@
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="{{theme.width}}">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
 	<tbody>
 		<tr>
 			<td style="
 			text-align:left;
 			padding:25px 15px 15px 15px;">
-				<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="footer-left">
+				<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
 					<tbody>
 						<tr>
-							<td align="center" valign="top" class="footer-left" style="
+							<td align="center" valign="top" style="
 							font-family: {{theme.text.fontFamily}};
 							font-size: {{theme.text.fontSize}};
 							line-height: 20px;
@@ -20,7 +20,7 @@
 												<tr>
 													<!-- IF YOU WANT TO CHANGE THE BUTTON COLOR YOU WILL NEED TO UPDATE BGCOLOR IN THE TD AND THE BORDER COLOR IN THE A TAGS. -->
 													<td align="center" bgcolor="{{theme.colors.primary}}">
-														<a role="button" class="button-text" href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.donation_url}}{% endif %}" style="
+														<a role="button" class="button" href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.donation_url}}{% endif %}" style="
 														font-family: {{theme.text.fontFamily}};
 														color: {{theme.colors.white}};
 														padding: 12px 18px;
@@ -42,7 +42,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
+				<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
 					<tbody>
 						<tr>
 							<td align="center" valign="top" class="footer-right" style="padding:40px 0px 0px 0px;font-family: {{theme.text.fontFamily}};font-size:{{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};color: {{theme.colors.gray}};text-align:center;">
@@ -56,7 +56,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td align="center" class="footer-text" style="color: {{theme.colors.gray}};font-family: {{theme.text.fontFamily}};font-size:14px;line-height: {{theme.text.lineHeight}};padding:15px;">
+			<td align="center" class="footer-info" style="color: {{theme.colors.gray}};font-family: {{theme.text.fontFamily}};font-size:14px;line-height: {{theme.text.lineHeight}};padding:15px;">
 				<!-- START FOOTER INFO -->
 				This email was sent to: <strong>{% if config.environment === 'prod' %}{email}{% else  %}cansupport@aclu.org{% endif %}</strong><br />
 				<br />

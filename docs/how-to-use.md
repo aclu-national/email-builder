@@ -53,7 +53,7 @@ will display this
 
 <!-- prettier-ignore-start -->
 ```html
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="{{theme.width}}" style="margin-bottom: 15px;">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}" style="margin-bottom: 15px;">
 	<tbody>
 		<tr>
 			<td style="
