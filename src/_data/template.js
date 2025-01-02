@@ -1,11 +1,12 @@
 const data = {
-	address1: "128 Dorrance Street, Suite 400",
-	address2: "Providence, RI 02903",
-	affiliation_name: "ACLU of Rhode Island",
-	donation_url: "https://action.aclu.org/give/rhode-island-join-renew-today?initms_aff=ri&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ri&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
+	address1: "",
+	address2: "",
+	affiliation_name: "",
+	donation_url: "",
+	website_url: "",
 	logo: {
 		default: {
-			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c123523f.png",
+			url: "",
 			size: "150",
 		},
 		twenty: {
@@ -41,7 +42,7 @@ const data = {
 			size: "200",
 		},
 	},
-	privacy_url: "https://www.riaclu.org/en/privacy-statement",
+	privacy_url: "/en/privacy-statement",
 	signatures: {
 		advo: {
 			headshot: "",
@@ -77,7 +78,7 @@ const data = {
 			headshot: "",
 			name: "",
 			pronouns: "",
-			title: "Development Director",
+			title: "Director of Philanthropy",
 		},
 		ed: {
 			headshot: "",
@@ -87,7 +88,7 @@ const data = {
 		},
 		legal: {
 			headshot: "",
-			name: "",
+			name: "Ruth Botstein",
 			pronouns: "",
 			title: "Legal Director",
 		},
@@ -99,12 +100,9 @@ const data = {
 		},
 	},
 	social: {
-		facebook_url: "https://facebook.com/riaclu",
-		instagram_url: "https://www.instagram.com/riaclu",
+		facebook_url: "https://facebook.com/",
+		instagram_url: "https://www.instagram.com/",
 		threads_url: "",
-		x_url: "https://x.com/riaclu",
+		x_url: "https://x.com/",
 	},
-	website_url: "https://www.riaclu.org",
 };
-
-module.exports = data;

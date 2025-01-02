@@ -1,0 +1,4 @@
+{
+	"tags": ["includes"],
+	"permalink": "./templates/includes/{{ page.fileSlug }}.html"
+}

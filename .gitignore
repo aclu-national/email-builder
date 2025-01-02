@@ -7,6 +7,7 @@ src/**/**/xx.js
 src/test/xx.test.js
 bin/commands/testCommand.mjs
 test.json
+src/_data/dataLoader.json
 
 # build artifacts
 build/

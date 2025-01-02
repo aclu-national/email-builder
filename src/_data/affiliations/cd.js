@@ -2,11 +2,46 @@ const data = {
 	address1: "P.O. Box 87131",
 	address2: "San Diego, CA 92138",
 	affiliation_name: "ACLU of San Diego & Imperial Counties",
-	donation_url: "https://action.aclu.org/give/san-diego-join-renew-today?initms_aff=cd&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cd&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/sdicaclu",
-	instagram_url: "https://www.instagram.com/sdicaclu/",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1279698.png",
-	logo_width: "150",
+	donation_url: "https://action.aclu.org/give/san-diego-join-renew-today?initms_aff=cd&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cd&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1279698.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		newsletter: {
+			url: "",
+			size: "300",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://www.aclu-sdic.org/en/privacy-statement",
 	signatures: {
 		advo: {
 			headshot: "",
@@ -63,8 +98,13 @@ const data = {
 			title: "Organizing and Political Director",
 		},
 	},
-	twitter_url: "https://twitter.com/sdicACLU",
-	website_url: "https://www.aclu-sdic.org/",
+	social: {
+		facebook_url: "https://facebook.com/sdicaclu",
+		instagram_url: "https://www.instagram.com/sdicaclu",
+		threads_url: "",
+		x_url: "https://x.com/sdicACLU",
+	},
+	website_url: "https://www.aclu-sdic.org",
 };
 
 module.exports = data;

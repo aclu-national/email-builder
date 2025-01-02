@@ -2,11 +2,47 @@ const data = {
 	address1: "39 Drumm Street",
 	address2: "San Francisco, CA 94111",
 	affiliation_name: "ACLU of Northern California",
-	donation_url: "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=24XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=24XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=24XXXX_affcampaign_footerdonate_gradead_sail",
-	facebook_url: "https://www.facebook.com/aclu.norcal",
-	instagram_url: "https://www.instagram.com/aclu_norcal",
-	logo_url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1e35964.png",
+	donation_url: "https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo_width: "150",
+	logo: {
+		default: {
+			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1e35964.png",
+			size: "150",
+		},
+		twenty: {
+			url: "",
+			size: "200",
+		},
+		fifty: {
+			url: "",
+			size: "200",
+		},
+		sixty: {
+			url: "",
+			size: "200",
+		},
+		seventyFive: {
+			url: "",
+			size: "200",
+		},
+		eighty: {
+			url: "",
+			size: "200",
+		},
+		ninety: {
+			url: "",
+			size: "200",
+		},
+		newsletter: {
+			url: "",
+			size: "300",
+		},
+		custom: {
+			url: "",
+			size: "200",
+		},
+	},
+	privacy_url: "https://www.aclunc.org/privacy-policy",
 	signatures: {
 		advo: {
 			headshot: "https://media.sailthru.com/64d/1k4/4/s/5ea8845e32d87.jpg",
@@ -63,8 +99,12 @@ const data = {
 			title: "Organizing Director",
 		},
 	},
-	twitter_url: "https://twitter.com/aclu_norcal",
-	website_url: "https://www.aclunc.org/",
+	social: {
+		facebook_url: "https://facebook.com/aclu.norcal",
+		instagram_url: "https://www.instagram.com/aclu_norcal",
+		threads_url: "",
+		x_url: "https://x.com/aclu_norcal",
+	},
 };
 
 module.exports = data;
