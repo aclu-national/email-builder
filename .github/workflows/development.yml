@@ -3,6 +3,9 @@ name: Development
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   Test-Release:
@@ -38,20 +41,7 @@ jobs:
         run: npm run test:ci --if-present
 
       - name: 🚀 Release Dry Run
-        uses: cycjimmy/semantic-release-action@v3
-        id: semantic
-        with:
-          semantic_version: 18
-          dry_run: true
-          ci: false
-          branches: |
-            [
-              'main',
-              'next',
-              'next-major',
-              {name: 'beta', prerelease: true},
-              {name: 'alpha', prerelease: true}
-            ]
+        run: npx semantic-release --dry-run --branches=${{ github.ref_name }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
