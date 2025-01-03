@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.11.0](https://github.com/aclu-national/email-builder/compare/v1.10.1...v1.11.0) (2025-01-03)
+
+
+### Bug Fixes
+
+* **templates:** rename extension ([746888b](https://github.com/aclu-national/email-builder/commit/746888b501f3c2c70d520a2202ac0f093f57a350))
+
+
+### Features
+
+* **components:** data variables include ([#71](https://github.com/aclu-national/email-builder/issues/71)) ([34ddb87](https://github.com/aclu-national/email-builder/commit/34ddb87f39a110b295f9f82b92e9fa96cf0424ae))
+
 ## [1.10.1](https://github.com/aclu-national/email-builder/compare/v1.10.0...v1.10.1) (2025-01-03)
 
 
