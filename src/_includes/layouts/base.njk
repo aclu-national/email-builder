@@ -11,7 +11,7 @@
 		{%- include "partials/wrapper.njk" -%}
 		{%- if config.environment === 'prod' -%}
 			<!-- FOOTER SECTION -->
-			<!-- USE VARIABLE {donation_url = "https://www.aclu.org"} BEFORE INCLUDE TO REPLACE URL FOR DESIRED DESTINATION. READ MORE ABOUT THE LOGO OPTIONS: https://app.getguru.com/card/ig86o6pT/Affiliate-Sailthru-Guide  -->
+			<!-- USE VARIABLE {donation_url} BEFORE INCLUDE TO REPLACE URL FOR DESIRED DESTINATION. READ MORE ABOUT THE LOGO OPTIONS: https://app.getguru.com/card/ig86o6pT/Affiliate-Sailthru-Guide  -->
 			{include "footer-default"}
 		{%- else -%}
 			{%- include "partials/footer.njk" -%}
