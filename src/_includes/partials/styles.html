@@ -43,7 +43,6 @@
 		border: none;
 	}
 
-	/* REMOVE SPACING BETWEEN TABLES IN OUTLOOK 2007 AND UP */
 	table,
 	td {
 		border-spacing: 0px;
@@ -70,7 +69,7 @@
 		margin-bottom: 15px;
 		font-family: Arial, "Helvetica Neue", sans-serif;
 		font-size: {{theme.text.fontSize}};
-		line-height: {{theme.text.fontSize}};
+		line-height: {{theme.text.lineHeight}};
 		list-style-type: disc;
 	}
 
@@ -147,7 +146,6 @@
 		td.darkmode-box,
 		td.callout {
 			background: {{theme.dark.altBox}};
-			color: {{theme.dark.color}};
 		}
 
 		td.email-content {
