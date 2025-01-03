@@ -1,19 +1,20 @@
 {% include "partials/preheader.njk" %}
-{% if topper %}
-	{% include "components/topper.njk" %}
-{% endif %}
+{%- if topper -%}
+	{%- include "components/topper.njk" -%}
+{%- endif -%}
 <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
 	<tbody>
-		{% include "partials/logo.njk" %}
+		{%- include "partials/logo.njk" -%}
 		<tr>
 			<td class="email-content" style="color: {{theme.light.color}};font-family: {{theme.text.fontFamily}};font-size: {{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};padding: {{theme.padding}};border-bottom: {{theme.light.borderBottom}};" valign="top">
+				<!-- BODY CONTENT -->
 				{{ content | safe }}
 
-				{% if test == true %}
+				{%- if test == true -%}
 					<p><strong>ACLU</strong></p>
-				{% else %}
-					{% include "components/signature.njk" %}
-				{% endif %}
+				{%- else -%}
+					{%- include "components/signature.njk" -%}
+				{%- endif -%}
 			</td>
 		</tr>
 	</tbody>
