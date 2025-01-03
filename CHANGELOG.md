@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/aclu-national/email-builder/compare/v1.10.0...v1.10.1) (2025-01-03)
+
+
+### Bug Fixes
+
+* **templates:** remove comment variable value ([#70](https://github.com/aclu-national/email-builder/issues/70)) ([b87b524](https://github.com/aclu-national/email-builder/commit/b87b5245d0d36efeae4f45c1ae4640c84bc56862))
+
 # [1.10.0](https://github.com/aclu-national/email-builder/compare/v1.9.0...v1.10.0) (2025-01-02)
 
 
