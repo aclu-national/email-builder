@@ -7,11 +7,7 @@
 				<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
 					<tbody>
 						<tr>
-							<td align="center" valign="top" style="
-							font-family: {{theme.text.fontFamily}};
-							font-size: {{theme.text.fontSize}};
-							line-height: 20px;
-							color: {{theme.colors.gray}};">
+							<td align="center" valign="top" style="font-family: {{theme.text.fontFamily}};font-size: {{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};color: {{theme.colors.gray}};">
 								<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
 								<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
 									<tr>
@@ -20,7 +16,7 @@
 												<tr>
 													<!-- IF YOU WANT TO CHANGE THE BUTTON COLOR YOU WILL NEED TO UPDATE BGCOLOR IN THE TD AND THE BORDER COLOR IN THE A TAGS. -->
 													<td align="center" bgcolor="{{theme.colors.primary}}">
-														<a role="button" class="button" href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.donation_url}}{% endif %}" style="
+														<a role="button" class="button" href="{% if config.environment === 'prod' %}{donation_url}{% else  %}{{dataLoader.nat.donation_url}}{% endif %}" style="
 														font-family: {{theme.text.fontFamily}};
 														color: {{theme.colors.white}};
 														padding: 12px 18px;
