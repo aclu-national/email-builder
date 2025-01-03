@@ -1,19 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		{% include "partials/head.njk" %}
+		{%- include "partials/head.njk" -%}
 	</head>
 	<body>
-		{% if config.environment === 'prod' %}
-			{include "dataLoader"}
+		{%- if config.environment === 'prod' -%}
+			<!-- beacon & dataLoader ARE REQUIRED. DO NOT REMOVE! -->
+			{include "dataLoader"}{beacon}
 		{% endif %}
-
-		{% include "partials/wrapper.njk" %}
-
-		{% if config.environment === 'prod' %}
+		{%- include "partials/wrapper.njk" -%}
+		{%- if config.environment === 'prod' -%}
+			<!-- FOOTER SECTION -->
+			<!-- USE VARIABLE {donation_url = "https://www.aclu.org"} BEFORE INCLUDE TO REPLACE URL FOR DESIRED DESTINATION. READ MORE ABOUT THE LOGO OPTIONS: https://app.getguru.com/card/ig86o6pT/Affiliate-Sailthru-Guide  -->
 			{include "footer-default"}
-		{% else %}
-			{% include "partials/footer.njk" %}
-		{% endif %}
+		{%- else -%}
+			{%- include "partials/footer.njk" -%}
+		{%- endif -%}
 	</body>
 </html>

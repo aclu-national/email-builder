@@ -1,5 +1,0 @@
-{
-	"layout": "blank",
-	"tags": ["newsletters"],
-	"permalink": "./templates/newsletters/{{ page.fileSlug }}.html"
-}

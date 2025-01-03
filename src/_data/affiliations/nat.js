@@ -111,7 +111,7 @@ const data = {
 		facebook_url: "https://www.facebook.com/aclu",
 		instagram_url: "https://www.instagram.com/aclu_nationwide",
 		threads_url: "https://www.threads.net/@aclu_nationwide",
-		x_url: "https://twitter.com/aclu",
+		x_url: "https://x.com/aclu",
 	},
 	website_url: "https://www.aclu.org",
 };

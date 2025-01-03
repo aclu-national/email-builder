@@ -1,10 +1,19 @@
-{%- if config.environment === 'prod' -%}
-{signature = 'ed'}{include "signatures"}
-{%- else -%}
+{% if config.environment === 'prod' %}
+	<!-- SIGNATURE SECTION -->
+	<!-- DEFINE THE SIGNER. USE VARIABLE {signature = 'ed'} WILL SHOW THE ED'S SIGNATURE. READ MORE ABOUT THE LOGO OPTIONS: https://app.getguru.com/card/ig86o6pT/Affiliate-Sailthru-Guide -->
+	{signature = 'ed'}
+	{include "signatures"}
+
+	<!-- CUSTOM SIGNATURE TEMPLATE  -->
+	<!-- <p><img src="[file_location]" alt="[name]" border="0" width="90" /></p>
+	<p><strong>[name]<br />
+	Pronouns: [Pronouns]<br />
+	[title], {affiliation_name}</strong></p> -->
+{% else %}
 	<p><img src="{{dataLoader.nat.signatures.ed.headshot}}" alt="{{dataLoader.nat.signatures.ed.name}}" border="0" width="90" /></p>
 
 	<p><strong>{{dataLoader.nat.signatures.ed.name}}<br />
 	Pronouns: {{dataLoader.nat.signatures.ed.pronouns}}<br />
 	{{dataLoader.nat.signatures.ed.title}}, {{dataLoader.nat.affiliation_name}}</strong></p>
-{%- endif -%}
+{% endif %}
 

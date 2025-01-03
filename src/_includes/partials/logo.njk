@@ -1,5 +1,13 @@
 <tr>
 	<td align="left" style="padding:20px 0;" class="logo-spacing">
-		<a href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.website_url}}{% endif %}"><img alt="{% if config.environment === 'prod' %}{affiliation_name}{% else  %}{{dataLoader.nat.affiliation_name}}{% endif %}'s logo" src="{% if config.environment === 'prod' %}{logo_default_url}{% else  %}{{dataLoader.nat.logo_url}}{% endif %}" border="0" width="{% if config.environment === 'prod' %}{logo_default_size}{% else %}{{dataLoader.nat.logo_width}}{% endif %}" style="display:block;"/></a>
+		{%- if config.environment === 'prod' -%}
+			<!-- LOGO SELECTION -->
+			<!-- USE VARIABLE {logo_url = "https://www.aclu.org"} BEFORE INCLUDE TO REPLACE URL FOR DESIRED DESTINATION. READ MORE ABOUT THE LOGO OPTIONS: https://app.getguru.com/card/ig86o6pT/Affiliate-Sailthru-Guide  -->
+			{logo = "default"}{include "logos"}
+		{%- else -%}
+			<a href="{{dataLoader.nat.website_url}}"><img alt="{{dataLoader.nat.affiliation_name}}'s logo" src="{{dataLoader.nat.logo.default.url}}" border="0" width="{{dataLoader.nat.logo.default.width}}" style="display:block;"/></a>
+		{%- endif -%}
 	</td>
 </tr>
+
+
