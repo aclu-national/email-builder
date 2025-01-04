@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.4](https://github.com/aclu-national/email-builder/compare/v1.11.3...v1.11.4) (2025-01-04)
+
+
+### Bug Fixes
+
+* **config): chore(config:** fix syntax error ([17c1bf1](https://github.com/aclu-national/email-builder/commit/17c1bf19c2272a60207210c6dbe91853d3c2d715))
+
 ## [1.11.3](https://github.com/aclu-national/email-builder/compare/v1.11.2...v1.11.3) (2025-01-04)
 
 
