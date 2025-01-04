@@ -13,8 +13,9 @@
 		[
 			"@semantic-release/git",
 			{
-				"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
-				"message": "chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+				"assets": ["package.json", "package-lock.json", "CHANGELOG.md", "dist/templates/**/*", "dist/data/*"],
+				"message": "chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+				"branch": "templates"
 			}
 		],
 		[
@@ -22,7 +23,7 @@
 			{
 				"assets": [
 					{ "path": "dist/templates/base/*" },
-					{ "path": "dist/templates/newsletters/*" },
+					{ "path": "dist/templates/includes/*" },
 					{ "path": "dist/data/*" }
 				]
 			}
