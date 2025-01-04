@@ -39,8 +39,6 @@ jobs:
         run: npm run test:ci --if-present
 
       - name: 🚀 Release Dry Run
-        run: npx semantic-release --dry-run --branches=${{ github.ref_name }}
+        run: npx semantic-release --dry-run --ci
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACLU_BUILDER_TOKEN }}
