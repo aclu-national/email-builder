@@ -22,6 +22,11 @@
 	},
 	"logoWidth": "150",
 	"padding": "15px 0px 20px 0px",
+	"size": {
+		"width": "600px",
+		"content_padding": "15px 0px 20px 0px",
+		"wrapper_padding": "15px 20px"
+	},
 	"text": {
 		"fontFamily": "Arial,'Helvetica Neue',sans-serif",
 		"fontSize": "16px",
