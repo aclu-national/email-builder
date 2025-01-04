@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.2](https://github.com/aclu-national/email-builder/compare/v1.11.1...v1.11.2) (2025-01-04)
+
+
+### Bug Fixes
+
+* **styles:** add size options ([#72](https://github.com/aclu-national/email-builder/issues/72)) ([369d2f8](https://github.com/aclu-national/email-builder/commit/369d2f864568d5c19b2603a12722919f5be7e36d))
+
 ## [1.11.1](https://github.com/aclu-national/email-builder/compare/v1.11.0...v1.11.1) (2025-01-04)
 
 
