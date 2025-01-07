@@ -1,7 +1,7 @@
 <h1 align="center"><strong>📧 ACLU Email Builder 📧</strong></h1>
 
 <div align="center">
-<h3 style="margin-bottom:10px"><strong>Using 11ty to generate HTML emails</strong></h3>
+<h3 style="margin-bottom:10px"><strong>Using 11ty to generate HTML emails!</strong></h3>
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -30,3 +30,5 @@
 
 - [Document Structure](docs/structure.md)
 - More coming soon...
+
+
