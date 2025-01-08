@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.5](https://github.com/aclu-national/email-builder/compare/v1.11.4...v1.11.5) (2025-01-08)
+
+
+### Bug Fixes
+
+* **templates:** remove px from width property ([#74](https://github.com/aclu-national/email-builder/issues/74)) ([7a74aca](https://github.com/aclu-national/email-builder/commit/7a74acae1a6459d7f969b7eed8522e6f2fa951dc))
+
 ## [1.11.4](https://github.com/aclu-national/email-builder/compare/v1.11.3...v1.11.4) (2025-01-04)
 
 
