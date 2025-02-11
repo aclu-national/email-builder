@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.6](https://github.com/aclu-national/email-builder/compare/v1.11.5...v1.11.6) (2025-02-11)
+
+
+### Bug Fixes
+
+* **components:** update wrapper class name ([d267217](https://github.com/aclu-national/email-builder/commit/d267217ab35e3429e8cf7a8dea22ec056f951c6d))
+
 ## [1.11.5](https://github.com/aclu-national/email-builder/compare/v1.11.4...v1.11.5) (2025-01-08)
 
 
