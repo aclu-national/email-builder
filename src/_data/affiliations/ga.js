@@ -33,7 +33,7 @@ const data = {
 			size: "200",
 		},
 		newsletter: {
-			url: "",
+			url: "https://media.sailthru.com/64d/1k9/4/f/67fe871f213e6.png",
 			size: "300",
 		},
 		custom: {
@@ -47,7 +47,7 @@ const data = {
 			headshot: "https://media.sailthru.com/64d/1k6/2/g/620d5f1d4051c.png",
 			name: "Christopher Bruce, Esq.",
 			pronouns: "He, him, his",
-			title: "Political Director",
+			title: "Policy Director",
 		},
 		comms: {
 			headshot: "",

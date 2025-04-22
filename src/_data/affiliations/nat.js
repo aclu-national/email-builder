@@ -32,8 +32,16 @@ const data = {
 			url: "",
 			size: "200",
 		},
+		foundation: {
+			url: "https://media.sailthru.com/64d/1k3/a/o/5db213cc3f0d9.png",
+			size: "150",
+		},
+		impact: {
+			url: "https://media.sailthru.com/64d/1k4/3/3/5e5e7b5a904f8.png",
+			size: "150",
+		},
 		newsletter: {
-			url: "",
+			url: "https://media.sailthru.com/64d/1k9/4/m/6807cb0e871c4.png",
 			size: "300",
 		},
 		custom: {

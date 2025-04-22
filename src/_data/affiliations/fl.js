@@ -35,7 +35,7 @@ const data = {
 			size: "200",
 		},
 		newsletter: {
-			url: "",
+			url: "https://media.sailthru.com/64d/1k9/4/m/6807bc7ec9b69.png",
 			size: "300",
 		},
 		custom: {
