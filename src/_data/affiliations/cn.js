@@ -105,6 +105,7 @@ const data = {
 		threads_url: "",
 		x_url: "https://x.com/aclu_norcal",
 	},
+	website_url: "https://www.aclunc.org",
 };
 
 module.exports = data;
