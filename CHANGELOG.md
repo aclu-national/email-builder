@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.12.0](https://github.com/aclu-national/email-builder/compare/v1.11.6...v1.12.0) (2025-07-07)
+
+
+### Bug Fixes
+
+* **data:** missing website ([#76](https://github.com/aclu-national/email-builder/issues/76)) ([13d7d9a](https://github.com/aclu-national/email-builder/commit/13d7d9a0f88aff505026e564a38b5adb083c2fc6))
+
+
+### Features
+
+* newsletter logos ([#75](https://github.com/aclu-national/email-builder/issues/75)) ([6f618aa](https://github.com/aclu-national/email-builder/commit/6f618aa9f098ea2b018cf59d7403d5fe4ed34d4b))
+
 ## [1.11.6](https://github.com/aclu-national/email-builder/compare/v1.11.5...v1.11.6) (2025-02-11)
 
 
