@@ -6,6 +6,7 @@ import addNewSignature from "./commands/addNewSignature.mjs";
 import saveLocalData from "./commands/saveLocalData.mjs";
 import createDataLoader from "./commands/createDataLoader.mjs";
 import updateAffiliation from "./commands/updateAffiliation.mjs";
+import addNewDataVariable from "./commands/addNewDataVariable.mjs";
 
 program
 	.command("add [name]")
@@ -16,6 +17,11 @@ program
 	.command("signature [name]")
 	.description("Create new signature object")
 	.action((name) => addNewSignature(name));
+
+program
+	.command("var [key]")
+	.description("Create new variable key")
+	.action((key) => addNewDataVariable(key));
 
 program
 	.command("save [name]")
