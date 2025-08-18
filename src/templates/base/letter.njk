@@ -2,8 +2,8 @@
 layout: base
 title: letter
 btnText: Take Action
-btnColor: '#ef404d'
 ---
+{% from "components/button.njk" import button %}
 
 {% include "partials/salutation.njk" %}
 
@@ -11,7 +11,7 @@ btnColor: '#ef404d'
 
 <p>Tenetur porro molestias, provident nam dolore sint odit earum minus voluptas quis, quas quam amet sit voluptates velit suscipit consequuntur numquam eius, cum magnam. Tempora perspiciatis voluptatum voluptatibus vel itaque.</p>
 
-{% include "components/button.njk" %}
+{{ button("Learn More", theme.colors.red.primary, theme) }}
 
 <p>Eius nihil, ullam nesciunt accusantium perferendis unde aspernatur velit tempore provident assumenda quas aliquam, ex possimus voluptatum libero. Deleniti ratione libero molestiae modi assumenda quas facilis alias ullam dolor aperiam!</p>
 
