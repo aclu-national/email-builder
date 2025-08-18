@@ -5,7 +5,7 @@ const data = {
 	donation_url: "https://action.aclu.org/give/protect-rights-freedoms-we-believe-4-multistep?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
-			url: "https://media.sailthru.com/64d/1k3/a/o/5db1cbcdd662a.png",
+			url: "https://media.sailthru.com/64d/1k9/8/f/689f77559be9e.jpg",
 			size: "150",
 		},
 		twenty: {

@@ -7,7 +7,7 @@ const data = {
 	instagram_url: "https://www.instagram.com/",
 	logo: {
 		default: {
-			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c179803b.png",
+			url: "https://media.sailthru.com/64d/1k9/8/f/689f77538aa83.png",
 			size: "150",
 		},
 		twenty: {

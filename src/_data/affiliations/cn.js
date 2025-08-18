@@ -6,7 +6,7 @@ const data = {
 	logo_width: "150",
 	logo: {
 		default: {
-			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1e35964.png",
+			url: "https://media.sailthru.com/64d/1k9/8/f/689f7752f147a.png",
 			size: "150",
 		},
 		twenty: {

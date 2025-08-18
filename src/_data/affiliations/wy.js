@@ -5,7 +5,7 @@ const data = {
 	donation_url: "https://action.aclu.org/give/wyoming-join-renew-today?initms_aff=wy&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wy&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail",
 	logo: {
 		default: {
-			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1525d2a.png",
+			url: "https://media.sailthru.com/64d/1k9/8/f/689f7757b2a2a.png",
 			size: "150",
 		},
 		twenty: {

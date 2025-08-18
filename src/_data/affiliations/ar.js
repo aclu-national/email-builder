@@ -7,7 +7,7 @@ const data = {
 	instagram_url: "https://www.instagram.com/acluofarkansas",
 	logo: {
 		default: {
-			url: "https://media.sailthru.com/64d/1k4/4/d/5e947c1631315.png",
+			url: "https://media.sailthru.com/64d/1k9/8/f/689f7752a3c90.png",
 			size: "150",
 		},
 		twenty: {
