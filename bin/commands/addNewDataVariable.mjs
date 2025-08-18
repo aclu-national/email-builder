@@ -24,8 +24,9 @@ function deepClone(value) {
  * Add a new key to the data object in all affiliation files.
  * @param {string[]} pathKeys - Path to the key as array of nested keys. Example: ["social", "linkedin"]
  * @param {any} defaultValue - Value to assign to the new key
+ * @param {boolean} overwrite - Whether to overwrite existing values
 **/
-export default function addNewDataVariable(pathKeys, defaultValue = "") {
+export default function addNewDataVariable(pathKeys, defaultValue = "", overwrite = false) {
   if (!Array.isArray(pathKeys) || pathKeys.length === 0) {
     console.error("Path to key must be a non-empty array");
     return;
@@ -64,26 +65,17 @@ export default function addNewDataVariable(pathKeys, defaultValue = "") {
       current = current[key];
     }
 
-    // Add the new key if it doesn't exist
+    // Add or update the key
     if (!current.hasOwnProperty(lastKey)) {
       current[lastKey] = deepClone(defaultValue);
-      console.log(`Added key '${pathKeys.join(".")}' to ${file}`);
+      console.log(`✅ Added key '${pathKeys.join(".")}' to ${file}`);
+    } else if (overwrite) {
+      current[lastKey] = deepClone(defaultValue);
+      console.log(`♻️ Overwrote key '${pathKeys.join(".")}' in ${file}`);
     } else {
-      console.log(`Key '${pathKeys.join(".")}' already exists in ${file}`);
+      console.log(`⚠️ Key '${pathKeys.join(".")}' already exists in ${file} (use --overwrite to replace)`);
     }
 
     fs.writeFileSync(filePath, toJS(data));
   }
-}
-
-/* ---------------- CLI wrapper ---------------- */
-
-if (process.argv.length > 2) {
-  const [,, pathString, defaultValue] = process.argv;
-  if (!pathString) {
-    console.error("Usage: node addNewDataVariable.js path.to.key [defaultValue]");
-    process.exit(1);
-  }
-  const pathKeys = pathString.split(".");
-  addNewDataVariable(pathKeys, defaultValue ?? "");
 }

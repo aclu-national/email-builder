@@ -24,7 +24,7 @@
 	},
 	"scripts": {
 		"start": "npm run dev",
-		"dev": "eleventy --serve",
+		"dev": "./bin/cli.mjs save && eleventy --serve",
 		"web": "eleventy",
 		"clean": "rimraf dist/",
 		"pa11y": "pa11y ./dist",
@@ -44,8 +44,7 @@
 		"cz-customizable": {
 			"config": "./.config/commitizen.config.js"
 		}
-	},
-	"husky": {
+	}, "husky": {
 		"hooks": {
 			"pre-commit": "lint-staged",
 			"commit-msg": "exec < /dev/tty && ./node_modules/.bin/cz --hook || true"

@@ -19,9 +19,14 @@ program
 	.action((name) => addNewSignature(name));
 
 program
-	.command("var [key]")
-	.description("Create new variable key")
-	.action((key) => addNewDataVariable(key));
+  .command("var <key>")
+  .description("Create new variable key")
+  .option("-v, --value <value>", "default value for the key", "")
+  .option("-o, --overwrite", "overwrite existing value if present", false)
+  .action((key, options) => {
+    const pathKeys = key.split(".");
+    addNewDataVariable(pathKeys, options.value, options.overwrite);
+  });
 
 program
 	.command("save [name]")
