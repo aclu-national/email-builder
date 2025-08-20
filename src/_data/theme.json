@@ -1,35 +1,89 @@
 {
 	"colors": {
+		"white": "#f3f3f3",
 		"black": "#3c3532",
 		"gray": "#888888",
-		"primary": "#0055aa",
-		"secondary": "#ef404d",
-		"white": "#f3f3f3"
+		"blue": {
+			"primary": "#146cd2",
+			"light": "#d9e9fc",
+			"tint": "#7cb4f3",
+			"shade": "#01438e",
+			"dark": "#001e3d"
+		},
+		"red": {
+			"light": "#fbdbde",
+			"tint": "#f3919b",
+			"primary": "#d9192b",
+			"shade": "#8f0e1d",
+			"dark": "#3e020e"
+		},
+		"yellow": {
+			"light": "#fee9af",
+			"tint": "#fdd588",
+			"primary": "#fdc221",
+			"shade": "#b68602",
+			"dark": "#503b01"
+		},
+		"green": {
+			"light": "#d5ecdd",
+			"tint": "#8fc1a0",
+			"primary": "#499764",
+			"shade": "#306342",
+			"dark": "#1b3724"
+		},
+		"orange": {
+			"light": "#ffdfc2",
+			"tint": "#ffaa59",
+			"primary": "#ff7d00",
+			"shade": "#a85200",
+			"dark": "#3d1e00"
+		},
+		"purple": {
+			"light": "#f4dff6",
+			"tint": "#bf8ae2",
+			"primary": "#862dcb",
+			"shade": "#561d82",
+			"dark": "#210b32"
+		},
+		"pink": {
+			"light": "#f6cbdf",
+			"tint": "#ed93bd",
+			"primary": "#db2a7d",
+			"shade": "#88194d",
+			"dark": "#460c27"
+		},
+		"neon": {
+			"purple": "#7000ff",
+			"pink": "#ff40b2",
+			"green": "#58fb99",
+			"yellow": "#e5ff69",
+			"blue": "#6cffff"
+		},
+		"default": {
+			"pureWhite": "#ffffff",
+			"offWhite": "#f7f9fd",
+			"cream": "#faf6f0",
+			"grey": "#696968",
+			"black": "#1c1c1e",
+			"mbGrey": "#6968682b",
+			"dmBox": "#2c2c2e"
+		}
 	},
-	"dark": {
-		"altBox": "#2a2a2b !important",
-		"background": "#1c1c1e",
-		"borderBottom": "1px solid #2a2a2b !important",
-		"color": "#cecece",
-		"link": "#2d86e0"
+	"sizing": {
+		"wrapper": "600",
+		"contentPadding": "15px 0px 20px 0px",
+		"elementMargin": "20px",
+		"icon": "39px",
+		"signatureWidth": "90px"
 	},
-	"elementMargin": "20px",
-	"light": {
-		"background": "#ffffff",
-		"borderBottom": "1px solid #d4d4d4",
-		"color": "#3c3532",
-		"link": "#0055aa"
-	},
-	"padding": "15px 0px 20px 0px",
-	"size": {
-		"width": "600",
-		"content_padding": "15px 0px 20px 0px",
-		"wrapper_padding": "15px 20px"
-	},
-	"text": {
-		"fontFamily": "Arial,'Helvetica Neue',sans-serif",
-		"fontSize": "16px",
-		"lineHeight": "22px"
-	},
-	"width": "600"
+	"typography": {
+		"sans": "Arial, Verdana,Tahoma, sans-serif",
+		"serif": "Georgia, Garamond, serif",
+		"body": "16px",
+		"heading1": "24px",
+		"heading2": "20px",
+		"heading3": "18px",
+		"lineHeight": "24px",
+		"boldWeight": "900"
+	}
 }

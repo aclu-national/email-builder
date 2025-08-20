@@ -6,7 +6,7 @@ node_modules/
 src/**/**/xx.js
 src/test/xx.test.js
 bin/commands/testCommand.mjs
-test.json
+test.*
 src/_data/dataLoader.json
 
 # build artifacts

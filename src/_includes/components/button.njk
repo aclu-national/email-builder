@@ -1,17 +1,29 @@
-<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
+{% macro button(btnText, btnColor, theme) %}
 <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
-	<tr>
-		<td align="center" style="margin: 20px 0 20px 0;">
-			<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-				<tr>
-					<td align="center" bgcolor="{{btnColor}}">
-						<a role="button" class="button-text" href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.website_url}}{% endif %}" style="font-family: {{theme.text.fontFamily}};color: {{theme.colors.white}};padding: 12px 18px;border: 1px solid {{btnColor}};display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">{{btnText}}</a>
-					</td>
-				</tr>
-			</table>
-			<!-- <p style="font-size:14px;margin-top:15px;"><em>Please note: This link will take you to a third-party website, xyz.com</em></p> -->
-		</td>
-	</tr>
+  <tr>
+    <td align="center" style="margin: 20px 0;">
+      <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" bgcolor="{{ btnColor }}">
+            <a role="button"
+               href="{% if config.environment === 'prod' %}{{ website_url }}{% else %}{{ dataLoader.nat.website_url }}{% endif %}"
+               style="font-family: {{ theme.typography.sans }};
+                      color: {{ theme.colors.default.pureWhite }};
+                      padding: 12px 18px;
+                      border: 1px solid {{ btnColor }};
+                      display: inline-block;
+                      font-size: 18px;
+                      font-weight: bold;
+                      text-align: center;
+                      text-decoration: none;
+                      text-transform: uppercase;">
+              {{ btnText }}
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
 <br />
-<!-- END CTA BUTTON -->
+{% endmacro %}

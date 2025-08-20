@@ -2,11 +2,11 @@
 {%- if topper -%}
 	{%- include "components/topper.njk" -%}
 {%- endif -%}
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.sizing.wrapper}}">
 	<tbody>
 		{%- include "partials/logo.njk" -%}
 		<tr>
-			<td class="email-content" style="color: {{theme.light.color}};font-family: {{theme.text.fontFamily}};font-size: {{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};padding: {{theme.padding}};border-bottom: {{theme.light.borderBottom}};" valign="top">
+			<td class="email-content" style="color: {{theme.colors.default.black}};font-family: {{theme.typography.sans}};font-size: {{theme.typography.body}};line-height: {{theme.typography.lineHeight}};padding: {{theme.sizing.contentPadding}};border-bottom: 1px solid {{theme.colors.default.mbGrey}};" valign="top">
 				<!-- BODY CONTENT -->
 				{{ content | safe }}
 

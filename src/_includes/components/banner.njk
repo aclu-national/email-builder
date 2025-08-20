@@ -1,15 +1,15 @@
 <!-- HERO IMAGE AND CTA IMAGE TABLE -->
-<table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="{{theme.sizing.wrapper}}" class="email-wrapper">
 	<tr>
-		<td style="padding:20px 0;">
-			<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="{{theme.width}}" class="email-wrapper">
+		<td style="padding:0 0 20px;">
+			<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="{{theme.sizing.wrapper}}" class="email-wrapper">
 				<tbody>
 					<tr>
-						<td><a href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}"><img src="https://media.sailthru.com/64p/1k3/9/r/5d8e7393531ee.jpg" width="{{theme.width}}" class="mobile-image" border="0" alt="Freedom can't protect itself text with the Statue of Liberty's torch." style="display:block;" /></a></td>
+						<td><a href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}"><img src="https://media.sailthru.com/64p/1k3/9/r/5d8e7393531ee.jpg" width="{{theme.sizing.wrapper}}" class="mobile-image" border="0" alt="Freedom can't protect itself text with the Statue of Liberty's torch." style="display:block;" /></a></td>
 					</tr>
 					<!-- REMOVE <tr> BELOW TO ONLY SHOW IMAGE -->
 					<tr>
-						<td style="text-align:center;background-color: {{btnColor}};font-family: {{theme.text.fontFamily}};color:{{theme.colors.white}};font-size:18px;padding:10px;text-transform:uppercase;"><a role="button" href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}" style="color: {{theme.colors.white}};font-size:20px;text-decoration: none;text-transform: uppercase;font-weight:900;">{{btnText}}</a></td>
+						<td style="text-align:center;background-color: {{theme.colors.red.primary}};font-family: {{theme.typography.sans}};color:{{theme.colors.default.pureWhite}};font-size:18px;padding:10px;text-transform:uppercase;"><a role="button" href="{% if config.environment === 'prod' %}{website_url}{% else %}{{dataLoader.nat.website_url}}{% endif %}" style="color: {{theme.colors.default.pureWhite}};font-size:20px;text-decoration: none;text-transform: uppercase;font-weight:{{theme.typography.boldWeight}};">{{btnText}}</a></td>
 					</tr>
 					<!-- REMOVE <tr> BELOW TO ONLY SHOW IMAGE -->
 				</tbody>

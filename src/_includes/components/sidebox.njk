@@ -1,13 +1,15 @@
+{% from "components/button.njk" import button %}
+
 <!-- START OUTER SIDEBOX TABLE  -->
 <table role="presentation" class="outer-sidebox" align="right" border="0" cellpadding="0" cellspacing="0" width="290" style="float:right;">
 	<tr>
 		<td style="text-align:center;padding-left:20px;padding-bottom:20px;" class="sidebox-padding">
 			<!-- START INNER SIDEBOX TABLE -->
-			<table role="presentation" class="inner-sidebox" border="0" cellpadding="0" cellspacing="0" width="270" style="float:right;border:1px solid {{theme.colors.white}};">
+			<table role="presentation" class="inner-sidebox" border="0" cellpadding="0" cellspacing="0" width="270" style="float:right;border:1px solid {{theme.colors.default.pureWhite}};">
 				<tr>
-					<td class="darkmode-box" align="left" valign="top" style="border:1px solid #eeeeee;padding:15px;color:{{theme.colors.black}};font-size:{{theme.text.fontSize}};font-family:{{theme.text.fontFamily}};background-color: {{theme.colors.white}};">
+					<td class="darkmode-box" align="left" valign="top" style="border:1px solid #eeeeee;padding:15px;color:{{theme.colors.default.black}};font-size:{{theme.typography.body}};font-family:{{theme.typography.sans}};background-color: {{theme.colors.default.pureWhite}};">
 						<!-- START HEADLINE -->
-						<h2 style="font-weight:900;font-size:{{theme.text.fontSize}};line-height:23px;text-transform:uppercase;">Lorem ipsum dolor sit amet.</h2>
+						<h2 style="font-weight:{{theme.typography.boldWeight}};font-size:{{theme.typography.body}};line-height:23px;text-transform:uppercase;">Lorem ipsum dolor sit amet.</h2>
 						<!-- END HEADLINE -->
 						<!-- START IMAGE-->
 						<p style="margin:0px 0 15px 0;font-weight:400;line-height:1.4em;"><a href="{% if config.environment === 'prod' %}{website_url}{% else  %}{{dataLoader.nat.website_url}}{% endif %}"><img src="https://media.sailthru.com/64p/1k3/9/r/5d8e778dd2054.jpg" alt="Lady Liberty." width="230" border="0" style="outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" class="mobile-image" /></a></p>
@@ -15,7 +17,7 @@
 						<!-- START CTA TEXT -->
 						<p style="margin:10px 0 15px 0;line-height:21px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quisquam.</p>
 						<!-- END CTA TEXT -->
-						{% include "components/button.njk" %}
+						{{ button("Take Action", theme.colors.red.primary, theme) }}
 					</td>
 				</tr>
 			</table>
