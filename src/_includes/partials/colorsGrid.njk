@@ -1,0 +1,33 @@
+<table class="colors-display" cellpadding="6" cellspacing="0" border="1" style="border-collapse: collapse; text-align:center; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="width: 80px;"></th>
+      {% set colors = ["blue","red","yellow","green","orange","purple","pink"] %}
+      {% for color in colors %}
+        <th style="width: 100px; text-transform: capitalize;">{{ color }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% set shades = ["light","tint","primary","shade","dark"] %}
+    {% for shade in shades %}
+      <tr>
+        <td style="text-transform: capitalize; font-weight:bold; width: 80px;">{{ shade }}</td>
+        {% for color in colors %}
+          {% set hex = theme.colors[color][shade] %}
+          <td>
+            <div class="color-swatch"
+                 title="{{ color }} {{ shade }} - {{ hex }}"
+                 style="background-color: {{ hex }};
+                        width: 50px;
+                        height: 50px;
+                        margin: auto;
+                        border: 1px solid #ccc;">
+            </div>
+            <div style="font-size:12px; margin-top:4px;">{{ hex }}</div>
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table><br />
