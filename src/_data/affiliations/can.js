@@ -71,7 +71,7 @@ const data = {
     },
     custom2: {
       headshot: '',
-      name: '',
+      name: 'Ashley Burrous',
       pronouns: '',
       title: ''
     },
