@@ -108,11 +108,11 @@ const data = {
   },
   social: {
     bluesky: 'https://bsky.app/profile/aclu.org',
-    facebook_url: 'https://www.facebook.com/aclu',
-    instagram_url: 'https://www.instagram.com/aclu_nationwide',
-    threads_url: 'https://www.threads.net/@aclu_nationwide',
+    facebook: 'https://www.facebook.com/aclu',
+    instagram: 'https://www.instagram.com/aclu_nationwide',
+    threads: 'https://www.threads.net/@aclu_nationwide',
     tiktok: 'https://www.tiktok.com/@aclu',
-    x_url: 'https://x.com/aclu',
+    x: 'https://x.com/aclu',
     youtube: 'https://www.youtube.com/aclu'
   },
   website_url: 'https://www.aclu.org'

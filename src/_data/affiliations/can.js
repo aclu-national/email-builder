@@ -107,13 +107,34 @@ const data = {
     }
   },
   social: {
-    bluesky: '',
-    facebook_url: 'https://facebook.com/aclu',
-    instagram_url: 'https://www.instagram.com/aclu_nationwide',
-    threads_url: 'https://www.threads.net/@aclu_nationwide',
-    tiktok: '',
-    x_url: 'https://x.com/aclu',
-    youtube: ''
+    bluesky: {
+      url: 'https://bsky.app/profile/aclu.org',
+      rank: 1
+    },
+    facebook: {
+      url: 'https://www.facebook.com/aclu',
+      rank: 5
+    },
+    instagram: {
+      url: 'https://www.instagram.com/aclu_nationwide',
+      rank: 2
+    },
+    threads: {
+      url: 'https://www.threads.net/@aclu_nationwide',
+      rank: 4
+    },
+    tiktok: {
+      url: 'https://www.tiktok.com/@aclu',
+      rank: 3
+    },
+    x: {
+      url: 'https://x.com/aclu',
+      rank: 7
+    },
+    youtube: {
+      url: 'https://www.youtube.com/aclu',
+      rank: 6
+    }
   },
   website_url: 'https://www.aclu.org'
 };
