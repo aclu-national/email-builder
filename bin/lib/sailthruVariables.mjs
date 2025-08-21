@@ -5,17 +5,45 @@ const sailthruVariables = `
 {address2 = data[affiliation]["address2"]}
 {donation_url = data[affiliation]["donation_url"]}
 {privacy_url = data[affiliation]["privacy_url"]}
-{facebook_url = data[affiliation]['social']["facebook_url"]}
-{instagram_url = data[affiliation]['social']["instagram_url"]}
-{threads_url = data[affiliation]['social']["threads_url"]}
-{x_url = data[affiliation]['social']["x_url"]}
+{bluesky_url = data[affiliation]['social']["bluesky"]}
+{facebook_url = data[affiliation]['social']["facebook"]}
+{instagram_url = data[affiliation]['social']["instagram"]}
+{threads_url = data[affiliation]['social']["threads"]}
+{tiktok_url = data[affiliation]['social']["tiktok"]}
+{x_url = data[affiliation]['social']["x"]}
+{youtube_url = data[affiliation]['social']["youtube"]}
 {website_url = data[affiliation]["website_url"]}
 {email_pref = "https://action.aclu.org/preference-center/aclu-" + affiliation + "-email-preference?eid=" + email_id + "&referral=" + affiliation + "&unsub_url=" + optout_confirm_url}
+
 
 {facebook_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb21b75bf.png"}
 {instagram_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb1be2cb6.png"}
 {threads_logo = "https://media.sailthru.com/64d/1k8/c/u/6772ff5288341.png"}
 {x_logo = "https://media.sailthru.com/64d/1k8/3/f/65f4803d78db4.png"}
+
+{icon_bluesky_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f38701c1.png"}
+{icon_bluesky_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f38eacc8.png"}
+{icon_bluesky_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f396cab9.png"}
+{icon_facebook_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f3888919.png"}
+{icon_facebook_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f390e7e3.png"}
+{icon_facebook_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f3979649.png"}
+{icon_instagram_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f389817a.png"}
+{icon_instagram_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f391e220.png"}
+{icon_instagram_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f398619b.png"}
+{icon_threads_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f38a61a6.png"}
+{icon_threads_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f392da9a.png"}
+{icon_threads_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f39945d4.png"}
+{icon_tiktok_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f38b8888.png"}
+{icon_tiktok_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f393b622.png"}
+{icon_tiktok_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f39a0f6b.png"}
+{icon_x_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f38c5cd6.png"}
+{icon_x_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f394e4a9.png"}
+{icon_x_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f39b6c18.png"}
+{icon_youtube_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f38d99fb.png"}
+{icon_youtube_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f395e481.png"}
+{icon_youtube_white = "https://media.sailthru.com/64d/1k9/8/j/68a49f39c355d.png"}
+
+
 
 {logo_default_url = data[affiliation]['logo']['default']['url']}
 {logo_default_size = data[affiliation]['logo']['default']['size']}

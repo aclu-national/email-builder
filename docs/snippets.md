@@ -137,15 +137,15 @@ This snippet displays the code for a table for our current template. This is use
 <!-- prettier-ignore-start -->
 
 ```html
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.sizing.wrapper}}">
 	<tbody>
 		<tr>
 			<td style="
-			color: {{theme.light.color}};
-			font-family: {{theme.text.fontFamily}};
-			font-size: {{theme.text.fontSize}};
-			line-height: {{theme.text.lineHeight}};
-			padding: {{theme.padding}};" valign="top">
+			color: {{theme.colors.default.black}};
+			font-family: {{theme.typography.sans}};
+			font-size: {{theme.typography.body}};
+			line-height: {{theme.typography.lineHeight}};
+			padding: {{theme.sizing.contentPadding}};" valign="top">
 				<p>$1</p>
 			</td>
 		</tr>

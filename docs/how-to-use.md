@@ -53,15 +53,15 @@ will display this
 
 <!-- prettier-ignore-start -->
 ```html
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}" style="margin-bottom: 15px;">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.sizing.wrapper}}" style="margin-bottom: 15px;">
 	<tbody>
 		<tr>
 			<td style="
-			color: {{theme.light.color}};
-			font-family: {{theme.text.fontFamily}};
-			font-size: {{theme.text.fontSize}};
-			line-height: {{theme.text.lineHeight}};
-			padding: {{theme.padding}};" valign="top">
+			color: {{theme.colors.default.black}};
+			font-family: {{theme.typography.sans}};
+			font-size: {{theme.typography.body}};
+			line-height: {{theme.typography.lineHeight}};
+			padding: {{theme.sizing.contentPadding}};" valign="top">
 				<h4>Membership Card</h4>
 				<p>Member Name: Pavel</p>
 				<p>Member ID: 8675309</p>

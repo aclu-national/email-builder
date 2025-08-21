@@ -1,4 +1,6 @@
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.width}}">
+{% from "components/button.njk" import button %}
+
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="email-wrapper" width="{{theme.sizing.wrapper}}">
 	<tbody>
 		<tr>
 			<td style="
@@ -7,33 +9,8 @@
 				<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
 					<tbody>
 						<tr>
-							<td align="center" valign="top" style="font-family: {{theme.text.fontFamily}};font-size: {{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};color: {{theme.colors.gray}};">
-								<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-									<tr>
-										<td align="center">
-											<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<!-- IF YOU WANT TO CHANGE THE BUTTON COLOR YOU WILL NEED TO UPDATE BGCOLOR IN THE TD AND THE BORDER COLOR IN THE A TAGS. -->
-													<td align="center" bgcolor="{{theme.colors.primary}}">
-														<a role="button" class="button" href="{% if config.environment === 'prod' %}{donation_url}{% else  %}{{dataLoader.nat.donation_url}}{% endif %}" style="
-														font-family: {{theme.text.fontFamily}};
-														color: {{theme.colors.white}};
-														padding: 12px 18px;
-														border: 1px solid {{theme.colors.primary}};
-														display: inline-block;
-														font-size: 18px;
-														font-weight: 900;
-														text-align: center;
-														text-decoration: none;
-														text-transform: uppercase;">Donate Now</a>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!-- END CTA BUTTON -->
+							<td align="center" valign="top" style="font-family: {{theme.typography.sans}};font-size: {{theme.typography.body}};line-height: {{theme.typography.lineHeight}};color: {{theme.colors.default.grey}};">
+								{{ button("Donate Now", theme.colors.blue.primary, theme) }}
 							</td>
 						</tr>
 					</tbody>
@@ -41,10 +18,8 @@
 				<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
 					<tbody>
 						<tr>
-							<td align="center" valign="top" class="footer-right" style="padding:40px 0px 0px 0px;font-family: {{theme.text.fontFamily}};font-size:{{theme.text.fontSize}};line-height: {{theme.text.lineHeight}};color: {{theme.colors.gray}};text-align:center;">
-								<a href="{% if config.environment === 'prod' %}{facebook_url}{% else  %}{{dataLoader.nat.facebook_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{facebook_logo}{% else  %}{{config.fbLogo}}{% endif %}" border="0" alt="Facebook" height="33"/></a> &nbsp; &nbsp;
-								<a href="{% if config.environment === 'prod' %}{x_url}{% else  %}{{dataLoader.nat.x_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{x_logo}{% else  %}{{config.xLogo}}{% endif %}" border="0" alt="x" height="33"/></a> &nbsp; &nbsp;
-								<a href="{% if config.environment === 'prod' %}{instagram_url}{% else  %}{{dataLoader.nat.instagram_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{instagram_logo}{% else  %}{{config.igLogo}}{% endif %}" border="0" alt="Instagram" height="33"/></a>
+							<td align="center" valign="middle" class="footer-right" style="padding:20px 0px 0px 0px;font-family: {{theme.typography.sans}};font-size:{{theme.typography.body}};line-height: {{theme.typography.lineHeight}};color: {{theme.colors.default.grey}};text-align:center;">
+								{% include "components/test.njk" %}
 							</td>
 						</tr>
 					</tbody>
@@ -52,22 +27,22 @@
 			</td>
 		</tr>
 		<tr>
-			<td align="center" class="footer-info" style="color: {{theme.colors.gray}};font-family: {{theme.text.fontFamily}};font-size:14px;line-height: {{theme.text.lineHeight}};padding:15px;">
+			<td align="center" class="footer-info" style="color: {{theme.colors.default.grey}};font-family: {{theme.typography.sans}};font-size:14px;line-height: {{theme.typography.lineHeight}};padding:15px;">
 				<!-- START FOOTER INFO -->
 				This email was sent to: <strong>{% if config.environment === 'prod' %}{email}{% else  %}cansupport@aclu.org{% endif %}</strong><br />
 				<br />
-				<a href="{% if config.environment === 'prod' %}{email_pref}{% else %}{{config.unsub}}{% endif %}" style="color: {{theme.colors.gray}};">Unsubscribe</a><br />
+				<a href="{% if config.environment === 'prod' %}{email_pref}{% else %}{{config.unsub}}{% endif %}" style="color: {{theme.colors.default.grey}};">Unsubscribe</a><br />
 				<br />
 				Please note: If you forward or distribute, the links will open a page with your information filled in.<br />
 				<br />
-				We respect your right to privacy &ndash; <a href="{% if config.environment === 'prod' %}{privacy_url}{% else  %}{{dataLoader.nat.privacy_url}}{% endif %}" style="color: {{theme.colors.gray}};">view our policy.</a><br />
+				We respect your right to privacy &ndash; <a href="{% if config.environment === 'prod' %}{privacy_url}{% else  %}{{dataLoader.nat.privacy_url}}{% endif %}" style="color: {{theme.colors.default.grey}};">view our policy.</a><br />
 				<br />
 				This email was sent by:<br />
 				{% if config.environment === 'prod' %}American Civil Liberties Union of {affiliate_name}{% else  %}{{dataLoader.nat.affiliation_name}}{% endif %}<br />
 
-				{% if config.environment === 'prod' %}{affiliate_address_1}{% else  %}{{dataLoader.nat.address1}}{% endif %}<br />
+				{% if config.environment === 'prod' %}{address1}{% else  %}{{dataLoader.nat.address1}}{% endif %}<br />
 
-				{% if config.environment === 'prod' %}{address_2}{% else  %}{{dataLoader.nat.address2}}{% endif %}<br />
+				{% if config.environment === 'prod' %}{address2}{% else  %}{{dataLoader.nat.address2}}{% endif %}<br />
 				<br />
 				<!-- END FOOTER INFO -->
 			</td>

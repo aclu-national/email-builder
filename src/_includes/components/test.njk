@@ -1,0 +1,25 @@
+{# <ul>
+{% for name, info in dataLoader.can.social %}
+  <p>
+    <strong>{{ name }}:</strong>
+    URL: {{ info.url }}, Rank: {{ info.rank }}
+  </p>
+{% endfor %}
+</ul> #}
+
+{#
+{% for name, info in dataLoader.can.social %}
+	<img src="{{ config.icons.blue[name] }}" alt="{{ name }}" height="39" style="margin-right: 8px;">
+{% endfor %}
+
+<br /><br /> #}
+
+{% set socialArray = dataLoader.can.social | dictsort %}
+{% set sortedSocial = socialArray | sort(attribute='1.rank') %}
+{% set topSocial = sortedSocial | slice(4) %}
+
+{% for info in sortedSocial %}
+  <a href="{{info[1].url}}"><img src="{{ config.icons.blue[info[0]] }}" alt="{{info[1].rank}} - {{ info[0] | capitalize }}" height="39" style="margin-right: 8px;"></a>
+{% endfor %}
+
+

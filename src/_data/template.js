@@ -102,7 +102,10 @@ const data = {
 	social: {
 		facebook_url: "https://facebook.com/",
 		instagram_url: "https://www.instagram.com/",
-		threads_url: "",
+		threads_url: "https://www.threads.net/",
 		x_url: "https://x.com/",
+		bluesky: "https://bsky.app/profile/",
+    tiktok: "https://www.tiktok.com/",
+    youtube: "https://www.youtube.com/"
 	},
 };

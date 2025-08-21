@@ -1,0 +1,13 @@
+<a href="{% if config.environment === 'prod' %}{bluesky_url}{% else  %}{{dataLoader.nat.facebook_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_bluesky_blue}{% else  %}{{config.icons.blue.bluesky}}{% endif %}" border="0" alt="Bluesky" height="39"/></a> &nbsp; &nbsp;
+
+<a href="{% if config.environment === 'prod' %}{facebook_url}{% else  %}{{dataLoader.nat.facebook_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_facebook_blue}{% else  %}{{config.icons.blue.facebook}}{% endif %}" border="0" alt="Facebook" height="39"/></a> &nbsp; &nbsp;
+
+<a href="{% if config.environment === 'prod' %}{instagram_url}{% else  %}{{dataLoader.nat.instagram_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_instagram_blue}{% else  %}{{config.icons.blue.instagram}}{% endif %}" border="0" alt="Instagram" height="39"/></a> &nbsp; &nbsp;
+
+<a href="{% if config.environment === 'prod' %}{threads_url}{% else  %}{{dataLoader.nat.x_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_threads_blue}{% else  %}{{config.icons.blue.threads}}{% endif %}" border="0" alt="Threads" height="39"/></a> &nbsp; &nbsp;
+
+<a href="{% if config.environment === 'prod' %}{tiktok_url}{% else  %}{{dataLoader.nat.x_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_tiktok_blue}{% else  %}{{config.icons.blue.tiktok}}{% endif %}" border="0" alt="TikTok" height="39"/></a> &nbsp; &nbsp;
+
+<a href="{% if config.environment === 'prod' %}{x_url}{% else  %}{{dataLoader.nat.x_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_x_blue}{% else  %}{{config.icons.blue.x}}{% endif %}" border="0" alt="X" height="39"/></a> &nbsp; &nbsp;
+
+<a href="{% if config.environment === 'prod' %}{youtube_url}{% else  %}{{dataLoader.nat.x_url}}{% endif %}"><img src="{% if config.environment === 'prod' %}{icon_youtube_blue}{% else  %}{{config.icons.blue.youtube}}{% endif %}" border="0" alt="YouTube" height="39"/></a> &nbsp; &nbsp;
