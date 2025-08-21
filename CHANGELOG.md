@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.13.0](https://github.com/aclu-national/email-builder/compare/v1.12.0...v1.13.0) (2025-08-21)
+
+
+### Features
+
+* **data:** Branding Update ([#77](https://github.com/aclu-national/email-builder/issues/77)) ([939ca24](https://github.com/aclu-national/email-builder/commit/939ca24aaf9a4c36f91b99091e5f118895f3f941))
+
 # [1.12.0](https://github.com/aclu-national/email-builder/compare/v1.11.6...v1.12.0) (2025-07-07)
 
 
