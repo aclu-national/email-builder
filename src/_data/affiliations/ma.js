@@ -12,7 +12,7 @@ const data = {
     },
     default: {
       size: '150',
-      url: 'https://media.sailthru.com/64d/1k4/4/d/5e947c1a5290e.png'
+      url: 'https://media.sailthru.com/64d/1k9/8/p/68ac8c4ee48e3.png'
     },
     eighty: {
       size: '200',
@@ -100,15 +100,43 @@ const data = {
       title: 'Organizing Director'
     }
   },
-  social: {
-    bluesky: '',
-    facebook_url: 'https://facebook.com/aclumass',
-    instagram_url: 'https://www.instagram.com/aclu_mass',
-    threads_url: '',
-    tiktok: '',
-    x_url: 'https://x.com/aclu_mass',
-    youtube: ''
-  },
+  social: [
+    {
+      rank: 6,
+      name: 'bluesky',
+      url: 'https://bsky.app/profile/aclu.org',
+    },
+    {
+      rank: 1,
+      name: 'facebook',
+      url: 'https://facebook.com/aclumass',
+    },
+    {
+      rank: 3,
+      name: 'instagram',
+      url: 'https://www.instagram.com/aclu_mass',
+    },
+    {
+      rank: 5,
+      name: 'threads',
+      url: 'https://www.threads.net/@aclu_nationwide',
+    },
+    {
+      rank: 7,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclu'
+    },
+    {
+      rank: 2,
+      name: 'x',
+      url: 'https://x.com/aclu_mass',
+    },
+    {
+      rank: 4,
+      name: 'youtube',
+      url: 'https://www.youtube.com/aclu',
+    }
+  ],
   website_url: 'https://www.aclum.org'
 };
 

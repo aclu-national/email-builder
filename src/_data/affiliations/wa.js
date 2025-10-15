@@ -98,15 +98,43 @@ const data = {
       title: 'Organizing Director'
     }
   },
-  social: {
-    bluesky: '',
-    facebook_url: 'https://facebook.com/acluwa',
-    instagram_url: 'https://www.instagram.com/acluwa',
-    threads_url: '',
-    tiktok: '',
-    x_url: 'https://x.com/ACLU_WA',
-    youtube: ''
-  },
+  social: [
+    {
+      rank: 6,
+      name: 'bluesky',
+      url: 'https://bsky.app/profile/aclu.org',
+    },
+    {
+      rank: 1,
+      name: 'facebook',
+      url: 'https://facebook.com/acluwa',
+    },
+    {
+      rank: 3,
+      name: 'instagram',
+      url: 'https://www.instagram.com/acluwa',
+    },
+    {
+      rank: 5,
+      name: 'threads',
+      url: 'https://www.threads.net/@aclu_nationwide',
+    },
+    {
+      rank: 7,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclu'
+    },
+    {
+      rank: 2,
+      name: 'x',
+      url: 'https://x.com/ACLU_WA',
+    },
+    {
+      rank: 4,
+      name: 'youtube',
+      url: 'https://www.youtube.com/aclu',
+    }
+  ],
   website_url: 'https://www.aclu-wa.org'
 };
 
