@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.14.0](https://github.com/aclu-national/email-builder/compare/v1.13.0...v1.14.0) (2025-10-16)
+
+
+### Features
+
+* **data:** rank-based social ranking ([#78](https://github.com/aclu-national/email-builder/issues/78)) ([fce7b04](https://github.com/aclu-national/email-builder/commit/fce7b04023c6e24bf3d7727aebcbcc06cd2b7ad8))
+
 # [1.13.0](https://github.com/aclu-national/email-builder/compare/v1.12.0...v1.13.0) (2025-08-21)
 
 
