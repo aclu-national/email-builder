@@ -100,15 +100,43 @@ const data = {
       title: 'Field Director'
     }
   },
-  social: {
-    bluesky: '',
-    facebook_url: 'https://facebook.com/ACLUFL',
-    instagram_url: 'https://www.instagram.com/aclu_nationwide',
-    threads_url: '',
-    tiktok: '',
-    x_url: 'https://x.com/ACLUFL',
-    youtube: ''
-  },
+  social: [
+    {
+      rank: 6,
+      name: 'bluesky',
+      url: 'https://bsky.app/profile/aclufl.bsky.social',
+    },
+    {
+      rank: 1,
+      name: 'facebook',
+      url: 'https://www.facebook.com/ACLUFL',
+    },
+    {
+      rank: 3,
+      name: 'instagram',
+      url: 'https://www.instagram.com/aclufl',
+    },
+    {
+      rank: 5,
+      name: 'threads',
+      url: 'https://www.threads.com/@aclufl',
+    },
+    {
+      rank: 7,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclufl'
+    },
+    {
+      rank: 2,
+      name: 'x',
+      url: 'https://x.com/ACLUFL',
+    },
+    {
+      rank: 4,
+      name: 'youtube',
+      url: 'https://www.youtube.com/user/ACLUFL',
+    }
+  ],
   website_url: 'https://www.aclufl.org'
 };
 

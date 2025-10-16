@@ -98,15 +98,43 @@ const data = {
       title: 'Advocacy, Policy, and Organizing Director'
     }
   },
-  social: {
-    bluesky: '',
-    facebook_url: 'https://facebook.com/aclumontana',
-    instagram_url: 'https://www.instagram.com/aclu_montana',
-    threads_url: '',
-    tiktok: '',
-    x_url: 'https://x.com/ACLUMT',
-    youtube: ''
-  },
+  social: [
+    {
+      rank: 6,
+      name: 'bluesky',
+      url: 'https://bsky.app/profile/aclu.org',
+    },
+    {
+      rank: 1,
+      name: 'facebook',
+      url: 'https://facebook.com/aclumontana',
+    },
+    {
+      rank: 3,
+      name: 'instagram',
+      url: 'https://www.instagram.com/aclu_montana',
+    },
+    {
+      rank: 5,
+      name: 'threads',
+      url: 'https://www.threads.net/@aclu_nationwide',
+    },
+    {
+      rank: 7,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclu'
+    },
+    {
+      rank: 2,
+      name: 'x',
+      url: 'https://x.com/ACLUMT',
+    },
+    {
+      rank: 4,
+      name: 'youtube',
+      url: 'https://www.youtube.com/aclu',
+    }
+  ],
   website_url: 'https://www.aclumontana.org'
 };
 

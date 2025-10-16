@@ -100,15 +100,43 @@ const data = {
       title: 'Organizing Director'
     }
   },
-  social: {
-    bluesky: '',
-    facebook_url: 'https://www.facebook.com/ACLUArkansas',
-    instagram_url: 'https://www.instagram.com/acluofarkansas',
-    threads_url: 'https://www.threads.net/@acluofarkansas',
-    tiktok: '',
-    x_url: 'https://x.com/ArkansasACLU',
-    youtube: ''
-  },
+  social: [
+    {
+      rank: 6,
+      name: 'bluesky',
+      url: 'https://bsky.app/profile/aclu.org',
+    },
+    {
+      rank: 1,
+      name: 'facebook',
+      url: 'https://www.facebook.com/ACLUArkansas',
+    },
+    {
+      rank: 3,
+      name: 'instagram',
+      url: 'https://www.instagram.com/acluofarkansas',
+    },
+    {
+      rank: 5,
+      name: 'threads',
+      url: 'https://www.threads.net/@acluofarkansas',
+    },
+    {
+      rank: 7,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclu'
+    },
+    {
+      rank: 2,
+      name: 'x',
+      url: 'https://x.com/ArkansasACLU',
+    },
+    {
+      rank: 4,
+      name: 'youtube',
+      url: 'https://www.youtube.com/aclu',
+    }
+  ],
   website_url: 'https://www.acluarkansas.org'
 };
 

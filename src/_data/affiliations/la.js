@@ -98,15 +98,43 @@ const data = {
       title: 'Organizing Director'
     }
   },
-  social: {
-    bluesky: '',
-    facebook_url: 'https://facebook.com/aclu.louisiana',
-    instagram_url: 'https://www.instagram.com/aclu.louisiana',
-    threads_url: '',
-    tiktok: '',
-    x_url: 'https://x.com/ACLUofLouisiana',
-    youtube: ''
-  },
+  social: [
+    {
+      rank: 6,
+      name: 'bluesky',
+      url: 'https://bsky.app/profile/aclu.org',
+    },
+    {
+      rank: 1,
+      name: 'facebook',
+      url: 'https://facebook.com/aclu.louisiana',
+    },
+    {
+      rank: 3,
+      name: 'instagram',
+      url: 'https://www.instagram.com/aclu.louisiana',
+    },
+    {
+      rank: 5,
+      name: 'threads',
+      url: 'https://www.threads.net/@aclu_nationwide',
+    },
+    {
+      rank: 7,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclu'
+    },
+    {
+      rank: 2,
+      name: 'x',
+      url: 'https://x.com/ACLUofLouisiana',
+    },
+    {
+      rank: 4,
+      name: 'youtube',
+      url: 'https://www.youtube.com/aclu',
+    }
+  ],
   website_url: 'https://www.laaclu.org'
 };
 

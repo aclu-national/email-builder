@@ -5,21 +5,37 @@ const sailthruVariables = `
 {address2 = data[affiliation]["address2"]}
 {donation_url = data[affiliation]["donation_url"]}
 {privacy_url = data[affiliation]["privacy_url"]}
-{bluesky_url = data[affiliation]['social']["bluesky"]}
-{facebook_url = data[affiliation]['social']["facebook"]}
-{instagram_url = data[affiliation]['social']["instagram"]}
-{threads_url = data[affiliation]['social']["threads"]}
-{tiktok_url = data[affiliation]['social']["tiktok"]}
-{x_url = data[affiliation]['social']["x"]}
+
 {youtube_url = data[affiliation]['social']["youtube"]}
 {website_url = data[affiliation]["website_url"]}
 {email_pref = "https://action.aclu.org/preference-center/aclu-" + affiliation + "-email-preference?eid=" + email_id + "&referral=" + affiliation + "&unsub_url=" + optout_confirm_url}
 
 
-{facebook_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb21b75bf.png"}
-{instagram_logo = "https://media.sailthru.com/64d/1k3/a/o/5db1cb1be2cb6.png"}
-{threads_logo = "https://media.sailthru.com/64d/1k8/c/u/6772ff5288341.png"}
-{x_logo = "https://media.sailthru.com/64d/1k8/3/f/65f4803d78db4.png"}
+{socials = data[affiliation]["social"]}
+
+{bluesky_name = data[affiliation]["social"][0].name}
+{facebook_name = data[affiliation]["social"][1].name}
+{instagram_name = data[affiliation]["social"][2].name}
+{threads_name = data[affiliation]["social"][3].name}
+{tiktok_name = data[affiliation]["social"][4].name}
+{x_name = data[affiliation]["social"][5].name}
+{youtube_name = data[affiliation]["social"][6].name}
+
+{bluesky_url = data[affiliation]["social"][0].url}
+{facebook_url = data[affiliation]["social"][1].url}
+{instagram_url = data[affiliation]["social"][2].url}
+{threads_url = data[affiliation]["social"][3].url}
+{tiktok_url = data[affiliation]["social"][4].url}
+{x_url = data[affiliation]["social"][5].url}
+{youtube_url = data[affiliation]["social"][6].url}
+
+{bluesky_rank = data[affiliation]["social"][0].rank}
+{facebook_rank = data[affiliation]["social"][1].rank}
+{instagram_rank = data[affiliation]["social"][2].rank}
+{threads_rank = data[affiliation]["social"][3].rank}
+{tiktok_rank = data[affiliation]["social"][4].rank}
+{x_rank = data[affiliation]["social"][5].rank}
+{youtube_rank = data[affiliation]["social"][6].rank}
 
 {icon_bluesky_blue = "https://media.sailthru.com/64d/1k9/8/j/68a49f38701c1.png"}
 {icon_bluesky_red = "https://media.sailthru.com/64d/1k9/8/j/68a49f38eacc8.png"}
@@ -67,6 +83,7 @@ const sailthruVariables = `
 {logo_impact_size = data[affiliation]['logo']['impact']['size']}
 {logo_foundation_url = data[affiliation]['logo']['foundation']['url']}
 {logo_foundation_size = data[affiliation]['logo']['foundation']['size']}
+
 
 {advo_name = data[affiliation]['signatures']['advo']['name']}
 {advo_title = data[affiliation]['signatures']['advo']['title']}
