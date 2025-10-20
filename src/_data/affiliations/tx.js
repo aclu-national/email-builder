@@ -100,37 +100,37 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 3,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclutx.bsky.social',
     },
     {
-      rank: 1,
+      rank: 4,
       name: 'facebook',
       url: 'https://facebook.com/ACLUofTexas',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclutx',
     },
     {
-      rank: 5,
+      rank: 2,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@aclutx',
     },
     {
-      rank: 7,
+      rank: 6,
       name: 'tiktok',
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/aclutx',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
       url: 'https://www.youtube.com/aclu',
     }

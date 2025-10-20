@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclu-or.bsky.social',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/ACLUofOregon',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclu_or',
     },
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/aclu_or',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/ACLUofOregon',
     }
   ],
   website_url: 'https://www.aclu-or.org'

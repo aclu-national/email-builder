@@ -100,9 +100,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 3,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclupa.org',
     },
     {
       rank: 1,
@@ -110,7 +110,7 @@ const data = {
       url: 'https://facebook.com/aclupa',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/aclupa',
     },
@@ -120,17 +120,17 @@ const data = {
       url: 'https://www.threads.net/@aclu_nationwide',
     },
     {
-      rank: 7,
+      rank: 4,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclupa'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/aclupa',
     },
     {
-      rank: 4,
+      rank: 7,
       name: 'youtube',
       url: 'https://www.youtube.com/aclu',
     }

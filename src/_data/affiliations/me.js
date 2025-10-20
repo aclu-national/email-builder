@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 3,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclumaine.bsky.social',
     },
     {
-      rank: 1,
+      rank: 2,
       name: 'facebook',
       url: 'https://facebook.com/ACLUMaine',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclumaine',
     },
@@ -125,7 +125,7 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 4,
       name: 'x',
       url: 'https://x.com/ACLUMaine',
     },

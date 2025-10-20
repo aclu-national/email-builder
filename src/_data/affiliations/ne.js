@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 4,
       name: 'bluesky',
       url: 'https://bsky.app/profile/aclu.org',
     },
     {
-      rank: 1,
+      rank: 2,
       name: 'facebook',
       url: 'https://facebook.com/aclunebraska',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/acluofne',
     },
@@ -120,17 +120,17 @@ const data = {
       url: 'https://www.threads.net/@aclu_nationwide',
     },
     {
-      rank: 7,
+      rank: 3,
       name: 'tiktok',
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/acluofne',
     },
     {
-      rank: 4,
+      rank: 6,
       name: 'youtube',
       url: 'https://www.youtube.com/aclu',
     }

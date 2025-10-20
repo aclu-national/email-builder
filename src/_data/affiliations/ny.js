@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/nyclu.org',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/NYCLU',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/nyclu',
     },
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/nyclu',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/nycluclips',
     }
   ],
   website_url: 'https://www.nyclu.org'

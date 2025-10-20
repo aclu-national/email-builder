@@ -100,9 +100,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 5,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclunorthdakota.bsky.social',
     },
     {
       rank: 1,
@@ -110,29 +110,29 @@ const data = {
       url: 'https://facebook.com/ndaclu',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/aclu_northdakota',
     },
     {
-      rank: 5,
+      rank: 4,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@aclu_northdakota',
     },
     {
-      rank: 7,
+      rank: 3,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclu_northdakota'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/aclunorthdakota',
     },
     {
-      rank: 4,
+      rank: 7,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@ACLUNorthDakota',
     }
   ],
   website_url: 'https://www.aclund.org'
