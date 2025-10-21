@@ -9,6 +9,7 @@ const sailthruVariables = `
 {youtube_url = data[affiliation]['social']["youtube"]}
 {website_url = data[affiliation]["website_url"]}
 {email_pref = "https://action.aclu.org/preference-center/aclu-" + affiliation + "-email-preference?eid=" + email_id + "&referral=" + affiliation + "&unsub_url=" + optout_confirm_url}
+{ca_email_pref = "https://action.aclu.org/preference-center/aclu-action-national-email-preference?&eid=" + email_id + "&referral=" + affiliate_code + "&unsub_url=" + optout_confirm_url}
 
 
 {socials = data[affiliation]["social"]}

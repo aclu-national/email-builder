@@ -100,39 +100,39 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclu-nj.org',
     },
     {
-      rank: 1,
+      rank: 4,
       name: 'facebook',
       url: 'https://facebook.com/aclunj',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclunj',
     },
     {
-      rank: 5,
+      rank: 3,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@aclunj',
     },
     {
-      rank: 7,
+      rank: 6,
       name: 'tiktok',
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/aclunj',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/channel/UCAQcSEW0eZ3xaGDvv_paCPQ/featured',
     }
   ],
   website_url: 'https://www.aclu-nj.org'
