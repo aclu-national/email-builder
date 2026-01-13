@@ -100,39 +100,39 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 4,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclunv.bsky.social',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/aclunv',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclunv',
     },
     {
-      rank: 5,
+      rank: 6,
       name: 'threads',
       url: 'https://www.threads.net/@aclu_nationwide',
     },
     {
-      rank: 7,
+      rank: 2,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclunv'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/aclunv',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@ACLUNV',
     }
   ],
   website_url: 'https://www.aclunv.org'

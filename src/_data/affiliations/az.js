@@ -100,12 +100,12 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 1,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/acluaz.bsky.social',
     },
     {
-      rank: 1,
+      rank: 2,
       name: 'facebook',
       url: 'https://facebook.com/ACLUofArizona',
     },
@@ -115,24 +115,24 @@ const data = {
       url: 'https://www.instagram.com/acluofarizona',
     },
     {
-      rank: 5,
+      rank: 4,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@acluofarizona',
     },
     {
-      rank: 7,
+      rank: 5,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@acluaz'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/ACLUaz',
     },
     {
-      rank: 4,
+      rank: 7,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/ACLUofArizona',
     }
   ],
   website_url: 'https://www.acluaz.org'

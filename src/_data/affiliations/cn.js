@@ -110,9 +110,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclu-norcal.bsky.social',
     },
     {
       rank: 1,
@@ -125,24 +125,24 @@ const data = {
       url: 'https://www.instagram.com/aclu_norcal',
     },
     {
-      rank: 5,
+      rank: 6,
       name: 'threads',
       url: 'https://www.threads.net/@aclu_nationwide',
     },
     {
-      rank: 7,
+      rank: 5,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclu.norcal'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/aclu_norcal',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@aclunc',
     }
   ],
   website_url: 'https://www.aclunc.org'

@@ -100,39 +100,39 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 5,
       name: 'bluesky',
       url: 'https://bsky.app/profile/aclu.org',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/ACLUofIllinois',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/acluofil',
     },
     {
-      rank: 5,
+      rank: 2,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@acluofil',
     },
     {
-      rank: 7,
+      rank: 6,
       name: 'tiktok',
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/acluofIL',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/acluofil',
     }
   ],
   website_url: 'https://www.aclu-il.org'

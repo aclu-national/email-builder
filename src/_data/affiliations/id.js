@@ -100,39 +100,39 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 3,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/acluidaho.bsky.social',
     },
     {
-      rank: 1,
+      rank: 4,
       name: 'facebook',
       url: 'https://facebook.com/ACLUIdaho',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/acluidaho',
     },
     {
       rank: 5,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
-    },
-    {
-      rank: 7,
-      name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.threads.com/@acluidaho',
     },
     {
       rank: 2,
+      name: 'tiktok',
+      url: 'https://www.tiktok.com/@aclu_idaho'
+    },
+    {
+      rank: 7,
       name: 'x',
       url: 'https://x.com/acluidaho',
     },
     {
-      rank: 4,
+      rank: 6,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@IdahoACLU',
     }
   ],
   website_url: 'https://www.acluidaho.org'

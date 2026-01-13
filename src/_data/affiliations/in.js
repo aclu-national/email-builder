@@ -100,9 +100,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 4,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/acluindiana.bsky.social',
     },
     {
       rank: 1,
@@ -110,14 +110,14 @@ const data = {
       url: 'https://facebook.com/ACLUindiana',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/acluindiana',
     },
     {
-      rank: 5,
+      rank: 3,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@acluindiana',
     },
     {
       rank: 7,
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/ACLUIndiana',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@acluofindiana7301',
     }
   ],
   website_url: 'https://www.aclu-in.org'

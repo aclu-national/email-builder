@@ -80,7 +80,7 @@ const data = {
       title: 'Director of Philanthropy'
     },
     ed: {
-      headshot: 'https://media.sailthru.com/64d/1k6/6/g/62ab80cec2d70.png',
+      headshot: 'https://media.sailthru.com/64d/1k9/a/v/6904d97714734.png',
       name: 'Mary Bauer',
       pronouns: 'She, her, hers',
       title: 'Executive Director'
@@ -105,12 +105,12 @@ const data = {
       url: 'https://bsky.app/profile/aclu.org',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/acluofvirginia',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/acluva',
     },
@@ -132,7 +132,7 @@ const data = {
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@acluofvirginia8652',
     }
   ],
   website_url: 'https://acluva.org'

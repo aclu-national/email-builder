@@ -110,14 +110,14 @@ const data = {
       url: 'https://facebook.com/ACLUofAlabama',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/acluofalabama',
     },
     {
-      rank: 5,
+      rank: 3,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.net/@acluofalabama',
     },
     {
       rank: 7,
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 4,
       name: 'x',
       url: 'https://x.com/aclualabama',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@acluofalabama2512',
     }
   ],
   website_url: 'https://aclualabama.org'
