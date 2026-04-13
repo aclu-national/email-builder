@@ -2,7 +2,7 @@ const data = {
   address1: '311 S State Street, Ste. 310',
   address2: 'Salt Lake City, UT 84111',
   affiliation_name: 'ACLU of Utah',
-  donation_url: 'https://action.aclu.org/give/utah-join-renew-today?initms_aff=ut&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ut&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/utah-join-renew-today?initms_aff=ut&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ut&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
