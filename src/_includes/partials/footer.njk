@@ -38,7 +38,7 @@
 				We respect your right to privacy &ndash; <a href="{% if config.environment === 'prod' %}{privacy_url}{% else  %}{{dataLoader.nat.privacy_url}}{% endif %}" style="color: {{theme.colors.default.grey}};">view our policy.</a><br />
 				<br />
 				This email was sent by:<br />
-				{% if config.environment === 'prod' %}American Civil Liberties Union of {affiliate_name}{% else  %}{{dataLoader.nat.affiliation_name}}{% endif %}<br />
+				{% if config.environment === 'prod' %}{affiliation_name}{% else  %}{{dataLoader.nat.affiliation_name}}{% endif %}<br />
 
 				{% if config.environment === 'prod' %}{address1}{% else  %}{{dataLoader.nat.address1}}{% endif %}<br />
 

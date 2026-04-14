@@ -1,0 +1,101 @@
+<!-- MEMBERSHIP CARD COMPONENT START -->
+<div align="center" style="background-color: #ffffff;padding: 20px;">
+	<!-- ══ Membership Renewal Component ══ -->
+	<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-content">
+		<tr valign="middle">
+			<!-- LEFT: Membership Card -->
+			<td class="stack-col membership-card" valign="middle" width="300px">
+				<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="background-image: url('https://media.sailthru.com/64p/1ka/3/a/69b03c6a61808.png');background-color:#146cd2;background-repeat: no-repeat;background-size: cover;position: relative;width: 300px;height: 160px;border-radius:22px;overflow:hidden;">
+					<tr>
+
+						<!-- Card fields -->
+						<td valign="middle" style="padding:20px 16px 20px 60px;">
+							<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr>
+									<td class="card-left" style="padding-bottom:30px;">
+										<span style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;color:#ffffff;">Name:&nbsp;</span>
+										<span style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;color:#ffffff;">{include "first_name"} {include "last_name"}</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="card-left" style="padding-bottom:30px;">
+										<span style="font-family:Arial,sans-serif;font-size:16px;font-weight:bolder;color:#ffffff;">ID #&nbsp;</span>
+										<span style="font-family:Arial,sans-serif;font-size:16px;font-weight:bolder;color:#ffffff;">{include "membership_id"}</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="card-left">
+										<span class="card-left" style="font-family:Arial,sans-serif;font-size:16px;font-weight:bolder;color:#ffffff;">Since&nbsp;</span>
+										<span style="font-family:Arial,sans-serif;font-size:16px;font-weight:bolder;color:#ffffff;">{include "first-gift-date"}</span>
+									</td>
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+				</table>
+			</td>
+			<!-- /LEFT -->
+
+			<!-- RIGHT: Status + CTAs -->
+			<td class="stack-col" valign="middle" width="250px">
+				<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+
+					<!-- Status label -->
+					<tr>
+						<td align="center" style="padding-bottom:20px;">
+							<span style="font-family:Arial,sans-serif;font-size:14px;font-weight:bold;letter-spacing:1px;color:#01438e;text-transform:uppercase;">MEMBERSHIP STATUS:</span><br />
+							<span style="font-family:Arial Black,Arial,sans-serif;font-size:16px;font-weight:900;color:#01438e;">Not Renewed</span>
+						</td>
+					</tr>
+
+					<!-- Button: Renew -->
+					<tr>
+						<td align="center" style="padding-bottom:14px;">
+
+							<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="center" style="margin: 10px 0 10px 0;">
+										<table role="presentation" border="0" cellspacing="0" cellpadding="0" style="border-radius:15px;">
+											<tr>
+												<td align="center" bgcolor="#58fb99" style="border-radius:15px;">
+													<a role="button" class="button-text" href="{affiliate_website}" style="font-family: Arial, sans-serif; color: #ffffff; padding: 8px 30px; color: #01438e; display: inline-block;font-size:16px;font-weight:bold;text-align:center;text-decoration:none;border-radius:10px;line-height: 1.1;border-radius:15px;max-width:200px;">{if most_recent_gift_amount > 1}Renew your<br />${int(renewal_ask_amount_1)} donation{else}Renew your<br />one time donation{/if}</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+
+
+
+					<!-- Button: Other amount -->
+					<tr>
+						<td align="center">
+							<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="center" style="margin: 10px 0 10px 0;">
+										<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td align="center" bgcolor="#58fb99" style="border-radius:10px;">
+													<a role="button" class="button-text" href="{affiliate_website}" style="font-family: Arial, sans-serif; color: #ffffff; padding: 8px 20px; color: #01438e; display: inline-block;font-size:16px;font-weight:bold;text-align:center;text-decoration:none;line-height: 1.1;border-radius:10px;max-width:200px;">Give another amount</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+				</table>
+			</td>
+			<!-- /RIGHT -->
+		</tr>
+	</table>
+	<!-- ══ /Membership Renewal Component ══ -->
+</div>
+<!-- MEMBERSHIP CARD COMPONENT END -->
