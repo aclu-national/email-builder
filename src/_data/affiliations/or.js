@@ -2,7 +2,7 @@ const data = {
   address1: 'P.O. Box 40585',
   address2: 'Portland OR, 97240',
   affiliation_name: 'ACLU of Oregon',
-  donation_url: 'https://action.aclu.org/give/oregon-join-renew-today?initms_aff=or&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=or&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/oregon-join-renew-today?initms_aff=or&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=or&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclu-or.bsky.social',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/ACLUofOregon',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclu_or',
     },
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/aclu_or',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/ACLUofOregon',
     }
   ],
   website_url: 'https://www.aclu-or.org'

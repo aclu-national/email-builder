@@ -2,7 +2,7 @@ const data = {
   address1: '39 Drumm Street',
   address2: 'San Francisco, CA 94111',
   affiliation_name: 'ACLU of Northern California',
-  donation_url: 'https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/northern-california-join-renew-today?initms_aff=cn&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=cn&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -110,9 +110,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclu-norcal.bsky.social',
     },
     {
       rank: 1,
@@ -125,24 +125,24 @@ const data = {
       url: 'https://www.instagram.com/aclu_norcal',
     },
     {
-      rank: 5,
+      rank: 6,
       name: 'threads',
       url: 'https://www.threads.net/@aclu_nationwide',
     },
     {
-      rank: 7,
+      rank: 5,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclu.norcal'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/aclu_norcal',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@aclunc',
     }
   ],
   website_url: 'https://www.aclunc.org'

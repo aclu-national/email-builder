@@ -2,7 +2,7 @@ const data = {
   address1: '125 Broad Street',
   address2: 'New York, NY 10004',
   affiliation_name: 'NYCLU',
-  donation_url: 'https://action.aclu.org/give/new-york-join-renew-today?initms_aff=ny&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ny&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/new-york-join-renew-today?initms_aff=ny&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ny&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/nyclu.org',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/NYCLU',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/nyclu',
     },
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/nyclu',
     },
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/nycluclips',
     }
   ],
   website_url: 'https://www.nyclu.org'

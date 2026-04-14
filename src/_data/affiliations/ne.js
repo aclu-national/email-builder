@@ -2,7 +2,7 @@ const data = {
   address1: '134 S. 13th St, #1010',
   address2: 'Lincoln, NE 68508',
   affiliation_name: 'ACLU of Nebraska',
-  donation_url: 'https://action.aclu.org/give/nebraska-join-renew-today?initms_aff=ne&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ne&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/nebraska-join-renew-today?initms_aff=ne&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=ne&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -100,17 +100,17 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 4,
       name: 'bluesky',
       url: 'https://bsky.app/profile/aclu.org',
     },
     {
-      rank: 1,
+      rank: 2,
       name: 'facebook',
       url: 'https://facebook.com/aclunebraska',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/acluofne',
     },
@@ -120,17 +120,17 @@ const data = {
       url: 'https://www.threads.net/@aclu_nationwide',
     },
     {
-      rank: 7,
+      rank: 3,
       name: 'tiktok',
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/acluofne',
     },
     {
-      rank: 4,
+      rank: 6,
       name: 'youtube',
       url: 'https://www.youtube.com/aclu',
     }

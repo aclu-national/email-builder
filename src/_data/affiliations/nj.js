@@ -2,7 +2,7 @@ const data = {
   address1: 'P.O. Box 32159',
   address2: 'Newark, NJ 07102',
   affiliation_name: 'ACLU of New Jersey',
-  donation_url: 'https://action.aclu.org/give/new-jersey-join-renew-today?initms_aff=nj&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nj&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/new-jersey-join-renew-today?initms_aff=nj&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nj&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -100,39 +100,39 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 2,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclu-nj.org',
     },
     {
-      rank: 1,
+      rank: 4,
       name: 'facebook',
       url: 'https://facebook.com/aclunj',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/aclunj',
     },
     {
-      rank: 5,
+      rank: 3,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@aclunj',
     },
     {
-      rank: 7,
+      rank: 6,
       name: 'tiktok',
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 7,
       name: 'x',
       url: 'https://x.com/aclunj',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/channel/UCAQcSEW0eZ3xaGDvv_paCPQ/featured',
     }
   ],
   website_url: 'https://www.aclu-nj.org'

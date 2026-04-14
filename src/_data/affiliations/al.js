@@ -2,7 +2,7 @@ const data = {
   address1: 'P.O. Box 6179',
   address2: 'Montgomery, AL 36106',
   affiliation_name: 'ACLU of Alabama',
-  donation_url: 'https://action.aclu.org/give/alabama-join-renew-today?initms_aff=al&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&gs={sb_gift_string_encrypted}&ms_aff=al&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/alabama-join-renew-today?initms_aff=al&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&gs={sb_gift_string_encrypted}&ms_aff=al&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -110,14 +110,14 @@ const data = {
       url: 'https://facebook.com/ACLUofAlabama',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/acluofalabama',
     },
     {
-      rank: 5,
+      rank: 3,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.net/@acluofalabama',
     },
     {
       rank: 7,
@@ -125,14 +125,14 @@ const data = {
       url: 'https://www.tiktok.com/@aclu'
     },
     {
-      rank: 2,
+      rank: 4,
       name: 'x',
       url: 'https://x.com/aclualabama',
     },
     {
-      rank: 4,
+      rank: 5,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@acluofalabama2512',
     }
   ],
   website_url: 'https://aclualabama.org'

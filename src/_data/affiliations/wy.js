@@ -2,7 +2,7 @@ const data = {
   address1: 'P.O. Box 20706',
   address2: 'Cheyenne, WY 82003',
   affiliation_name: 'ACLU of Wyoming',
-  donation_url: 'https://action.aclu.org/give/wyoming-join-renew-today?initms_aff=wy&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wy&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/wyoming-join-renew-today?initms_aff=wy&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=wy&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -109,9 +109,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 5,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/acluwyoming.bsky.social',
     },
     {
       rank: 1,
@@ -119,29 +119,29 @@ const data = {
       url: 'https://facebook.com/acluwyo',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/aclu_wyoming',
     },
     {
-      rank: 5,
+      rank: 4,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@aclu_wyoming',
     },
     {
-      rank: 7,
+      rank: 3,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclu_wyoming'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/ACLUWYO',
     },
     {
-      rank: 4,
+      rank: 7,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@ACLUWYO',
     }
   ],
   website_url: 'https://www.aclu-wy.org'

@@ -2,7 +2,7 @@ const data = {
   address1: 'PO Box 26464',
   address2: 'Richmond, VA 23261',
   affiliation_name: 'ACLU of Virginia',
-  donation_url: 'https://action.aclu.org/give/virginia-join-renew-today?initms_aff=va&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=va&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/virginia-join-renew-today?initms_aff=va&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=va&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -80,7 +80,7 @@ const data = {
       title: 'Director of Philanthropy'
     },
     ed: {
-      headshot: 'https://media.sailthru.com/64d/1k6/6/g/62ab80cec2d70.png',
+      headshot: 'https://media.sailthru.com/64d/1k9/a/v/6904d97714734.png',
       name: 'Mary Bauer',
       pronouns: 'She, her, hers',
       title: 'Executive Director'
@@ -105,12 +105,12 @@ const data = {
       url: 'https://bsky.app/profile/aclu.org',
     },
     {
-      rank: 1,
+      rank: 3,
       name: 'facebook',
       url: 'https://facebook.com/acluofvirginia',
     },
     {
-      rank: 3,
+      rank: 1,
       name: 'instagram',
       url: 'https://www.instagram.com/acluva',
     },
@@ -132,7 +132,7 @@ const data = {
     {
       rank: 4,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@acluofvirginia8652',
     }
   ],
   website_url: 'https://acluva.org'

@@ -2,7 +2,7 @@ const data = {
   address1: 'P.O. Box 17148',
   address2: 'Phoenix, AZ 85011',
   affiliation_name: 'ACLU of Arizona',
-  donation_url: 'https://action.aclu.org/give/arizona-join-renew-today?initms_aff=az&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=az&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/arizona-join-renew-today?initms_aff=az&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=az&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -100,12 +100,12 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 1,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/acluaz.bsky.social',
     },
     {
-      rank: 1,
+      rank: 2,
       name: 'facebook',
       url: 'https://facebook.com/ACLUofArizona',
     },
@@ -115,24 +115,24 @@ const data = {
       url: 'https://www.instagram.com/acluofarizona',
     },
     {
-      rank: 5,
+      rank: 4,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@acluofarizona',
     },
     {
-      rank: 7,
+      rank: 5,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@acluaz'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/ACLUaz',
     },
     {
-      rank: 4,
+      rank: 7,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/user/ACLUofArizona',
     }
   ],
   website_url: 'https://www.acluaz.org'

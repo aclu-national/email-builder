@@ -2,7 +2,7 @@ const data = {
   address1: 'P.O. Box 1190',
   address2: 'Fargo, ND 58107-1190',
   affiliation_name: 'ACLU of North Dakota',
-  donation_url: 'https://action.aclu.org/give/north-dakota-join-renew-today?initms_aff=nd&initms_chan=eml&utm_medium=eml&initms=25XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=25XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nd&ms_chan=eml&ms=25XXXX_affcampaign_footerdonate_gradead_sail',
+  donation_url: 'https://action.aclu.org/give/north-dakota-join-renew-today?initms_aff=nd&initms_chan=eml&utm_medium=eml&initms=26XXXX_affcampaign_footerdonate_gradead_sail&utm_source=sail&utm_campaign=affcampaign&utm_content=26XXXX_civilliberties_footerdonate_gradead&af={sb_query_string_encrypted}&ms_aff=nd&ms_chan=eml&ms=26XXXX_affcampaign_footerdonate_gradead_sail',
   logo: {
     custom: {
       size: '200',
@@ -100,9 +100,9 @@ const data = {
   },
   social: [
     {
-      rank: 6,
+      rank: 5,
       name: 'bluesky',
-      url: 'https://bsky.app/profile/aclu.org',
+      url: 'https://bsky.app/profile/aclunorthdakota.bsky.social',
     },
     {
       rank: 1,
@@ -110,29 +110,29 @@ const data = {
       url: 'https://facebook.com/ndaclu',
     },
     {
-      rank: 3,
+      rank: 2,
       name: 'instagram',
       url: 'https://www.instagram.com/aclu_northdakota',
     },
     {
-      rank: 5,
+      rank: 4,
       name: 'threads',
-      url: 'https://www.threads.net/@aclu_nationwide',
+      url: 'https://www.threads.com/@aclu_northdakota',
     },
     {
-      rank: 7,
+      rank: 3,
       name: 'tiktok',
-      url: 'https://www.tiktok.com/@aclu'
+      url: 'https://www.tiktok.com/@aclu_northdakota'
     },
     {
-      rank: 2,
+      rank: 6,
       name: 'x',
       url: 'https://x.com/aclunorthdakota',
     },
     {
-      rank: 4,
+      rank: 7,
       name: 'youtube',
-      url: 'https://www.youtube.com/aclu',
+      url: 'https://www.youtube.com/@ACLUNorthDakota',
     }
   ],
   website_url: 'https://www.aclund.org'
